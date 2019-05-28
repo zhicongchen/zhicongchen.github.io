@@ -1,8 +1,6 @@
 ---
-​---
 layout: default
 title: Home
-​---
 ---
 
 [CV](./cv/cv.pdf) \| [Email](mailto:zhicong.chen@my.cityu.edu.hk) \| [Twitter](https://twitter.com/jssyczc) \| [Github](https://github.com/zhicongchen)
