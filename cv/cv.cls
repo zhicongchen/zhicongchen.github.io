@@ -12,7 +12,7 @@
 
 \NeedsTeXFormat{LaTeX2e}
 
-\ProvidesClass{simpleresumecv}[2016/12/25 Simple Resume CV https://github.com/zachscrivena/simple-resume-cv]
+\ProvidesClass{CV}[2016/12/25 Simple Resume CV https://github.com/zachscrivena/simple-resume-cv]
 
 \DeclareOption{a4paper}{\PassOptionsToClass{\CurrentOption}{article}}
 \DeclareOption{letterpaper}{\PassOptionsToClass{\CurrentOption}{article}}
