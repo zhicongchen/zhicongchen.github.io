@@ -17,12 +17,12 @@ My on-going PhD dissertation examines the use and social consequences of privacy
 ## News
 
 - 05/2020 Paper on communication subfields presented at the 70th Annual Conference of the International Communication Association (ICA) in Gold Coast, Australia (virtual).
-- 11/2019 Paper on communication subfields presented at the Institute of Communication Studies, National Chiao-Tung University in Hsinchu, Taiwan.
-- 05/2019 Complete courses at CityU Summer School lectured by Prof. Hernando Rojas from The University of Wisconsin–Madison.
+- 11/2019 Graduate student conference at the Institute of Communication Studies, National Chiao-Tung University in Hsinchu, Taiwan [[News by NCTU](https://www.facebook.com/NCTUICS/posts/2499548893624142)] [[News by CityU](https://www.cityu.edu.hk/com/Page.aspx?p=news&id=306)].
+- 05/2019 CityU Summer School lectured by [Prof. Hernando Rojas](https://journalism.wisc.edu/news/staff/hernando-rojas/) from The University of Wisconsin–Madison.
 - 01/2019 The 2019 Computational Workshop for MACNM Alumni organized by Web Mining Lab [[News](<http://weblab.com.cityu.edu.hk/blog/blog/2019/01/05/jan-5-retooling-workshop-for-macnm-alumni-kicked-off-4/>)] [[Slides](http://weblab.com.cityu.edu.hk/blog/workshops/19-macnm-computational-workshop/)].
 - 09/2018 The journey of PhD studies in Communication starts at Department of Media and Communication, City University of Hong Kong [[Academic Profile at CityU Department](https://www.cityu.edu.hk/com/Profile2.aspx?u=zcchen5)].
 - 08/2018 Research intern at Bytedance in Beijing.
-- 07/2018 Paper on mobile reading presented at the 4th International Conference on Computational Social Science (IC2S2) in Chicago, Illinois, United States.
+- 07/2018 Paper on mobile reading presented at the 4th International Conference on Computational Social Science (IC2S2) in Chicago, Illinois, United States [[News by NJU](https://jc.nju.edu.cn/46/f7/c8625a280311/page.htm)].
 - 06/2018 Graduated (Master in Journalism of Communication) from Nanjing University with honour.
 - 05/2018 Paper on attention flow network presented at the 68th Annual Conference of the International Communication Association (ICA) in Prague, Czech Republic.
 - 03/2018 Offer recevied from the Hong Kong PhD Fellowship Scheme (HKPFS), established by the Research Grants Council (RGC) of Hong Kong in 2009, for PhD in Communication at City University of Hong Kong.
