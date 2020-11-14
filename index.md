@@ -3,12 +3,6 @@ layout: default
 title: Home
 ---
 
-Zhicong Chen (陈志聪)
-
-Address: Room 5013, Run Run Shaw Creative Media Centre, City University of Hong Kong, 18 Tat Hong Avenue, Kowloon Tong, Kowloon, Hong Kong [[Google Map](https://goo.gl/maps/DHBK3zwkHcbPFw5q7)]
-
-Email: zhicong.chen@my.cityu.edu.hk
-
 # Bio
 
 I'm a Ph.D. student in Media and Communication and Computational Social Science at [Web Mining Lab](http://weblab.com.cityu.edu.hk/) and [Department of Media and Communication](https://www.cityu.edu.hk/com), City University of Hong Kong, supervised by [Dr. Xiaofan Liu](https://www.cityu.edu.hk/com/Profile.aspx?u=xliu347) and [Prof. Jonathan Zhu](https://www.cityu.edu.hk/com/Profile.aspx?u=enjhzhu). Before that, I received Bachelor of Engineering in Software Engineering from Nanjing University of Posts and Telecommunications in 2016 and Master in Journalism and Communication from Nanjing University in 2018. 
@@ -40,3 +34,11 @@ My on-going PhD dissertation examines the use and social consequences of privacy
 - R/SPSS (1 year)
 - C/C++/Java/C# (2 years)
 - Linux Server (6 years)
+
+# Contacts
+
+Zhicong Chen (陈志聪)
+
+Address: Room 5013, Run Run Shaw Creative Media Centre, City University of Hong Kong, 18 Tat Hong Avenue, Kowloon Tong, Kowloon, Hong Kong [[Google Map](https://goo.gl/maps/DHBK3zwkHcbPFw5q7)]
+
+Email: zhicong.chen@my.cityu.edu.hk
