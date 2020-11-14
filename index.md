@@ -30,10 +30,13 @@ My on-going PhD dissertation examines the use and social consequences of privacy
 
 ## Programming Skills
 
-- Python (5 years)
-- R/SPSS (1 year)
-- C/C++/Java/C# (2 years)
-- Linux Server (6 years)
+- Data Processing, Analysis & Visualization: Python (5 years), MATLAB (1 year)
+- Linux: Shell, Server Management (5 years)
+- Statistical Analysis: R, SPSS (1 year)
+- Procedure-Oriented Programming: C, C++ (2 years)
+- Object-Oriented Programming: Java, C# (2 years)
+- Relational DataBase: SQL Server, MySQL, SQLite (2 years)
+- Big Data: Apache Storm, Kafka, Phoenix, Spark (1 year)
 
 ## Contacts
 
