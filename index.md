@@ -5,7 +5,7 @@ title: Home
 
 ## Bio
 
-I'm a Ph.D. student in Media and Communication and Computational Social Science at [Web Mining Lab](http://weblab.com.cityu.edu.hk/) and [Department of Media and Communication](https://www.cityu.edu.hk/com), City University of Hong Kong, supervised by [Dr. Xiaofan Liu](https://www.cityu.edu.hk/com/Profile.aspx?u=xliu347) and [Prof. Jonathan Zhu](https://www.cityu.edu.hk/com/Profile.aspx?u=enjhzhu). Before that, I received Bachelor of Engineering in Software Engineering from Nanjing University of Posts and Telecommunications in 2016 and Master in Journalism and Communication from Nanjing University in 2018.
+I'm a PhD student in Communication and Computational Social Science at [Web Mining Lab](http://weblab.com.cityu.edu.hk/) and [Department of Media and Communication](https://www.cityu.edu.hk/com), City University of Hong Kong, supervised by [Dr. Xiaofan Liu](https://www.cityu.edu.hk/com/Profile.aspx?u=xliu347) and [Prof. Jonathan Zhu](https://www.cityu.edu.hk/com/Profile.aspx?u=enjhzhu). Before that, I received Bachelor of Engineering in Software Engineering from Nanjing University of Posts and Telecommunications in 2016 and Master in Journalism and Communication from Nanjing University in 2018.
 
 My on-going PhD dissertation examines the use and social consequences of privacy-enhancing and anonymous communication technology (e.g. [Dark Web](https://en.wikipedia.org/wiki/Dark_web)) by analyzing online user behavior with computational methods (e.g. social network and text mining).
 
