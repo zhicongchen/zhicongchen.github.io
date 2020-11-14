@@ -37,8 +37,6 @@ My on-going PhD dissertation examines the use and social consequences of privacy
 
 # Contacts
 
-Zhicong Chen (陈志聪)
-
-Address: Room 5013, Run Run Shaw Creative Media Centre, City University of Hong Kong, 18 Tat Hong Avenue, Kowloon Tong, Kowloon, Hong Kong [[Google Map](https://goo.gl/maps/DHBK3zwkHcbPFw5q7)]
+Office Address: Room 5013, Run Run Shaw Creative Media Centre, City University of Hong Kong, 18 Tat Hong Avenue, Kowloon Tong, Kowloon, Hong Kong [[Google Map](https://goo.gl/maps/DHBK3zwkHcbPFw5q7)]
 
 Email: zhicong.chen@my.cityu.edu.hk
