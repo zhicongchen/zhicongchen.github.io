@@ -5,7 +5,7 @@ title: Home
 
 ## Bio
 
-I'm a PhD student in Communication Studies with great interests in Computational Social Science at [Web Mining Lab](http://weblab.com.cityu.edu.hk/) and [Department of Media and Communication](https://www.cityu.edu.hk/com), City University of Hong Kong, supervised by [Dr. Xiaofan Liu](https://www.cityu.edu.hk/com/Profile.aspx?u=xliu347) and co-supervised by [Prof. Jonathan Zhu](https://www.cityu.edu.hk/com/Profile.aspx?u=enjhzhu). Before that, I received my Bachelor of Engineering in Software Engineering from Nanjing University of Posts and Telecommunications in 2016 and Master in Journalism and Communication from Nanjing University in 2018, under the supervision of [Dr. Cheng-Jun Wang](https://chengjunwang.com/).
+I'm a Ph.D. student in Communication with interests in Computational Social Science at [Web Mining Lab](http://weblab.com.cityu.edu.hk/) and [Department of Media and Communication](https://www.cityu.edu.hk/com), City University of Hong Kong, supervised by [Dr. Xiaofan Liu](https://www.cityu.edu.hk/com/Profile.aspx?u=xliu347) and co-supervised by [Prof. Jonathan Zhu](https://www.cityu.edu.hk/com/Profile.aspx?u=enjhzhu). Before that, I received my Bachelor of Engineering in Software Engineering from Nanjing University of Posts and Telecommunications in 2016 and Master in Journalism and Communication from Nanjing University in 2018, under the supervision of [Dr. Cheng-Jun Wang](https://chengjunwang.com/).
 
 My on-going PhD dissertation examines diffusion, use, and social impacts of anonymous communication technology (e.g. [The Tor network](https://torproject.org/) and [The Dark Web](https://en.wikipedia.org/wiki/Dark_web)) utilizing computational methods (e.g. network analysis and text mining).
 
