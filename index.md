@@ -31,7 +31,7 @@ I was deeply attracted by computational social science in 2015, since when I hav
 - Data Processing & Visualization: Python (5 years)
 - Statistical Analysis: R, SPSS, MATLAB (1 year)
 - Linux: Shell, Server Management (5 years)
-- Relational DataBase Management: SQL Server, MySQL, SQLite (2 years)
+- Relational DataBase: SQL Server, MySQL, SQLite (2 years)
 - Big Data Processing: Apache Storm, Kafka, Phoenix, Spark (1 year)
 - Procedure-Oriented Programming: C, C++ (2 years)
 - Object-Oriented Programming: Java, C# (2 years)
