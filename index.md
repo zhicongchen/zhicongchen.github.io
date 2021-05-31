@@ -23,9 +23,9 @@ title: Home
 - 05/2020 Paper on the longitudinal trends of Communication subfields (co-authored with [Dr. Xiaofan Liu](https://www.cityu.edu.hk/com/Profile.aspx?u=xliu347) and [Prof. Jonathan Zhu](https://www.cityu.edu.hk/com/Profile.aspx?u=enjhzhu)) presented at the 70th Annual Conference of the International Communication Association (ICA 2020).
 - 11/2019 Visiting the Institute of Communication Studies, National Yang Ming Chiao Tung University in Hsinchu, Taiwan [[News at NCTU](https://www.facebook.com/NCTUICS/posts/2499548893624142)] [[News at CityU](https://www.cityu.edu.hk/com/Page.aspx?p=news&id=306)].
 - 05/2019 Taking courses lectured by [Prof. Hernando Rojas](https://journalism.wisc.edu/news/staff/hernando-rojas/) from The University of Wisconsin–Madison at [The Fifth CityU Summer School in Social Science Research](https://cityuhksummerschool.wordpress.com/).
-- 01/2019 Teaching at Computational Workshop for MACNM Alumni organized by Web Mining Lab [[News](<http://weblab.com.cityu.edu.hk/blog/blog/2019/01/05/jan-5-retooling-workshop-for-macnm-alumni-kicked-off-4/>)] [[Slides](http://weblab.com.cityu.edu.hk/blog/workshops/19-macnm-computational-workshop/)].
-- 09/2018 The journey of PhD in Communication starts at Department of Media and Communication, City University of Hong Kong [[Academic Profile at the Department](https://www.cityu.edu.hk/com/Profile2.aspx?u=zcchen5)].
-- 03/2018 PhD offer received from the Hong Kong PhD Fellowship Scheme (HKPFS) by the Research Grants Council (RGC) of Hong Kong.
+- 01/2019 Teaching Python programming and user profiling techniques at MACNM Computational Workshop organized by Web Mining Lab [[News](http://weblab.com.cityu.edu.hk/blog/blog/2019/01/05/jan-5-retooling-workshop-for-macnm-alumni-kicked-off-4/)] [[Slides](http://weblab.com.cityu.edu.hk/blog/workshops/19-macnm-computational-workshop/)].
+- 09/2018 The journey of Ph.D. in Communication starts at Department of Media and Communication, City University of Hong Kong [[Academic Profile at the Department](https://www.cityu.edu.hk/com/Profile2.aspx?u=zcchen5)].
+- 03/2018 Ph.D. offer received from the Hong Kong PhD Fellowship Scheme (HKPFS) by the Research Grants Council (RGC) of Hong Kong.
 
 ## Skills
 
