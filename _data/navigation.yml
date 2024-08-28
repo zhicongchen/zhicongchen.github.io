@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: "Selected Publications"
+  - title: "Publications"
     url: /publications/
 
   - title: "Teaching"
@@ -14,8 +14,11 @@ main:
         
 #   - title: "Blog Posts"
 #     url: /year-archive/
+
+  - title: "Services"
+    url: /services/
     
-  - title: "Curriculum Vitae"
+  - title: "CV"
     url: /cv/
     
   - title: "Chinese | 中文"
