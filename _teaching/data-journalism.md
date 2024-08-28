@@ -1,7 +1,7 @@
 ---
 title: "Data Journalism"
 collection: teaching
-type: "course"
+type: "Undergraduate Course"
 permalink: /teaching/data-journalism
 venue: "Nanjing University"
 date: 2023, 2024
