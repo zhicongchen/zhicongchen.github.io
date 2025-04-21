@@ -1,14 +1,14 @@
 ---
 layout: archive
-title: ""
+title: "Research"
 permalink: /research/
 author_profile: true
 ---
 
 ## Research Overview
-My research investigates the **dynamic interplay** between media technologies, cultural identities, and social transformations in contemporary China and beyond. Bridging the fields of **communication studies and computational social science**, my work critically examines how **technological infrastructures**—ranging from mobile devices to anonymous networks—reconfigure modes of information dissemination, cultural production, and civic mobilization. By combining quantitative inquiry with computational methods, I aim to illuminate the **socio-technical undercurrents** that shape public discourse, identity construction, and collective action in an increasingly mediated world.
+My research investigates the **dynamic interplay** between media technologies, cultural identities, and social transformations in contemporary China and beyond. Bridging the fields of **communication studies and computational social science**, my work critically examines how **technological infrastructures**—ranging from mobile devices to anonymous networks—reconfigure modes of information dissemination, cultural (re-)production, and civic mobilization. My goal is to situate **computational communication** not only as a methodological extension but also as a theoretical frontier that reveals the algorithmic and infrastructural forces underpinning collective behavior. By combining quantitative inquiry with computational methods, I aim to illuminate the **socio-technical undercurrents** that shape public discourse, identity construction, and collective action in an increasingly mediated world.
 
-## Research Areas
+## Research Themes
 ### 1. Digital Media Ecology and Technological Impact on Culture and Society
 My research focuses on applying computational methods to communication studies, particularly in understanding how technology influences culture and society. I pursue methodological innovation by integrating computational tools into critical communication research. My projects leverage natural language processing, social network analysis, and LLM-based modeling to investigate phenomena such as online anonymity (e.g., via Tor) and discursive dynamics across digital platforms. My goal is to situate computational communication not only as a methodological extension but also as a theoretical frontier that reveals the algorithmic and infrastructural forces underpinning public discourse. For instance, my use of network analysis sheds light on the structure and dynamics of online social networks. By examining the relationships between individuals and groups, I uncover critical insights into information diffusion, community formation, and social influence (see Chen, Meng & Wang, 2023). These findings are essential for understanding how online interactions shape public opinion and influence societal behaviors. 
 
@@ -29,3 +29,4 @@ I have also examined how international advertising strategies shift in response 
 - Sun Y., Yan X. F., Zhang Y., **Chen, Z.**\*, Wang C. J.\* (2024). Globalization in International Tensions: The Impact of Military Conflicts on Cultural Orientations of Multinational Corporations’ Advertising in Modern China (1932-1937). Chinese Journal of Communication [IF=3.5, Scopus ranking: 42 out of 493 in Communication, Q1], 1–19. https://doi.org/10.1080/17544750.2024.2354698 
 - Hamamura, T.\*, Chan, C. S., Chen, S. X., **Chen, Z.**, Kobayashi, T., & Ng, J. C. K. (2022). Toward a better understanding of cultural change: Reply to Bao et al. (2022). American Psychologist [IF=16.4, Scopus ranking: 7/209 in General Psychology, Q1], 77(6), 789–790. https://doi.org/10.1037/amp0001032
 - Hamamura, T.\*, **Chen, Z.**, Chan, C. S., Chen, S. X., & Kobayashi, T. (2021). Individualism with Chinese characteristics? Discerning cultural shifts in China using 50 years of printed texts. American Psychologist [IF=16.4, Scopus ranking: 7/209 in General Psychology, Q1], 76(6), 888–903. https://doi.org/10.1037/amp0000840
+
