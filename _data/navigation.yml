@@ -1,10 +1,13 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "Research"
     url: /publications/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+
+  - title: "CV"
+    url: /cv/
 
 #   - title: "Talks"
 #     url: /talks/    
@@ -15,11 +18,8 @@ main:
 #   - title: "Blog Posts"
 #     url: /year-archive/
 
-  - title: "Services"
-    url: /services/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Chinese | 中文"
-    url: /chinese/
+# - title: "Services"
+#   url: /services/
+
+# - title: "Chinese | 中文"
+#   url: /chinese/
