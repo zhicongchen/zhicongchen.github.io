@@ -86,7 +86,7 @@ author:
   location         : 
   employer         : "Nanjing University"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=mt_TyjoAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=mt_TyjoAAAAJ/"
   email            : 
   researchgate     : "https://www.researchgate.net/profile/Zhicong-Chen-2/"
   uri              :
@@ -116,7 +116,14 @@ author:
   youtube          :
   wikipedia        :
 
-
+footer_links:
+  - url: https://scholar.google.com/citations?hl=en&user=mt_TyjoAAAAJ/
+    icon: ai ai-google-scholar
+  - url: https://www.researchgate.net/profile/Zhicong-Chen-2/
+    icon: ai ai-researchgate
+  - url: https://twitter.com/jssyczc
+    icon: fab fa-twitter
+    
 # Reading Files
 include:
   - .htaccess
@@ -255,7 +262,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Hong_Kong # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
