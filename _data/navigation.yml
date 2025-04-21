@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Home"
+    url: /about/
+    
   - title: "Research"
     url: /publications/
 
@@ -18,8 +21,5 @@ main:
 #   - title: "Blog Posts"
 #     url: /year-archive/
 
-# - title: "Services"
-#   url: /services/
-
-# - title: "Chinese | 中文"
-#   url: /chinese/
+- title: "Chinese | 中文"
+  url: /chinese/
