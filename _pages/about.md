@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I currently serve as an Assistant Professor at the [School of Journalism and Communication](https://jc.nju.edu.cn/en9/main.htm), [Nanjing University](https://www.nju.edu.cn/EN/main.htm) (NJU), where I am a core member of the [Computational Communication Collaboratory](https://computational-communication.com/). 
+I currently work as an Assistant Professor in Computational Social Science at the [School of Journalism and Communication](https://jc.nju.edu.cn/en9/main.htm), [Nanjing University](https://www.nju.edu.cn/EN/main.htm) (NJU), where I am a core member of the [Computational Communication Collaboratory](https://computational-communication.com/). 
 
 I earned my Ph.D. in Communication in 2022 from the [City University of Hong Kong](https://www.cityu.edu.hk/) (CityU), where I was intellectually nurtured within the [Web Mining Laboratory](http://weblab.com.cityu.edu.hk/blog/), founded and coordinated by the esteemed Chair Professor of Computational Social Science and ICA Fellow [Prof. Jonathan J. H. Zhu](https://scholar.google.com/citations?user=q41vFFQAAAAJ&hl=en) at the [Department of Media and Communication](https://www.cityu.edu.hk/com). Throughout my graduate studies, I received rigorous interdisciplinary training from both social scientists and network scientists, which laid a strong foundation for my development as a computational social scientist.
 
