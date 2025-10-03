@@ -22,14 +22,13 @@ author_profile: true
    * Association for Education in Journalism and Mass Communication (AEJMC)
    * International Association for Media and Communication Research (IAMCR)
 
-## Mentorship & Advising
-### Master Students
-   * [Zhengyi Liang](https://www.zhengyiliang.com/), Placement: PhD student at The University of California, Davis
-   * [Xinya Jiang](https://xinyajiang.com/), Placement: PhD student at The University of Texas, Austin
-   * [Yixiao Sun](https://sun-yixiao.com/), Placement: (Incoming) PhD student at Michigan State University
- 
-### Undergraduate Students
-   * Jingling Xu, Placement: PhD student at Shanghai Jiaotong University
-   * Xiaoyi Zhang, Placement: Master student at Nanjing University
-   * Jiacheng Chen, Placement: (Incoming) Master student at Shanghai Jiaotong University
-   * Yang Lu, Placement: (Incoming) Master student at Nanjing University
+## Thesis Supervision
+
+- **2025 — Outstanding Undergraduate Thesis Supervisor**, Nanjing University, *Grand Prize*  
+  - Supervisee: **Jiacheng Chen** → Placement: Master’s Student, Shanghai Jiao Tong University  
+
+- **2024 — Undergraduate Thesis Supervisor**, Nanjing University  
+  - Supervisee: **Xiaoyi Zhang** → Placement: Master’s Student, Nanjing University  
+
+- **2023 — Undergraduate Thesis Supervisor**, Nanjing University  
+  - Supervisee: **Jingling Xu** → Placement: PhD Student, Shanghai Jiao Tong University  
