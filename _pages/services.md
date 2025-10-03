@@ -4,6 +4,14 @@ title: "Services"
 author_profile: true
 ---
 
+<div style="position:relative; width:100%; aspect-ratio:16/9; overflow:hidden; border-radius:12px;">
+  <img
+    src="https://images.unsplash.com/photo-1759188534271-be7832eff679"
+    loading="lazy"
+    style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;"
+  />
+</div>
+
 ## Journal Reviewer
    * Humanities and Social Sciences Communications
    * New Media & Society
@@ -12,6 +20,8 @@ author_profile: true
    * Advances in Methods and Practices in Psychological Science
    * European Journal on Criminal Policy and Research
    * Sage Open
+   * BMC Psychology
+   * International Journal of Information Security
    * Journal of Computational Social Science
    * Communication and the Public
    * Frontiers in Psychology
