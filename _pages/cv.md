@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[Please download the PDF version here](https://docs.google.com/document/d/1nZFeseQG5YaBvCJ5I4Qm_iN1Osh1puaLccjqIuJpwd8/)
+[Please download the PDF version here](https://www.dropbox.com/scl/fi/s63mrcumgu68ra76elx9n/Curriculum_Vitae.pdf?rlkey=6z9ww24xerh9b7n9nski4uumb&st=krshp72y&dl=0)
 
 <!--
 
