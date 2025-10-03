@@ -83,7 +83,7 @@ author:
   name             : "Zhicong Chen"
   avatar           : "https://avatars.githubusercontent.com/u/13479560"
   bio              : "Postdoctoral Fellow at NUS"
-  location         : "Singapore"
+  location         : # "Singapore"
   employer         : # "National University of Singpore"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=mt_TyjoAAAAJ"
@@ -106,7 +106,7 @@ author:
   orcid            : "https://orcid.org/my-orcid?orcid=0000-0003-0334-9454"
   pinterest        :
   soundcloud       :
-  stackoverflow    : "5169376"
+  stackoverflow    : # "5169376"
   steam            :
   tumblr           :
   twitter          : "jssyczc"
