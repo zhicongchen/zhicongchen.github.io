@@ -22,13 +22,8 @@ author_profile: true
    * Association for Education in Journalism and Mass Communication (AEJMC)
    * International Association for Media and Communication Research (IAMCR)
 
-## Thesis Supervision
-
-- **2025 — Outstanding Undergraduate Thesis Supervisor**, Nanjing University, *Grand Prize*  
-  - Supervisee: **Jiacheng Chen** → Placement: Master’s Student, Shanghai Jiao Tong University  
-
-- **2024 — Undergraduate Thesis Supervisor**, Nanjing University  
-  - Supervisee: **Xiaoyi Zhang** → Placement: Master’s Student, Nanjing University  
-
-- **2023 — Undergraduate Thesis Supervisor**, Nanjing University  
-  - Supervisee: **Jingling Xu** → Placement: PhD Student, Shanghai Jiao Tong University  
+## Undergraduate Thesis Supervision, Nanjing University
+- Jiacheng Chen → Placement: Master’s Student, Shanghai Jiao Tong University
+  - **Outstanding Undergraduate Thesis Supervisor**, *Grand Prize*, 2025
+- Xiaoyi Zhang → Placement: Master’s Student, Nanjing University  
+- Jingling Xu → Placement: PhD Student, Shanghai Jiao Tong University  
