@@ -4,8 +4,16 @@ title: "Research"
 author_profile: true
 ---
 
+<div style="position:relative; width:100%; aspect-ratio:16/9; overflow:hidden; border-radius:12px;">
+  <img
+    src="https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?auto=format&fit=crop&w=2000&q=80"
+    loading="lazy"
+    style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;"
+  />
+</div>
+
 ## Research Overview
-My research investigates the **dynamic interplay** between media technologies, cultural identities, and social transformations in contemporary China and beyond. Bridging the fields of **communication studies and computational social science**, my work critically examines how **technological infrastructures**—ranging from mobile devices to anonymous networks—reconfigure modes of information dissemination, cultural (re-)production, and civic mobilization. My goal is to situate **computational communication** not only as a methodological extension but also as a theoretical frontier that reveals the algorithmic and infrastructural forces underpinning collective behavior. By combining quantitative inquiry with computational methods, I aim to illuminate the **socio-technical undercurrents** that shape public discourse, identity construction, and collective action in an increasingly mediated world.
+My research investigates the **dynamic interplay** between media, cultural, and social changes in contemporary China and beyond. Bridging the fields of **computational social science and communication studies**, my work critically examines how technological infrastructures—ranging from mobile devices to anonymous networks—reconfigure modes of information dissemination, cultural (re-)production, and civic mobilization. My goal is to situate **computational communication** not only as a methodological extension but also as a theoretical frontier that reveals the algorithmic and infrastructural forces underpinning collective behavior. By combining quantitative inquiry with computational methods, I aim to illuminate the **socio-technical undercurrents** that shape public discourse, identity construction, and collective action in an increasingly mediated world.
 
 ## Research Themes
 ### 1. Digital Media Ecology and Technological Impact on Culture and Society
@@ -13,6 +21,7 @@ My research focuses on applying computational methods to communication studies, 
 
 Moving beyond, my work emphasizes the broader impact of technology on cultural practices (see Yu et al., 2024). My research during the COVID-19 pandemic analyzed the spread of conspiracy theories and their entanglement with geopolitical narratives (see Chen et al., 2025). I have also explored the implications of anonymization technologies, such as the Tor network (see Chen et al., 2024). My research reveals that while anonymity empowers individuals to express dissent and share sensitive information, it also presents challenges, such as the spread of misinformation. These two strands of research underscore the dual nature of technology—as both a liberating force and a potential catalyst for social fragmentation. 
 
+Featured Publications
 - **Chen, Z.**, Yu, W., Sun, Y., Wang, C.-J.\*, & Liu, X. F.\* (2025). The dark side of the Internet: Fueling misinformation in the COVID-19 pandemic and the 2020 US Presidential Election. Communication and the Public **[IF=2.4]**, OnlineFirst. https://doi.org/10.1177/20570473251323752
 - Yu W., **Chen, Z.**\*, Meng X.\*, Yan Q. (2024). Propagating COVID-19 Conspiracy Theories: The Influence of Right-Wing Sources. Sage Open **[IF=2.2]**, 14(2). https://doi.org/10.1177/21582440241258026. 
 - **Chen, Z.**, Jardine, E., Liu, X. F.\*, & Zhu, J. J. H. (2024). Seeking anonymity on the Internet: The knowledge accumulation process and global usage of the Tor network. New Media & Society **[IF=6.9]**, 26(2), 1074-1095. https://doi.org/10.1177/14614448211072201
@@ -24,6 +33,7 @@ Global crises, conflicts, and technological globalization provide the backdrop f
 
 I have also examined how international advertising strategies shift in response to armed conflicts, illustrating how cultural orientations—individualism vs. collectivism—are reactivated or reconfigured under conditions of global uncertainty. These projects reflect a sustained interest in how media representations mediate cross-cultural perception and identity politics (see Sun et al., 2024), specifically the impact of military conflicts on the cultural orientations of multinational corporations' advertising in modern China. The research explored how geopolitical factors shape advertising strategies, analyzing shifts in messaging and cultural references as corporations navigate the complexities of a global market influenced by conflict. This study provides valuable insights into the intersection of international relations and corporate communication, shedding light on how global brands position themselves within a rapidly changing marketplace like China.
 
+Featured Publications
 - Zhang Y., Lu G., Sun Y., **Chen, Z.**\*, Wang C. J.\* (Accepted). Let us not wallow in the valley of despair: The role of emotion, panic, and sympathy discourses in promoting productive actions. International Journal of Business Communication. 
 - Sun Y., Yan X. F., Zhang Y., **Chen, Z.**\*, Wang C. J.\* (2024). Globalization in International Tensions: The Impact of Military Conflicts on Cultural Orientations of Multinational Corporations’ Advertising in Modern China (1932-1937). Chinese Journal of Communication **[IF=3.5]**, 1–19. https://doi.org/10.1080/17544750.2024.2354698 
 - Hamamura, T.\*, Chan, C. S., Chen, S. X., **Chen, Z.**, Kobayashi, T., & Ng, J. C. K. (2022). Toward a better understanding of cultural change: Reply to Bao et al. (2022). American Psychologist **[IF=16.4]**, 77(6), 789–790. https://doi.org/10.1037/amp0001032
