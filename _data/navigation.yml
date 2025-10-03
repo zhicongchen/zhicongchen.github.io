@@ -3,8 +3,8 @@ main:
   # - title: "Home"
   #   url: /about/
     
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
 
   - title: "Research"
     url: /research/
@@ -17,6 +17,9 @@ main:
     
   - title: "Curriculum Vitae"
     url: /cv/
+
+  # - title: "Chinese | 中文"
+  #   url: /chinese/
     
   # - title: "Talks"
   #   url: /talks/    
@@ -26,6 +29,3 @@ main:
         
   # - title: "Blog Posts"
   #   url: /year-archive/
-
-  # - title: "Chinese | 中文"
-  #   url: /chinese/
