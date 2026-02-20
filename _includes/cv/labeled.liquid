@@ -1,0 +1,81 @@
+{% comment %}
+  Renders label/details entries with context-sensitive layout:
+  - Label-only (no details): coloured category subheading.
+  - Label + details where label is a date/time (contains month, season, or year):
+      awards-style badge on left, content on right.
+  - Label + details where label is NOT a date/time:
+      bold label as inline header, details as paragraph below — no badge.
+  - Bullet-only entry: plain paragraph.
+{% endcomment %}
+
+{% assign time_tokens = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,Fall,Spring,Summer,Winter" | split: "," %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+
+    {% if entry.label and entry.details %}
+
+      {% comment %} Detect whether this label is a time/date {% endcomment %}
+      {% assign is_time = false %}
+      {% for token in time_tokens %}
+        {% if entry.label contains token %}
+          {% assign is_time = true %}
+        {% endif %}
+      {% endfor %}
+      {% comment %} Also treat labels starting with a digit as dates (e.g. "2025", "2024–2025") {% endcomment %}
+      {% assign first_char = entry.label | slice: 0, 1 %}
+      {% assign first_char_num = first_char | plus: 0 %}
+      {% if first_char_num > 0 %}
+        {% assign is_time = true %}
+      {% endif %}
+
+      {% if is_time %}
+        {% comment %} Date label → awards badge style {% endcomment %}
+        <li class="list-group-item">
+          <div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+              <table class="table-cv">
+                <tbody>
+                  <tr>
+                    <td>
+                      <span
+                        class="badge font-weight-bold danger-color-dark text-uppercase align-middle"
+                        style="min-width: 75px; white-space: normal; line-height: 1.35;"
+                      >
+                        {{ entry.label }}
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+              <p class="ml-1 ml-md-4">{{ entry.details | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            </div>
+          </div>
+        </li>
+
+      {% else %}
+        {% comment %} Non-date label → bold heading + details, no badge {% endcomment %}
+        <li class="list-group-item">
+          <h6 class="font-weight-bold ml-1 ml-md-4 mb-1">{{ entry.label }}</h6>
+          <div class="ml-1 ml-md-4 mb-0" style="font-size: 0.9rem;">{{ entry.details | markdownify }}</div>
+        </li>
+      {% endif %}
+
+    {% elsif entry.label %}
+      {% comment %} Label only → coloured category subheading {% endcomment %}
+      <li class="list-group-item pt-3 pb-1">
+        <h6 class="font-weight-bold" style="color: var(--global-theme-color);">
+          {{ entry.label }}
+        </h6>
+      </li>
+
+    {% elsif entry.bullet %}
+      <li class="list-group-item">
+        <p class="ml-1">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      </li>
+    {% endif %}
+
+  {% endfor %}
+</ul>

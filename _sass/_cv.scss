@@ -8,10 +8,19 @@ div.container-link-button {
 
 table.table-cv {
   background-color: transparent !important;
+  width: 100%;
 
   td,
   th {
     padding: 1px;
+    text-align: center;
+  }
+}
+
+table.table-cv-left {
+  td,
+  th {
+    text-align: left !important;
   }
 }
 
@@ -43,13 +52,14 @@ a.btncv:hover {
  *****************************/
 
 p.location {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   white-space: nowrap;
+  text-align: center;
 }
 
 i.iconlocation {
   color: var(--global-theme-color);
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 i.iconinstitution {

@@ -64,7 +64,7 @@ layout: default
         {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Contact Information</h3>
-            <table class="table table-cv table-sm table-borderless">
+            <table class="table table-cv table-cv-left table-sm table-borderless">
               {% if cv.name %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Name</b></td>
@@ -115,8 +115,8 @@ layout: default
         <!-- Summary -->
         {% if cv.summary %}
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Professional Summary</h3>
-            <p>{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            <h3 class="card-title font-weight-medium">Research Profile</h3>
+            <p>{{ cv.summary | markdownify }}</p>
           </div>
         {% endif %}
 
@@ -154,12 +154,25 @@ layout: default
               {% if section_title == 'Education' %}
                 {% assign entries = section_entries %}
                 {% include cv/education.liquid %}
-              {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
+              {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' or section_title == 'Grants' %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
-              {% elsif section_title == 'Publications' %}
+              {% elsif section_title == 'Publications'
+                or section_title == 'Preprints'
+                or section_title == 'Working Papers'
+                or section_title == 'Conference Presentations'
+              %}
                 {% assign entries = section_entries %}
                 {% include cv/publications.liquid %}
+              {% elsif section_title == 'Teaching'
+                or section_title == 'Invited Talks and Visits'
+                or section_title == 'Supervision and Mentorship'
+                or section_title == 'Professional Service'
+                or section_title == 'Training'
+                or section_title == 'Skills'
+              %}
+                {% assign entries = section_entries %}
+                {% include cv/labeled.liquid %}
               {% elsif section_title == 'Skills' %}
                 {% assign entries = section_entries %}
                 {% include cv/skills.liquid %}
@@ -180,17 +193,20 @@ layout: default
                 {% include cv/references.liquid %}
               {% else %}
                 <!-- Generic section -->
-                {% for entry in section_entries %}
-                  {% if entry.bullet %}
-                    <ul class="card-text font-weight-light list-group list-group-flush">
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                  {% for entry in section_entries %}
+                    {% if entry.bullet %}
                       <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-                    </ul>
-                  {% elsif entry.label %}
-                    <div class="card-text font-weight-light">
-                      <strong>{{ entry.label }}:</strong> {{ entry.details }}
-                    </div>
-                  {% endif %}
-                {% endfor %}
+                    {% elsif entry.label %}
+                      <li class="list-group-item">
+                        <strong>{{ entry.label }}:</strong>
+                        {% if entry.details %}
+                          {{ entry.details | markdownify | remove: '<p>' | remove: '</p>' }}
+                        {% endif %}
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
               {% endif %}
             </div>
           </div>

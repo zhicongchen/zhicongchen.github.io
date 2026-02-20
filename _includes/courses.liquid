@@ -1,33 +1,61 @@
 {% if site.teachings %}
   <div class="courses">
-    {% assign courses_by_year = site.teachings | sort: 'year' | reverse | group_by: 'year' %}
+    {% comment %} Collect all unique years across all courses {% endcomment %}
+    {% assign all_years = "" | split: "" %}
+    {% for course in site.teachings %}
+      {% if course.years %}
+        {% for y in course.years %}
+          {% unless all_years contains y %}
+            {% assign all_years = all_years | push: y %}
+          {% endunless %}
+        {% endfor %}
+      {% else %}
+        {% unless all_years contains course.year %}
+          {% assign all_years = all_years | push: course.year %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+    {% assign all_years = all_years | sort | reverse %}
 
-    {% for year_group in courses_by_year %}
-      <h2 class="year">{{ year_group.name }}</h2>
+    {% for year in all_years %}
+      <h2 class="year">{{ year }}</h2>
       <div class="course-list">
-        {% assign year_courses = year_group.items | sort: 'term' %}
-        {% for course in year_courses %}
-          <div class="course-item">
-            <h3 class="course-title">
-              <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
-            </h3>
-
-            <div class="course-meta">
-              {% if course.term %}
-                <span class="course-term">{{ course.term }}</span>
+        {% for course in site.teachings %}
+          {% comment %} Determine if this course belongs to this year {% endcomment %}
+          {% assign belongs = false %}
+          {% if course.years %}
+            {% for y in course.years %}
+              {% if y == year %}
+                {% assign belongs = true %}
               {% endif %}
+            {% endfor %}
+          {% elsif course.year == year %}
+            {% assign belongs = true %}
+          {% endif %}
 
-              {% if course.instructor %}
-                <span class="course-instructor">{{ course.instructor }}</span>
+          {% if belongs %}
+            <div class="course-item">
+              <h3 class="course-title">
+                <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+              </h3>
+
+              <div class="course-meta">
+                {% if course.term %}
+                  <span class="course-term">{{ course.term }} {{ year }}</span>
+                {% endif %}
+
+                {% if course.instructor %}
+                  <span class="course-instructor">{{ course.instructor }}</span>
+                {% endif %}
+              </div>
+
+              {% if course.description %}
+                <div class="course-description">
+                  {{ course.description | markdownify }}
+                </div>
               {% endif %}
             </div>
-
-            {% if course.description %}
-              <div class="course-description">
-                {{ course.description | markdownify }}
-              </div>
-            {% endif %}
-          </div>
+          {% endif %}
         {% endfor %}
       </div>
     {% endfor %}

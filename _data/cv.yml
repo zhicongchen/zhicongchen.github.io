@@ -1,189 +1,424 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Zhicong Chen, Ph.D.
+  label: 
+  email: zcchen@nus.edu.sg
+  website: https://zhicongchen.github.io
+  address:
+    street: Block AS6, 11 Computing Drive
+    city: Singapore
+    postalCode: "117416"
+
+  # summary: "My research focuses on three interconnected themes: online safety in anonymous and fringe digital ecosystems, digital resilience under algorithmic and crisis-driven media environments, and cultural analytics of long-term social change in historical texts. Across these themes, I use computational social science methods to connect user behaviour, knowledge diffusion, and cultural transformation."
 
   social_networks:
     - network: X
-      username: AlbertEinstein
+      username: jssyczc
     - network: GitHub
-      username: example
+      username: zhicongchen
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: jssyczc
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: National University of Singapore
+        position: Postdoctoral Fellow
+        location: Singapore
+        start_date: 2025
+        end_date: now
+        summary: Department of Communications and New Media
+
+      - company: Nanjing University
+        position: Assistant Professor
+        location: Nanjing
+        start_date: 2022
+        end_date: 2025
+        summary: School of Journalism and Communication
+
+      - company: City University of Hong Kong
+        position: Graduate Research Assistant
+        location: Hong Kong
+        start_date: 2021
+        end_date: 2022
+        summary: Department of Media and Communication
+
+    Education:
+      - institution: City University of Hong Kong
+        location: Hong Kong
+        studyType: Ph.D. in Media and Communication
+        start_date: 2018
+        end_date: 2022
         highlights:
-          - Relativity
-          - Description 2.
+          - Hong Kong PhD Fellowship Scheme 2018/19
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - institution: Nanjing University
+        location: Nanjing
+        studyType: Master in Journalism and Communication
+        start_date: 2016
+        end_date: 2018
         highlights:
-          - Description 1.
-          - Description 2.
+          - School of Journalism and Communication
+          - Outstanding Graduate (Top 5%)
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - institution: Nanjing University of Posts and Telecommunications
+        location: Nanjing
+        studyType: Bachelor in Software Engineering
+        start_date: 2012
+        end_date: 2016
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - School of Computer Science
+          - Outstanding Graduate (Top 5%)
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    # Research Profile:
+    #   - label: Online Safety in Digital Platforms
+    #     details: I study anonymity systems, dark-web communities, and cross-platform misinformation diffusion to explain how risky content and social harm move from fringe to mainstream spaces.
+    #   - label: Digital Resilience in Emerging Media
+    #     details: I examine how algorithmic media use reshapes daily behaviour, emotional dynamics, and adaptive capacity, especially during crisis communication and high-information-pressure events.
+    #   - label: Cultural Analytics of Historical Texts
+    #     details: I use large-scale diachronic text analysis to trace value change, geopolitical framing, and ideology in East Asian contexts across books, newspapers, and archival corpora.
+    #   - label: Methods
+    #     details: Text-as-data analysis, NLP, network analysis, panel and longitudinal modelling, and cross-platform computational communication research.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: "Tales of Twin Forums on the Dark and Surface Web: Social Interactions and User Sustainability in Anonymous Online Communities"
+        publisher: EPJ Data Science
+        releaseDate: 2025
+        url: https://doi.org/10.1140/epjds/s13688-025-00614-1
+        summary: "Chen Z., Liu X. F.*"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: "The Dark Side of the Internet: Fueling Misinformation in the COVID-19 Pandemic and the 2020 US Presidential Election"
+        publisher: Communication and the Public
+        releaseDate: 2025
+        url: https://doi.org/10.1177/20570473251323752
+        summary: "Chen Z., Yu W., Sun Y., Wang C. J.*, Liu X. F.*"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: "Seeking anonymity on the Internet: The knowledge accumulation process and global usage of the Tor network"
+        publisher: New Media & Society
+        releaseDate: 2024
+        url: https://doi.org/10.1177/14614448211072201
+        summary: "Chen Z., Jardine E., Liu X. F.*, Zhu J. J. H."
+
+      - title: "The Dark Web Privacy Dilemma: Linguistic Diversity, Talkativeness, and User Engagement on the Cryptomarket Forums"
+        publisher: Humanities and Social Sciences Communications
+        releaseDate: 2023
+        url: https://doi.org/10.1057/s41599-023-02424-0
+        summary: "Chen Z., Meng X., Wang C. J.*"
+
+      - title: "Who Weaved My Behavior Cocoon? The Impact of ICT Use on Daily Behaviors in an Accelerated Society"
+        publisher: Communications - The European Journal of Communication Research
+        releaseDate: 2025
+        url: https://www.degruyterbrill.com/document/doi/10.1515/commun-2024-0160
+        summary: "Yan X. F.†, Chen Z.†, Lu L., Wang C. J.*"
+
+      - title: "Geopolitics in language: A psychological view of Sino-Japanese relations over time"
+        publisher: Journal of Social Issues
+        releaseDate: 2025
+        url: https://spssi.onlinelibrary.wiley.com/doi/10.1111/josi.70025
+        summary: "Hamamura T.*, Kobayashi T., Chen Z., Chen S. X., Chan C. S."
+
+      - title: "Exploring the Mediating Role of Selective Exposure to Partisan Media Between the Authoritarian Personality and Gun Control Attitudes"
+        publisher: Journal of Information Technology & Politics
+        releaseDate: 2025
+        url: https://doi.org/10.1080/19331681.2025.2541275
+        summary: "Jiang X., Miao H., Chen Z.*"
+
+      - title: "Let us not wallow in the valley of despair: The role of emotion, panic, and sympathy discourses in promoting productive actions"
+        publisher: International Journal of Business Communication
+        releaseDate: 2025
+        url: https://doi.org/10.1177/23294884251333665
+        summary: "Zhang Y., Lu G., Sun Y., Chen Z.*, Wang C. J.*"
+
+      - title: "Propagating COVID-19 Conspiracy Theories: The Influence of Right-Wing Sources"
+        publisher: Sage Open
+        releaseDate: 2024
+        url: https://doi.org/10.1177/21582440241258026
+        summary: "Yu W., Chen Z.*, Meng X.*, Yan Q."
+
+      - title: "Globalization in International Tensions: The Impact of Military Conflicts on Cultural Orientations of Multinational Corporations' Advertising in Modern China (1932-1937)"
+        publisher: Chinese Journal of Communication
+        releaseDate: 2024
+        url: https://doi.org/10.1080/17544750.2024.2354698
+        summary: "Sun Y., Yan X. F., Zhang Y., Chen Z.*, Wang C. J.*"
+
+      - title: "Toward a better understanding of cultural change: Reply to Bao et al. (2022)"
+        publisher: American Psychologist
+        releaseDate: 2022
+        url: https://doi.org/10.1037/amp0001032
+        summary: "Hamamura T.*, Chan C. S., Chen S. X., Chen Z., Kobayashi T., Ng J. C. K."
+
+      - title: "Individualism with Chinese characteristics? Discerning cultural shifts in China using 50 years of printed texts"
+        publisher: American Psychologist
+        releaseDate: 2021
+        url: https://doi.org/10.1037/amp0000840
+        summary: "Hamamura T.*, Chen Z., Chan C. S., Chen S. X., Kobayashi T."
+
+    Preprints:
+      - title: "The Geometry of Information Cocoon: Analyzing the Cultural Space with Word Embedding Models"
+        publisher: arXiv
+        releaseDate: 2020
+        url: https://arxiv.org/abs/2007.10083
+        summary: "Xu H., Chen Z., Li R., Wang C. J."
+
+      - title: "Leveraging the Flow of Collective Attention for Computational Communication Research"
+        publisher: arXiv
+        releaseDate: 2017
+        url: https://arxiv.org/abs/1710.07761
+        summary: "Wang C. J., Chen Z., Qin Q., Chao N."
+
+    # Working Papers:
+    #   - title: "Dark Web: The Regulated and Self-Regulated"
+    #     publisher: Handbook on Media Regulation (Edward Elgar Publishing)
+    #     releaseDate: 2026
+    #     summary: "Chen Z., Liu X. F.*. Book chapter. Under review."
+
+    #   - title: "Understanding China's Foreign Relations from a Constructivist Perspective: A Diachronic Analysis of People's Daily (1950-2019)"
+    #     releaseDate: 2026
+    #     summary: "Chen Z., Liang Z., Jiang X., Wang C. J. Under review."
+
+    #   - title: "Technological Accessibility and Techno-Nationalism: How Online Discourse Shapes Barriers and Acceptance of Large Language Models in China"
+    #     releaseDate: 2026
+    #     summary: "Wang H., Zhou T., Shi X., Xu Z., Chen Z.*. Under review."
+
+    #   - title: "The Ideological Space within Books: Political Ideology and the Consumption of Science in China"
+    #     releaseDate: 2026
+    #     summary: "Liang Z., Jiang X., Chen Z.*, Chao N.*. Under review."
+
+    #   - title: "Beyond socioeconomic status: Divergent post-flood mobility patterns in South and Southeast Asian cities using mobile phone data"
+    #     releaseDate: 2026
+    #     summary: "Yang S. X., Weng G., Cui S., Chen Z., Chen C.*. Under review."
+
+    #   - title: "Is a Diverse and Different Life a Happier Life? Digital Media Use, Temporal Rhythms, and Subjective Well-being"
+    #     releaseDate: 2026
+    #     summary: "Yan X. F., Chen J., Chen Z.*, Wang C. J.*. Under revision."
+
+    Conference Presentations:
+      - title: "Technological accessibility and techno-nationalism: Barriers, engagement, and acceptance of generative AI in online discourse"
+        publisher: AEJMC Annual Conference, Los Angeles, CA, USA
+        releaseDate: 2025
+        summary: "Wang H., Zhou T., Shi X., Xu Z., Chen Z.*"
+
+      - title: "From sport to symbol: Understanding media narratives of the Olympic Games in People's Daily (1979-2019)"
+        publisher: ICA Annual Conference, Denver, CO, USA
+        releaseDate: 2025
+        summary: "Xu J., Chen Z.*"
+
+      - title: "Tales of twin forums on the dark and surface web: Exploring social behaviors in anonymous online communities"
+        publisher: ICA Annual Conference, Gold Coast, Australia
+        releaseDate: 2024
+        summary: "Chen Z., Liu X. F.*"
+
+      - title: "The dark web privacy dilemma: Talkativeness, linguistic diversity, and user engagement on the cryptomarket forums"
+        publisher: ICA Annual Conference, Gold Coast, Australia
+        releaseDate: 2024
+        summary: "Chen Z., Meng X., Wang C. J.*"
+
+      - title: "The narrative gene of collective gatekeeping: Pandemic, government regularization, economic development, and the publicness of Weibo hot search (2020-2021)"
+        publisher: ICA Annual Conference, Toronto, Canada
+        releaseDate: 2023
+        summary: "Yan L., Ni Y., Tan X., Jiang X., Chen Z.*, Wang C. J.*"
+
+      - title: "Unleashing the power of narratives in news: The impact of Wall Street Journal's economic narratives on the U.S. subprime crisis (2005-2009)"
+        publisher: IC2S2, Copenhagen, Denmark
+        releaseDate: 2023
+        summary: "Fei Y., Chen Z.*, Wang C. J.*"
+
+      - title: "The ideological space within reading: Political ideology and the consumption of books in China"
+        publisher: ICA Annual Conference, Paris, France
+        releaseDate: 2022
+        summary: "Liang Z., Chao N.*, Chen Z.*. Top Student Paper."
+
+      - title: "Why do users leave anonymous online communities? An exploratory study of the Silk Road Forum on the dark web"
+        publisher: ICA Annual Conference, Denver, CO, USA (Virtual)
+        releaseDate: 2021
+        summary: "Chen Z., Liu X. F.*"
+
+      - title: "Depolarization in the rise of far-right platforms? A moderated mediation model on political identity, misinformation belief, and voting behavior in the 2020 US Presidential Election"
+        publisher: IAMCR Annual Conference, Nairobi, Kenya (Virtual)
+        releaseDate: 2021
+        summary: "Chen Z., Meng X.*, Yu W.*"
+
+      - title: "Dynamic trends between specialization and integration of communication research: Scientometric analysis of SSCI journals from 1970 to 2019"
+        publisher: ICA Annual Conference, Gold Coast, Australia (Virtual)
+        releaseDate: 2020
+        summary: "Liu X. F., Chen Z., Zhu J. J. H."
+
+      - title: "The poor read for entertainment and the rich read for education: Poverty, fragmentation, and knowledge homogeneity"
+        publisher: IC2S2, Northwestern University, Chicago, IL, USA
+        releaseDate: 2018
+        summary: "Chen Z., Wu L., Chao N., Wang C. J."
+
+      - title: "Social classes shape our trajectories in both online and offline space"
+        publisher: IC2S2, Northwestern University, Chicago, IL, USA
+        releaseDate: 2018
+        summary: "Xu H., Chen Z., Wang C. J."
+
+    Grants:
+      - title: Social Science Fund of Nanjing University (Special Research Scheme)
+        date: 2024
+        awarder: Nanjing University
+        summary: 4,000 USD; Principal Investigator
+
+      - title: Social Science Fund of Nanjing University (Young Scholar Scheme)
+        date: 2023
+        awarder: Nanjing University
+        summary: 4,000 USD; Principal Investigator
+
+      - title: Social Science Fund of Jiangsu Province (Young Scholar Scheme)
+        date: 2023
+        awarder: Jiangsu Province
+        summary: 7,000 USD; Principal Investigator
+
+    Awards:
+      - title: Outstanding Undergraduate Thesis Supervisor
+        date: 2025
+        awarder: Nanjing University
+        summary: "Grand Prize; Supervisee Jiacheng Chen placed in MA at Shanghai Jiao Tong University"
+
+      - title: Top Student Paper Award
+        date: 2022
+        awarder: Computational Methods Division, International Communication Association
+
+      - title: Outstanding Research Papers Awards
+        date: 2022
+        awarder: City University of Hong Kong
+
+      - title: Research Tuition Scholarship
+        date: 2019
+        awarder: City University of Hong Kong
+
+      - title: Hong Kong PhD Fellowship Scheme
+        date: 2018
+        awarder: Hong Kong Research Grants Council (RGC)
+
+      - title: National Scholarship (Graduate Students)
+        date: 2017
+        awarder: Ministry of Education
+        summary: Top 1%
+
+      - title: National Scholarship (Undergraduate Students)
+        date: 2014
+        awarder: Ministry of Education
+        summary: Top 1%
+
+    Teaching:
+      - label: Master-Level Courses
+      - label: "2025"
+        details: "Fall 2025 — NMC5342 Introduction to Applied Social Media Analytics (Instructor), National University of Singapore, Enrollment: 45"
+      - label: "2025"
+        details: "Spring 2025 — Data Visualization for Journalism (Instructor), Nanjing University, Enrollment: 40"
+      - label: "2024"
+        details: "Fall 2024 — Workshop on Online Public Opinion Analysis (Co-Instructor), Nanjing University"
+      - label: "2024, 2025"
+        details: "Spring 2024 & 2025 — Text as Data (Instructor), Nanjing University, Enrollment: 30"
+      - label: "2019"
+        details: "Spring 2019 — COM5508 Media Data Analytics (Teaching Assistant), City University of Hong Kong"
+      - label: Undergraduate-Level Courses
+      - label: "2025"
+        details: "Spring 2025 — Intelligent Society Studies (Co-Instructor), Nanjing University"
+      - label: "2024"
+        details: "Fall 2024 — Data Journalism (Instructor), Nanjing University, Enrollment: 70"
+      - label: "2024"
+        details: "Spring 2024 — Introduction to Python (Instructor), Nanjing University, Enrollment: 30"
+      - label: "2023"
+        details: "Fall 2023 — Data Journalism (Co-Instructor), Nanjing University"
+      - label: "2016"
+        details: "Fall 2016 — Data Journalism (Teaching Assistant), Nanjing University"
+      - label: Workshops
+      - label: "2019"
+        details: "Spring 2019 — Computational Workshop for CityU MACNM Alumni (Instructor), Web Mining Lab at City University of Hong Kong"
+
+    Invited Talks and Visits:
+      - label: Mar 2026
+        details: Guest Lecture at NM6770, Department of Communications and New Media, NUS
+      - label: Nov 2025
+        details: Guest Lecture at NM4255, Department of Communications and New Media, NUS
+      - label: Sep 2025
+        details: Swarma Club, Beijing, China
+      - label: Aug 2025
+        details: Journal Club, Department of Communications and New Media, NUS
+      - label: Jun 2025
+        details: School of Media and Communication, Shenzhen University
+      - label: Jan 2025
+        details: School of Journalism and Communication, Lanzhou University
+      - label: Oct 2024
+        details: Institute of Journalism, Shanghai Academy of Social Sciences
+      - label: Jun 2024
+        details: School of Journalism and Communication, Northwest University
+      - label: Dec 2023
+        details: School of Journalism and Communication, Nanjing University
+      - label: Nov 2023
+        details: School of Journalism and Communication, Nanjing Normal University
+      - label: Sep 2023
+        details: Department of Science Communication and Science Policy, USTC
+      - label: Jun 2023
+        details: School of Media and Communication, Shenzhen University
+      - label: Mar 2023
+        details: School of Journalism and Communication, Nanjing University
+      - label: Nov 2019
+        details: Institute for Communication Studies, National Chiao-Tung University
+      - label: Jul 2018
+        details: Knowledge Lab, University of Chicago
+      - label: Mar 2018
+        details: Tencent Institute, Tencent
+
+    Supervision and Mentorship:
+      - label: Undergraduate Thesis Supervision
+        details: |
+          - Jingling Xu → PhD at Shanghai Jiao Tong University
+          - Xiaoyi Zhang → MA at Nanjing University
+          - Jiacheng Chen → MA at Shanghai Jiao Tong University
+      - label: Mentorship and Advising (Master Students)
+        details: |
+          - Zhengyi Liang → PhD at UC Davis
+          - Xinya Jiang → PhD at UT Austin
+          - Yixiao Sun → PhD at Michigan State University
+      - label: Mentorship and Advising (Undergraduate Students)
+        details: |
+          - Yang Lu → MA at Nanjing University
+      - label: Member of Master's Thesis Defense Committee
+        details: |
+          - Zhikai Fan; Jiahui Liu; Yingyun Wu; Yong Cao; Huimei Shen
+      - label: Secretary of PhD Thesis Defense Committee (Final Defense)
+        details: |
+          - Zhuyan Cai; Hang Yin; Na Du; Zhujing Zhang; Yangyang Huang; Puqiuhang Chen; Jieyu Fang; Xinyao Ma; Muzhi Wang; Wei Zhu; Dan Li; Yinghui Du; Ying Huang
+      - label: Secretary of PhD Thesis Defense Committee (Pre-Defense)
+        details: |
+          - Jinda Teng; Jieyu Fang; Xinyao Ma; Muzhi Wang; Yuke Yang; Ruoyan Qin; Minqiu Xu; Haer Gao; Ning Li
+      - label: Secretary of PhD Thesis Defense Committee (Proposal Defense)
+        details: |
+          - Yuanzhen Liu
+
+    Professional Service:
+      - label: Journal Reviewer
+        details: Humanities and Social Sciences Communications; New Media & Society; Journal of Cross-Cultural Psychology; Quality & Quantity; Advances in Methods and Practices in Psychological Science; BMC Psychology; International Journal of Information Security; European Journal on Criminal Policy and Research; Sage Open; Journal of Computational Social Science; Communication and the Public; Frontiers in Psychology
+      - label: Conference Reviewer
+        details: International Conference on Computational Social Science (IC2S2); International Communication Association (ICA); International Association for Media and Communication Research (IAMCR); Association for Education in Journalism and Mass Communication (AEJMC)
+
+    Training:
+      - label: Nov 2025
+        details: CELC English Assist Programme, National University of Singapore. Organized by Centre for English Language Communication (CELC).
+      - label: Jul 2024
+        details: Summer Institute in Computational Social Science (SICSS), University of Pennsylvania.
+      - label: Aug 2023
+        details: Summer School in Journalism and Communication, Nanjing University.
+      - label: Nov 2022
+        details: Tsinghua Workshop on Big Data and Causal Inference, Tsinghua University.
+      - label: Feb 2021
+        details:
+          "Summer School in Political Analysis (SSPA), Australian National University. Theme: Time-Series Cross-Sectional Analysis (Advanced Course)."
+      - label: Jun 2019
+        details:
+          "Summer School 2019 Program, City University of Hong Kong. Theme: From Ideation to Publication."
+      - label: Nov 2018
+        details: SG8001 Teaching Students First Step, City University of Hong Kong.
+      - label: Aug 2016
+        details: The First Computational Social Science Workshop, Sun Yat-Sen University.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - label: Programming and Analysis
+        details: Python, Jupyter Notebook, PyCharm, R, RStudio, SPSS, STATA
+      - label: Systems and Engineering
+        details: Unix/Linux server administration, C/C++, Java, C#, .NET Framework, MATLAB
+      - label: Typesetting
+        details: LaTeX
+      - label: Languages
+        details: "Chinese (Mandarin, Native); Chinese (Cantonese, Basic); English (Full professional proficiency)"

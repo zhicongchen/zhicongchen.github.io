@@ -2,10 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: My research is organised around three interconnected themes — online safety in anonymous and decentralized ecosystems, misinformation and information resilience, and cultural analytics.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
 horizontal: false
 ---
 
@@ -29,7 +28,7 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}
@@ -55,7 +54,7 @@ horizontal: false
     </div>
   </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
+  <div class="row row-cols-1">
     {% for project in sorted_projects %}
       {% include projects.liquid %}
     {% endfor %}

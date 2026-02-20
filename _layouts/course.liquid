@@ -5,19 +5,31 @@ layout: page
   {% if page.instructor or page.term or page.location or page.time %}
     <div class="course-info">
       {% if page.instructor %}
-        <p><strong>Instructor:</strong> {{ page.instructor }}</p>
+        <div class="course-info-item">
+          <span class="course-info-label">Instructor</span>
+          <span class="course-info-value">{{ page.instructor }}</span>
+        </div>
       {% endif %}
 
       {% if page.term %}
-        <p><strong>Term:</strong> {{ page.term }}</p>
+        <div class="course-info-item">
+          <span class="course-info-label">Term</span>
+          <span class="course-info-value">{{ page.term }}{% if page.year %} {{ page.year }}{% endif %}</span>
+        </div>
       {% endif %}
 
       {% if page.location %}
-        <p><strong>Location:</strong> {{ page.location }}</p>
+        <div class="course-info-item">
+          <span class="course-info-label">Location</span>
+          <span class="course-info-value">{{ page.location }}</span>
+        </div>
       {% endif %}
 
       {% if page.time %}
-        <p><strong>Time:</strong> {{ page.time }}</p>
+        <div class="course-info-item">
+          <span class="course-info-label">Time</span>
+          <span class="course-info-value">{{ page.time }}</span>
+        </div>
       {% endif %}
     </div>
   {% endif %}
