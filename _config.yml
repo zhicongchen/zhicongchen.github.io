@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Welcome! # the website title (if blank, full name will be used instead)
+title: Zhicong Chen, Ph.D. # the website title (if blank, full name will be used instead)
 first_name: Zhicong
 middle_name:
-last_name: Chen, Ph.D.
-contact_note: >
-  Feel free to reach out via email.
+last_name: Chen
+# contact_note: >
+#   Feel free to reach out via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Postdoctoral Fellow at the National University of Singapore. Research at the intersection of digital media, online safety, and cultural analytics.
 footer_text: >
@@ -19,7 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://zhicongchen.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button

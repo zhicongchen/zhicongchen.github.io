@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: My research is organised around three interconnected themes — online safety in anonymous and decentralized ecosystems, misinformation and information resilience, and cultural analytics.
 nav: true
