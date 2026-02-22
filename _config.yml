@@ -9,12 +9,12 @@ last_name: Chen
 # contact_note: >
 #   Feel free to reach out via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Postdoctoral Fellow at the National University of Singapore. Research at the intersection of digital media, online safety, and cultural analytics.
+  Postdoctoral Fellow at the National University of Singapore. Research in data science, cybersecurity, NLP, and human-centric AI.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: computational social science, digital media, online safety, cultural analytics, digital resilience, NLP, text-as-data
+keywords: data science, cybersecurity, NLP, natural language processing, data mining, network analysis, online safety, information systems, social computing, web mining, human-centric AI, text mining
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

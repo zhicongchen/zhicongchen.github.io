@@ -1,12 +1,18 @@
 ---
 layout: page
-title: Projects
+title: Research
 permalink: /projects/
-description: My research is organised around three interconnected themes — online safety in anonymous and decentralized ecosystems, misinformation and information resilience, and cultural analytics.
+description: My research develops computational methods for online safety, social sensing, and multilingual large-scale text mining, with emphasis on privacy, security, and societal impact.
 nav: true
 nav_order: 3
 horizontal: false
 ---
+
+My research sits at the intersection of **computational social science**, **cybersecurity**, and **natural language processing**. I build reproducible computational pipelines for behavioral trace data, text corpora, and survey data to study online safety, platform dynamics, and sociotechnical risk.
+
+The three subpages below reflect one integrated agenda: (1) **privacy and security in decentralized and anonymous systems**, (2) **social sensing and behavioral analytics for digital resilience**, and (3) **multilingual NLP and text mining for cultural and geopolitical analytics**. Across these streams, I combine methodological depth (NLP, survival modeling, panel methods, causal inference strategies) with applied relevance in online safety, platform governance, and public-interest computing.
+
+The agenda is structured for externally funded, team-based research. Each stream is modular, allowing PhD students to lead identifiable subproblems (data engineering, modeling, evaluation, and societal interpretation) while contributing to a coherent long-term program.
 
 <!-- pages/projects.md -->
 <div class="projects">

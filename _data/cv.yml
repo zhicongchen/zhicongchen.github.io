@@ -68,15 +68,15 @@ cv:
           - School of Computer Science
           - Outstanding Graduate (Top 5%)
 
-    # Research Profile:
-    #   - label: Online Safety in Digital Platforms
-    #     details: I study anonymity systems, dark-web communities, and cross-platform misinformation diffusion to explain how risky content and social harm move from fringe to mainstream spaces.
-    #   - label: Digital Resilience in Emerging Media
-    #     details: I examine how algorithmic media use reshapes daily behaviour, emotional dynamics, and adaptive capacity, especially during crisis communication and high-information-pressure events.
-    #   - label: Cultural Analytics of Historical Texts
-    #     details: I use large-scale diachronic text analysis to trace value change, geopolitical framing, and ideology in East Asian contexts across books, newspapers, and archival corpora.
-    #   - label: Methods
-    #     details: Text-as-data analysis, NLP, network analysis, panel and longitudinal modelling, and cross-platform computational communication research.
+    Research Profile:
+      - label: Cybersecurity and Privacy in Decentralized Systems
+        details: Building large-scale data collection infrastructure and applying network cascade analysis, NLP, and survival modeling to study anonymity networks (Tor), dark web ecosystems, and cross-platform misinformation diffusion.
+      - label: Social Media Mining and User Behavior Analytics
+        details: Developing entropy-based behavioral metrics, automated emotion classification, and large-scale social media analytics to quantify how platform use reshapes user behavior, emotion dynamics, and information vulnerability.
+      - label: NLP and Large-Scale Text Mining
+        details: Training diachronic word embedding models on billion-token multilingual corpora and building temporal semantic analysis methods to detect and measure long-term cultural and ideological shifts.
+      - label: Methods and Infrastructure
+        details: NLP (word embeddings, sentiment classification, topic modeling), network analysis, large-scale web scraping (Tor-integrated crawlers), panel data analysis, survival analysis, cross-platform data pipelines.
 
     Publications:
       - title: "Tales of Twin Forums on the Dark and Surface Web: Social Interactions and User Sustainability in Anonymous Online Communities"
@@ -206,7 +206,7 @@ cv:
         releaseDate: 2024
         summary: "Chen Z., Liu X. F.*"
 
-      - title: "The dark web privacy dilemma: Talkativeness, linguistic diversity, and user engagement on the cryptomarket forums"
+      - title: "The Dark Web privacy dilemma: Talkativeness, linguistic diversity, and user engagement on the cryptomarket forums"
         publisher: ICA Annual Conference, Gold Coast, Australia
         releaseDate: 2024
         summary: "Chen Z., Meng X., Wang C. J.*"
@@ -226,7 +226,7 @@ cv:
         releaseDate: 2022
         summary: "Liang Z., Chao N.*, Chen Z.*. Top Student Paper."
 
-      - title: "Why do users leave anonymous online communities? An exploratory study of the Silk Road Forum on the dark web"
+      - title: "Why do users leave anonymous online communities? An exploratory study of the Silk Road Forum on the Dark Web"
         publisher: ICA Annual Conference, Denver, CO, USA (Virtual)
         releaseDate: 2021
         summary: "Chen Z., Liu X. F.*"
@@ -414,10 +414,16 @@ cv:
         details: The First Computational Social Science Workshop, Sun Yat-Sen University.
 
     Skills:
-      - label: Programming and Analysis
-        details: Python, Jupyter Notebook, PyCharm, R, RStudio, SPSS, STATA
-      - label: Systems and Engineering
-        details: Unix/Linux server administration, C/C++, Java, C#, .NET Framework, MATLAB
+      - label: Programming Languages
+        details: Python, R, C/C++, Java, C#, SQL, MATLAB
+      - label: Data Science and NLP
+        details: "scikit-learn, gensim, spaCy, NLTK, pandas, NumPy, NetworkX, Matplotlib, Seaborn; word embeddings (Word2Vec, GloVe), topic modeling, sentiment classification, text mining"
+      - label: Data Collection and Engineering
+        details: "Web scraping (Scrapy, BeautifulSoup, Selenium); Tor SOCKS proxy integration; API-based data collection; large-scale corpus construction"
+      - label: Statistical Analysis
+        details: "SPSS, STATA, R (tidyverse, lme4); structural equation modeling, survival analysis, panel data methods, time-series analysis"
+      - label: Systems and Infrastructure
+        details: "Unix/Linux server administration, Git, Docker, .NET Framework"
       - label: Typesetting
         details: LaTeX
       - label: Languages
