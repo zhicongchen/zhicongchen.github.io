@@ -9,9 +9,9 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "Projects",
-          description: "My research is organised around three interconnected themes — online safety in anonymous and decentralized ecosystems, misinformation and information resilience, and cultural analytics.",
+  },{id: "nav-research",
+          title: "Research",
+          description: "My research develops computational methods for online safety, social sensing, and multilingual large-scale text mining, with emphasis on privacy, security, and societal impact.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -416,19 +416,19 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-cultural-analytics-of-historical-texts",
-          title: 'Cultural Analytics of Historical Texts',
-          description: "Using large-scale computational text analysis to trace long-term cultural and ideological shifts in East Asian societies, drawing on decades of digitised newspapers, books, and archival sources.",
+          section: "News",},{id: "projects-multilingual-nlp-and-text-mining-for-cultural-and-geopolitical-analytics",
+          title: 'Multilingual NLP and Text Mining for Cultural and Geopolitical Analytics',
+          description: "Developing multilingual NLP and computational text analytics for long-horizon cultural change, geopolitical discourse, and policy-relevant historical data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cultural_analytics/";
-            },},{id: "projects-digital-resilience-in-emerging-media-technologies",
-          title: 'Digital Resilience in Emerging Media Technologies',
-          description: "Investigating how information and communication technology use shapes everyday behaviours, social rhythms, and adaptive capacity in an accelerated digital society.",
+            },},{id: "projects-social-sensing-and-behavioral-analytics-for-digital-resilience",
+          title: 'Social Sensing and Behavioral Analytics for Digital Resilience',
+          description: "Computational social science on platform behavior, emotion dynamics, and information vulnerability using social sensing, NLP, and panel methods.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/digital_resilience/";
-            },},{id: "projects-online-safety-in-digital-media-platforms",
-          title: 'Online Safety in Digital Media Platforms',
-          description: "Studying the Tor network, dark web forums, cryptomarkets, and decentralized ecosystems to understand how anonymity, fringe platforms, and information flows shape online safety.",
+            },},{id: "projects-privacy-and-security-in-decentralized-and-anonymous-systems",
+          title: 'Privacy and Security in Decentralized and Anonymous Systems',
+          description: "Computational research on anonymity, trust, and misinformation risks in decentralized and low-accountability online systems.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/online_safety/";
             },},{id: "teachings-com5508-media-data-analytics",
