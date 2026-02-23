@@ -453,7 +453,7 @@ ninja.data = [{
               window.location.href = "/teachings/introduction-to-python/";
             },},{id: "teachings-nm2226-introduction-to-visual-cultural-analytics",
           title: 'NM2226 Introduction to Visual Cultural Analytics',
-          description: "A mixed-methods undergraduate course on studying and researching visual culture in contemporary media environments, combining qualitative interpretation, content analysis, and computational approaches.",
+          description: "A mixed-methods undergraduate course on studying and researching visual culture in contemporary media environments, combining qualitative interpretation, content analysis, and artificial intelligence and machine learning methods including image feature extraction, classification, clustering, and the use of large language models for visual annotation.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/nm2226-introduction-to-visual-cultural-analytics/";
             },},{id: "teachings-nmc5342-introduction-to-applied-social-media-analytics",
