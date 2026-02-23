@@ -1,10 +1,10 @@
 ---
 layout: course
 title: "NM2226 Introduction to Visual Cultural Analytics"
-description: "A mixed-methods undergraduate course on studying and researching visual culture in contemporary media environments, combining qualitative interpretation, content analysis, and computational approaches."
+description: "A mixed-methods undergraduate course on studying and researching visual culture in contemporary media environments, combining qualitative interpretation, content analysis, and artificial intelligence and machine learning methods including image feature extraction, classification, clustering, and the use of large language models for visual annotation."
 instructor: Zhicong Chen
 year: 2026
-term: Spring
+term: Fall
 location: National University of Singapore
 code: NM2226
 course_id: visual-cultural-analytics
@@ -130,16 +130,16 @@ schedule:
 
 ## Course Overview
 
-From Instagram and TikTok to the use of visuals in news stories, the contemporary media environment is increasingly visual. This course provides systematic training in studying and researching visual culture in contemporary media environments. Combining both qualitative and quantitative approaches, the course introduces students to a range of methodological tools such as visual ethnography, content analysis, and computational multimodal analysis. By the end of the semester, students will be able to develop a mixed-method project to visual data and present findings in both academic and applied contexts.
+From Instagram and TikTok to the use of visuals in news stories, the contemporary media environment is increasingly visual. This course provides systematic training in studying and researching visual culture in contemporary media environments. Combining qualitative interpretation with artificial intelligence and machine learning methods, the course covers visual semiotics, discourse analysis, and content analysis alongside computational image processing, feature extraction using convolutional neural networks (CNNs), image classification and clustering, and the use of large language models (LLMs) for visual annotation. Students will critically assess the capabilities and limitations of these AI techniques. By the end of the semester, students will be able to develop a mixed-method project applying these approaches to visual data and present findings in both academic and applied contexts.
 
 ## Learning Objectives
 
 By the end of this course, students will be able to:
 
 1. **Apply** qualitative methods (semiotic, discourse, ethnographic) to interpret and analyze diverse visual materials, including images, films, videos, and digital media
-2. **Implement** basic quantitative and computational techniques (human coding, content analysis, feature extraction, clustering) for analyzing visual datasets
+2. **Implement** basic quantitative and AI-based computational techniques — including human coding, content analysis, machine learning-based feature extraction using convolutional neural networks, and image classification and clustering — for analyzing visual datasets
 3. **Design** and conduct a small-scale mixed-method visual project that integrates cultural interpretation with empirical analysis
-4. **Evaluate** and demonstrate ethical awareness and reflexivity in collecting, analyzing, and presenting visual data
+4. **Evaluate** and demonstrate ethical awareness and reflexivity in collecting, analyzing, and presenting visual data, including critical assessment of the capabilities, limitations, and biases of AI tools used in visual research
 5. **Communicate** visual research findings clearly and effectively in written, oral, and visual formats
 
 ## Prerequisites
