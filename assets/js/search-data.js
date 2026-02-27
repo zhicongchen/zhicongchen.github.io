@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "Research",
-          description: "My research develops computational methods for online safety, social sensing, and multilingual large-scale text mining, with emphasis on privacy, security, and societal impact.",
+          description: "Integrated research on online safety, digital resilience, and cultural analytics through information, attention, behavior, and long-term discourse dynamics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -416,19 +416,19 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-multilingual-nlp-and-text-mining-for-cultural-and-geopolitical-analytics",
-          title: 'Multilingual NLP and Text Mining for Cultural and Geopolitical Analytics',
-          description: "Developing multilingual NLP and computational text analytics for long-horizon cultural change, geopolitical discourse, and policy-relevant historical data.",
+          section: "News",},{id: "projects-meaning-and-cultural-dynamics-in-long-term-discourse",
+          title: 'Meaning and Cultural Dynamics in Long-Term Discourse',
+          description: "Multilingual and diachronic NLP for tracing long-run meaning and cultural dynamics across large-scale historical and contemporary corpora, including shifts in values and narratives.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cultural_analytics/";
-            },},{id: "projects-social-sensing-and-behavioral-analytics-for-digital-resilience",
-          title: 'Social Sensing and Behavioral Analytics for Digital Resilience',
-          description: "Computational social science on platform behavior, emotion dynamics, and information vulnerability using social sensing, NLP, and panel methods.",
+            },},{id: "projects-attention-and-behavior-dynamics-on-public-platforms",
+          title: 'Attention and Behavior Dynamics on Public Platforms',
+          description: "Computational social science on attention, behavior, emotion dynamics, and information vulnerability on public platforms, including how these dynamics shape emotional climates and collective response capacity.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/digital_resilience/";
-            },},{id: "projects-privacy-and-security-in-decentralized-and-anonymous-systems",
-          title: 'Privacy and Security in Decentralized and Anonymous Systems',
-          description: "Computational research on anonymity, trust, and misinformation risks in decentralized and low-accountability online systems.",
+            },},{id: "projects-information-and-knowledge-dynamics-in-hidden-networks",
+          title: 'Information and Knowledge Dynamics in Hidden Networks',
+          description: "Computational research on information and knowledge dynamics in hidden or low-accountability networks, including anonymity systems, trust, misinformation risk, and links to wider public-platform harms.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/online_safety/";
             },},{id: "teachings-com5508-media-data-analytics",
