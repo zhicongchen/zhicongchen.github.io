@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Privacy and Security in Decentralized and Anonymous Systems
-description: Computational research on anonymity, trust, and misinformation risks in decentralized and low-accountability online systems.
+title: "Information and Knowledge Dynamics in Hidden Networks"
+description: Computational research on information and knowledge dynamics in hidden or low-accountability networks, including anonymity systems, trust, misinformation risk, and links to wider public-platform harms.
 img: https://images.unsplash.com/photo-1451187580459-43490279c0fa
 importance: 1
 related_publications: true
@@ -38,6 +38,6 @@ _styles: |
 
 ## Program Direction
 
-- Build reproducible measurement frameworks for online safety and platform risk.
-- Publish methods and empirical findings across computing/security and interdisciplinary venues.
-- Develop modular PhD projects in data engineering, modeling, and risk evaluation.
+- Track cross-platform risk transfer between hidden networks and mainstream platforms using longitudinal designs.
+- Develop stronger causal and early-warning models for misinformation, fraud, and security-relevant discourse.
+- Expand comparative analyses across languages, communities, and platform governance regimes.

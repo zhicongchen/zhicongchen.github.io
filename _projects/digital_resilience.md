@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Social Sensing and Behavioral Analytics for Digital Resilience
-description: Computational social science on platform behavior, emotion dynamics, and information vulnerability using social sensing, NLP, and panel methods.
+title: "Attention and Behavior Dynamics on Public Platforms"
+description: Computational social science on attention, behavior, emotion dynamics, and information vulnerability on public platforms, including how these dynamics shape emotional climates and collective response capacity.
 img: https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1600
 importance: 2
 related_publications: true
@@ -40,6 +40,6 @@ _styles: |
 
 ## Program Direction
 
-- Build policy-relevant computational evidence on platform effects and information vulnerability.
-- Publish reusable methods in computing venues and domain findings in high-impact interdisciplinary outlets.
-- Train PhD students on end-to-end social sensing workflows and causal inference in observational settings.
+- Estimate how attention shocks and exposure pathways influence information vulnerability over time.
+- Integrate emotion, discourse, and behavioral signals into unified resilience measurement frameworks.
+- Connect platform-level dynamics to broader indicators of collective response in crisis and policy contexts.

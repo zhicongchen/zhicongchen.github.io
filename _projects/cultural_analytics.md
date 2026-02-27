@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Multilingual NLP and Text Mining for Cultural and Geopolitical Analytics
-description: Developing multilingual NLP and computational text analytics for long-horizon cultural change, geopolitical discourse, and policy-relevant historical data.
+title: "Meaning and Cultural Dynamics in Long-Term Discourse"
+description: Multilingual and diachronic NLP for tracing long-run meaning and cultural dynamics across large-scale historical and contemporary corpora, including shifts in values and narratives.
 img: https://images.unsplash.com/photo-1770910328132-a4de62954292?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000
 importance: 3
 related_publications: true
@@ -39,6 +39,6 @@ _styles: |
 
 ## Program Direction
 
-- Build robust multilingual NLP methods for socially grounded and policy-relevant analytics.
-- Pair method papers with domain studies in culture, geopolitics, and communication.
-- Supervise PhD projects on corpus methods, interpretability, and cross-domain validation.
+- Extend diachronic modeling to more multilingual corpora and media sources across longer historical windows.
+- Improve interpretability and validation of semantic change estimates through stronger triangulation with external records.
+- Link long-term cultural shifts to major geopolitical and policy events using event-aligned comparative designs.
