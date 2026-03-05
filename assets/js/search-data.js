@@ -467,18 +467,25 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/text-as-data/";
             },},{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0000-0003-0334-9454", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=mt_TyjoAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Zhicong-Chen-2/", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-0334-9454", "_blank");
         },
       },{
         id: 'social-github',
@@ -500,6 +507,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/jssyczc", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/zhicongchen.bsky.social", "_blank");
+        },
+      },{
+        id: 'social-mastodon',
+        title: 'Mastodon',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://zhicongchen", "_blank");
         },
       },{
       id: 'light-theme',

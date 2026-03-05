@@ -6,7 +6,7 @@
  * Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2025 Fonticons, Inc.
- */:root{--fa-family-brands:'Font Awesome 7 Brands';--fa-font-brands:normal 400 1em/1 var(--fa-family-brands)}@font-face{font-family:"Font Awesome 7 Brands";font-style:normal;font-weight:400;font-display:block;src:url("../webfonts/fa-brands-400.woff2")}.fa-brands{--fa-family:var(--fa-family-brands);--fa-style:400}.fa-x-twitter{--fa:""}.fa-linkedin{--fa:""}.fa-github{--fa:""}.fa-amazon{--fa:""}.fa-goodreads-g{--fa:""}/*!
+ */:root{--fa-family-brands:'Font Awesome 7 Brands';--fa-font-brands:normal 400 1em/1 var(--fa-family-brands)}@font-face{font-family:"Font Awesome 7 Brands";font-style:normal;font-weight:400;font-display:block;src:url("../webfonts/fa-brands-400.woff2")}.fa-brands{--fa-family:var(--fa-family-brands);--fa-style:400}.fa-x-twitter{--fa:""}.fa-bluesky{--fa:""}.fa-linkedin{--fa:""}.fa-github{--fa:""}.fa-amazon{--fa:""}.fa-goodreads-g{--fa:""}.fa-mastodon{--fa:""}/*!
  * Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2025 Fonticons, Inc.
