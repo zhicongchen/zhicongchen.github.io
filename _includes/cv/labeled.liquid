@@ -8,13 +8,11 @@
   - Bullet-only entry: plain paragraph.
 {% endcomment %}
 
-{% assign time_tokens = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,Fall,Spring,Summer,Winter" | split: "," %}
+{% assign time_tokens = 'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,Fall,Spring,Summer,Winter' | split: ',' %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
-
     {% if entry.label and entry.details %}
-
       {% comment %} Detect whether this label is a time/date {% endcomment %}
       {% assign is_time = false %}
       {% for token in time_tokens %}
@@ -76,6 +74,5 @@
         <p class="ml-1">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       </li>
     {% endif %}
-
   {% endfor %}
 </ul>

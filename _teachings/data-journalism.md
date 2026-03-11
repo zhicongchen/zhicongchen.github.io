@@ -167,19 +167,19 @@ Fall 2023, Fall 2024
 
 ## Required Reading
 
-- Bounegru, L. & Gray, J. (Eds.) (2021). [*The Data Journalism Handbook 2*](https://datajournalism.com/read/handbook/two) — free online.
-- Knaflic, C. N. (2015). [*Storytelling with Data*](https://www.storytellingwithdata.com/). Wiley.
+- Bounegru, L. & Gray, J. (Eds.) (2021). [_The Data Journalism Handbook 2_](https://datajournalism.com/read/handbook/two) — free online.
+- Knaflic, C. N. (2015). [_Storytelling with Data_](https://www.storytellingwithdata.com/). Wiley.
 
 ## Recommended Tools
 
-| Tool | Use | Link |
-|------|-----|------|
-| Google Sheets | Spreadsheet analysis | [sheets.google.com](https://sheets.google.com/) |
-| OpenRefine | Data cleaning | [openrefine.org](https://openrefine.org/) |
-| Datawrapper | Charts & maps | [datawrapper.de](https://www.datawrapper.de/) |
-| Flourish | Interactive visuals | [flourish.studio](https://flourish.studio/) |
-| RAWGraphs | Exploratory charts | [rawgraphs.io](https://www.rawgraphs.io/) |
-| Google Colab | Python in the browser | [colab.research.google.com](https://colab.research.google.com/) |
+| Tool          | Use                   | Link                                                            |
+| ------------- | --------------------- | --------------------------------------------------------------- |
+| Google Sheets | Spreadsheet analysis  | [sheets.google.com](https://sheets.google.com/)                 |
+| OpenRefine    | Data cleaning         | [openrefine.org](https://openrefine.org/)                       |
+| Datawrapper   | Charts & maps         | [datawrapper.de](https://www.datawrapper.de/)                   |
+| Flourish      | Interactive visuals   | [flourish.studio](https://flourish.studio/)                     |
+| RAWGraphs     | Exploratory charts    | [rawgraphs.io](https://www.rawgraphs.io/)                       |
+| Google Colab  | Python in the browser | [colab.research.google.com](https://colab.research.google.com/) |
 
 ## Notable Data Journalism Outlets
 
@@ -187,13 +187,13 @@ Fall 2023, Fall 2024
 - [FiveThirtyEight](https://fivethirtyeight.com/)
 - [Reuters Graphics](https://graphics.reuters.com/)
 - [The Guardian Datablog](https://www.theguardian.com/data)
-- [Caixin Data](https://www.caixinglobal.com/) *(Chinese context)*
+- [Caixin Data](https://www.caixinglobal.com/) _(Chinese context)_
 
 ## Assessment
 
-| Component | Weight |
-|-----------|--------|
-| Weekly data exercises | 30% |
-| Mid-term data analysis | 20% |
-| Final data journalism story | 40% |
-| Participation & peer review | 10% |
+| Component                   | Weight |
+| --------------------------- | ------ |
+| Weekly data exercises       | 30%    |
+| Mid-term data analysis      | 20%    |
+| Final data journalism story | 40%    |
+| Participation & peer review | 10%    |

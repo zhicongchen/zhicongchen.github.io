@@ -142,27 +142,27 @@ Spring 2024
 
 ## Required Textbook
 
-McKinney, W. (2022). [*Python for Data Analysis*, 3rd ed.](https://wesmckinney.com/book/) — freely available online. O'Reilly.
+McKinney, W. (2022). [_Python for Data Analysis_, 3rd ed.](https://wesmckinney.com/book/) — freely available online. O'Reilly.
 
 ## Key Tools
 
-| Tool | Purpose | Link |
-|------|---------|------|
-| Python 3 | Core language | [python.org](https://www.python.org/) |
-| Jupyter Notebook | Interactive coding environment | [jupyter.org](https://jupyter.org/) |
-| Google Colab | Cloud-based Jupyter (no setup) | [colab.research.google.com](https://colab.research.google.com/) |
-| pandas | Data manipulation | [pandas.pydata.org](https://pandas.pydata.org/docs/) |
-| NumPy | Numerical computing | [numpy.org](https://numpy.org/doc/) |
-| matplotlib | Plotting | [matplotlib.org](https://matplotlib.org/) |
-| seaborn | Statistical visualisation | [seaborn.pydata.org](https://seaborn.pydata.org/) |
-| Requests + BeautifulSoup | Web scraping | [requests](https://docs.python-requests.org/en/latest/) |
-| Anaconda | All-in-one installer | [anaconda.com](https://www.anaconda.com/download) |
+| Tool                     | Purpose                        | Link                                                            |
+| ------------------------ | ------------------------------ | --------------------------------------------------------------- |
+| Python 3                 | Core language                  | [python.org](https://www.python.org/)                           |
+| Jupyter Notebook         | Interactive coding environment | [jupyter.org](https://jupyter.org/)                             |
+| Google Colab             | Cloud-based Jupyter (no setup) | [colab.research.google.com](https://colab.research.google.com/) |
+| pandas                   | Data manipulation              | [pandas.pydata.org](https://pandas.pydata.org/docs/)            |
+| NumPy                    | Numerical computing            | [numpy.org](https://numpy.org/doc/)                             |
+| matplotlib               | Plotting                       | [matplotlib.org](https://matplotlib.org/)                       |
+| seaborn                  | Statistical visualisation      | [seaborn.pydata.org](https://seaborn.pydata.org/)               |
+| Requests + BeautifulSoup | Web scraping                   | [requests](https://docs.python-requests.org/en/latest/)         |
+| Anaconda                 | All-in-one installer           | [anaconda.com](https://www.anaconda.com/download)               |
 
 ## Assessment
 
-| Component | Weight |
-|-----------|--------|
-| Weekly coding exercises | 40% |
-| Midterm project | 20% |
-| Final data analysis project | 35% |
-| Participation | 5% |
+| Component                   | Weight |
+| --------------------------- | ------ |
+| Weekly coding exercises     | 40%    |
+| Midterm project             | 20%    |
+| Final data analysis project | 35%    |
+| Participation               | 5%     |

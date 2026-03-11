@@ -1,6 +1,6 @@
 cv:
   name: Zhicong Chen, Ph.D.
-  label: 
+  label:
   email: zcchen@nus.edu.sg
   website: https://zhicongchen.github.io
   address:
@@ -403,11 +403,9 @@ cv:
       - label: Nov 2022
         details: Tsinghua Workshop on Big Data and Causal Inference, Tsinghua University.
       - label: Feb 2021
-        details:
-          "Summer School in Political Analysis (SSPA), Australian National University. Theme: Time-Series Cross-Sectional Analysis (Advanced Course)."
+        details: "Summer School in Political Analysis (SSPA), Australian National University. Theme: Time-Series Cross-Sectional Analysis (Advanced Course)."
       - label: Jun 2019
-        details:
-          "Summer School 2019 Program, City University of Hong Kong. Theme: From Ideation to Publication."
+        details: "Summer School 2019 Program, City University of Hong Kong. Theme: From Ideation to Publication."
       - label: Nov 2018
         details: SG8001 Teaching Students First Step, City University of Hong Kong.
       - label: Aug 2016

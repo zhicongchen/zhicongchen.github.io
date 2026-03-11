@@ -169,19 +169,19 @@ Spring 2024, Spring 2025
 
 ## Required Text
 
-Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). [*Text as Data: A New Framework for Machine Learning and the Social Sciences*](https://press.princeton.edu/books/paperback/9780691207551/text-as-data). Princeton University Press.
+Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). [_Text as Data: A New Framework for Machine Learning and the Social Sciences_](https://press.princeton.edu/books/paperback/9780691207551/text-as-data). Princeton University Press.
 
 ## Key Python Libraries
 
-| Library | Purpose | Link |
-|---------|---------|------|
-| NLTK | Classic NLP toolkit | [nltk.org](https://www.nltk.org/) |
-| spaCy | Industrial-strength NLP | [spacy.io](https://spacy.io/) |
-| Gensim | Topic models & word vectors | [radimrehurek.com/gensim](https://radimrehurek.com/gensim/) |
-| scikit-learn | ML classifiers & vectorisers | [scikit-learn.org](https://scikit-learn.org/stable/) |
-| Hugging Face Transformers | BERT, GPT, and more | [huggingface.co](https://huggingface.co/) |
-| BERTopic | Neural topic modelling | [maartengr.github.io/BERTopic](https://maartengr.github.io/BERTopic/) |
-| VADER | Rule-based sentiment | [github.com/cjhutto/vaderSentiment](https://github.com/cjhutto/vaderSentiment) |
+| Library                   | Purpose                      | Link                                                                           |
+| ------------------------- | ---------------------------- | ------------------------------------------------------------------------------ |
+| NLTK                      | Classic NLP toolkit          | [nltk.org](https://www.nltk.org/)                                              |
+| spaCy                     | Industrial-strength NLP      | [spacy.io](https://spacy.io/)                                                  |
+| Gensim                    | Topic models & word vectors  | [radimrehurek.com/gensim](https://radimrehurek.com/gensim/)                    |
+| scikit-learn              | ML classifiers & vectorisers | [scikit-learn.org](https://scikit-learn.org/stable/)                           |
+| Hugging Face Transformers | BERT, GPT, and more          | [huggingface.co](https://huggingface.co/)                                      |
+| BERTopic                  | Neural topic modelling       | [maartengr.github.io/BERTopic](https://maartengr.github.io/BERTopic/)          |
+| VADER                     | Rule-based sentiment         | [github.com/cjhutto/vaderSentiment](https://github.com/cjhutto/vaderSentiment) |
 
 ## Useful Datasets
 
@@ -191,9 +191,9 @@ Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). [*Text as Data: A New Fram
 
 ## Assessment
 
-| Component | Weight |
-|-----------|--------|
-| Weekly coding labs | 35% |
-| Midterm method paper | 20% |
-| Final research project | 40% |
-| Participation | 5% |
+| Component              | Weight |
+| ---------------------- | ------ |
+| Weekly coding labs     | 35%    |
+| Midterm method paper   | 20%    |
+| Final research project | 40%    |
+| Participation          | 5%     |

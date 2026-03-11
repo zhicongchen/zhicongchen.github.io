@@ -169,28 +169,28 @@ Department of Communications and New Media, National University of Singapore
 
 ## Key Tools and Libraries
 
-| Tool | Purpose | Link |
-|------|---------|------|
-| PRAW | Reddit API client | [praw.readthedocs.io](https://praw.readthedocs.io/) |
-| YouTube Data API | YouTube data | [developers.google.com/youtube](https://developers.google.com/youtube/v3) |
-| spaCy | NLP preprocessing | [spacy.io](https://spacy.io/) |
-| Hugging Face | Transformer models | [huggingface.co](https://huggingface.co/) |
-| NetworkX | Network analysis | [networkx.org](https://networkx.org/) |
-| Gephi | Network visualisation | [gephi.org](https://gephi.org/) |
-| BERTopic | Topic modelling | [maartengr.github.io/BERTopic](https://maartengr.github.io/BERTopic/) |
-| Botometer | Bot detection | [botometer.osome.iu.edu](https://botometer.osome.iu.edu/) |
+| Tool             | Purpose               | Link                                                                      |
+| ---------------- | --------------------- | ------------------------------------------------------------------------- |
+| PRAW             | Reddit API client     | [praw.readthedocs.io](https://praw.readthedocs.io/)                       |
+| YouTube Data API | YouTube data          | [developers.google.com/youtube](https://developers.google.com/youtube/v3) |
+| spaCy            | NLP preprocessing     | [spacy.io](https://spacy.io/)                                             |
+| Hugging Face     | Transformer models    | [huggingface.co](https://huggingface.co/)                                 |
+| NetworkX         | Network analysis      | [networkx.org](https://networkx.org/)                                     |
+| Gephi            | Network visualisation | [gephi.org](https://gephi.org/)                                           |
+| BERTopic         | Topic modelling       | [maartengr.github.io/BERTopic](https://maartengr.github.io/BERTopic/)     |
+| Botometer        | Bot detection         | [botometer.osome.iu.edu](https://botometer.osome.iu.edu/)                 |
 
 ## Recommended Readings
 
-- Salganik, M. J. (2017). [*Bit by Bit: Social Research in the Digital Age*](https://www.bitbybitbook.com/) — free online.
-- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). [*Text as Data*](https://press.princeton.edu/books/paperback/9780691207551/text-as-data). Princeton UP.
-- Easley, D. & Kleinberg, J. (2010). [*Networks, Crowds, and Markets*](https://www.cs.cornell.edu/home/kleinber/networks-book/) — free online.
+- Salganik, M. J. (2017). [_Bit by Bit: Social Research in the Digital Age_](https://www.bitbybitbook.com/) — free online.
+- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). [_Text as Data_](https://press.princeton.edu/books/paperback/9780691207551/text-as-data). Princeton UP.
+- Easley, D. & Kleinberg, J. (2010). [_Networks, Crowds, and Markets_](https://www.cs.cornell.edu/home/kleinber/networks-book/) — free online.
 
 ## Assessment
 
-| Component | Weight |
-|-----------|--------|
-| Weekly labs | 30% |
-| Research design memo | 15% |
-| Final project | 45% |
-| Participation | 10% |
+| Component            | Weight |
+| -------------------- | ------ |
+| Weekly labs          | 30%    |
+| Research design memo | 15%    |
+| Final project        | 45%    |
+| Participation        | 10%    |

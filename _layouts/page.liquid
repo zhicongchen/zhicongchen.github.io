@@ -20,7 +20,7 @@ layout: default
 
   {% if page.related_publications %}
     {% capture bib_output %}{% bibliography --cited_in_order %}{% endcapture %}
-    {% if bib_output != "" %}
+    {% if bib_output != '' %}
       <h2>References</h2>
       <div class="publications">
         {{ bib_output }}

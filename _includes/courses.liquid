@@ -1,7 +1,7 @@
 {% if site.teachings %}
   <div class="courses">
     {% comment %} Collect all unique years across all courses {% endcomment %}
-    {% assign all_years = "" | split: "" %}
+    {% assign all_years = '' | split: '' %}
     {% for course in site.teachings %}
       {% if course.years %}
         {% for y in course.years %}
@@ -41,7 +41,10 @@
 
               <div class="course-meta">
                 {% if course.term %}
-                  <span class="course-term">{{ course.term }} {{ year }}</span>
+                  <span class="course-term">
+                    {{- course.term }}
+                    {{ year -}}
+                  </span>
                 {% endif %}
 
                 {% if course.instructor %}

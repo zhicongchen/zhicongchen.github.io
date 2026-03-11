@@ -134,7 +134,7 @@ schedule:
 
 This graduate seminar introduces students to computational and quantitative methods for media and communication research. Topics span the full research pipeline: data collection (APIs, scraping), text analysis (sentiment, topic modeling, word embeddings), social network analysis, and machine learning classification.
 
-*Zhicong Chen served as Teaching Assistant for this course.*
+_Zhicong Chen served as Teaching Assistant for this course._
 
 ## Learning Objectives
 
@@ -156,26 +156,26 @@ Department of Media and Communication, City University of Hong Kong
 
 ## Key Software and Libraries
 
-| Tool | Purpose | Link |
-|------|---------|------|
-| Python 3 | Core language | [python.org](https://www.python.org/) |
-| NLTK | NLP preprocessing | [nltk.org](https://www.nltk.org/) |
-| Gensim | Topic models & word vectors | [radimrehurek.com/gensim](https://radimrehurek.com/gensim/) |
-| scikit-learn | Machine learning | [scikit-learn.org](https://scikit-learn.org/stable/) |
-| NetworkX | Network analysis | [networkx.org](https://networkx.org/) |
-| Gephi | Network visualisation | [gephi.org](https://gephi.org/) |
-| Beautiful Soup | Web scraping | [crummy.com/software/BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) |
+| Tool           | Purpose                     | Link                                                                                        |
+| -------------- | --------------------------- | ------------------------------------------------------------------------------------------- |
+| Python 3       | Core language               | [python.org](https://www.python.org/)                                                       |
+| NLTK           | NLP preprocessing           | [nltk.org](https://www.nltk.org/)                                                           |
+| Gensim         | Topic models & word vectors | [radimrehurek.com/gensim](https://radimrehurek.com/gensim/)                                 |
+| scikit-learn   | Machine learning            | [scikit-learn.org](https://scikit-learn.org/stable/)                                        |
+| NetworkX       | Network analysis            | [networkx.org](https://networkx.org/)                                                       |
+| Gephi          | Network visualisation       | [gephi.org](https://gephi.org/)                                                             |
+| Beautiful Soup | Web scraping                | [crummy.com/software/BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) |
 
 ## Recommended Texts
 
-- Salganik, M. J. (2017). [*Bit by Bit: Social Research in the Digital Age*](https://www.bitbybitbook.com/) — free online.
-- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). [*Text as Data*](https://press.princeton.edu/books/paperback/9780691207551/text-as-data). Princeton UP.
+- Salganik, M. J. (2017). [_Bit by Bit: Social Research in the Digital Age_](https://www.bitbybitbook.com/) — free online.
+- Grimmer, J., Roberts, M. E., & Stewart, B. M. (2022). [_Text as Data_](https://press.princeton.edu/books/paperback/9780691207551/text-as-data). Princeton UP.
 
 ## Assessment
 
-| Component | Weight |
-|-----------|--------|
-| Weekly lab exercises | 30% |
-| Literature review | 20% |
-| Final research project | 45% |
-| Participation | 5% |
+| Component              | Weight |
+| ---------------------- | ------ |
+| Weekly lab exercises   | 30%    |
+| Literature review      | 20%    |
+| Final research project | 45%    |
+| Participation          | 5%     |

@@ -168,23 +168,23 @@ Spring 2025
 
 ## Required Texts
 
-- Munzner, T. (2014). [*Visualization Analysis and Design*](https://www.cs.ubc.ca/~tmm/vadbook/). CRC Press.
-- Cairo, A. (2016). [*The Truthful Art*](http://www.thefunctionalart.com/p/the-truthful-art-book.html). New Riders.
+- Munzner, T. (2014). [_Visualization Analysis and Design_](https://www.cs.ubc.ca/~tmm/vadbook/). CRC Press.
+- Cairo, A. (2016). [_The Truthful Art_](http://www.thefunctionalart.com/p/the-truthful-art-book.html). New Riders.
 
 ## Recommended Resources
 
-| Resource | Link |
-|----------|------|
-| matplotlib Documentation | [matplotlib.org](https://matplotlib.org/) |
-| seaborn Documentation | [seaborn.pydata.org](https://seaborn.pydata.org/) |
-| Plotly Python | [plotly.com/python](https://plotly.com/python/) |
-| Altair | [altair-viz.github.io](https://altair-viz.github.io/) |
-| D3.js | [d3js.org](https://d3js.org/) |
+| Resource                 | Link                                                     |
+| ------------------------ | -------------------------------------------------------- |
+| matplotlib Documentation | [matplotlib.org](https://matplotlib.org/)                |
+| seaborn Documentation    | [seaborn.pydata.org](https://seaborn.pydata.org/)        |
+| Plotly Python            | [plotly.com/python](https://plotly.com/python/)          |
+| Altair                   | [altair-viz.github.io](https://altair-viz.github.io/)    |
+| D3.js                    | [d3js.org](https://d3js.org/)                            |
 | Observable (D3 examples) | [observablehq.com](https://observablehq.com/@d3/gallery) |
-| ColorBrewer | [colorbrewer2.org](https://colorbrewer2.org/) |
-| Gephi | [gephi.org](https://gephi.org/) |
-| Streamlit | [streamlit.io](https://streamlit.io/) |
-| Datawrapper | [datawrapper.de](https://www.datawrapper.de/) |
+| ColorBrewer              | [colorbrewer2.org](https://colorbrewer2.org/)            |
+| Gephi                    | [gephi.org](https://gephi.org/)                          |
+| Streamlit                | [streamlit.io](https://streamlit.io/)                    |
+| Datawrapper              | [datawrapper.de](https://www.datawrapper.de/)            |
 
 ## Inspiration
 
@@ -196,9 +196,9 @@ Spring 2025
 
 ## Assessment
 
-| Component | Weight |
-|-----------|--------|
-| Weekly visualisation assignments | 35% |
-| Midterm critique essay | 15% |
-| Final visualisation project | 40% |
-| Participation & peer critique | 10% |
+| Component                        | Weight |
+| -------------------------------- | ------ |
+| Weekly visualisation assignments | 35%    |
+| Midterm critique essay           | 15%    |
+| Final visualisation project      | 40%    |
+| Participation & peer critique    | 10%    |

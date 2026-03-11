@@ -2,21 +2,32 @@
 layout: page
 title: Research
 permalink: /projects/
-description: Integrated research on online safety, digital resilience, and cultural analytics through information, attention, behavior, and long-term discourse dynamics.
+description: >-
+  Integrated research on online safety, digital resilience, and cultural
+  analytics through information, attention, behavior, and long-term discourse
+  dynamics.
 nav: false
 nav_order: 3
 horizontal: false
 ---
 
-My research sits at the intersection of computational social science, cybersecurity, and natural language processing. I advance **online safety**, **digital resilience**, and **cultural analytics** through three connected lines of inquiry:
+My research sits at the intersection of computational social science,
+cybersecurity, and natural language processing. I advance **online safety**,
+**digital resilience**, and **cultural analytics** through three connected
+lines of inquiry:
 
 - Information and Knowledge Dynamics in Hidden Networks
 - Attention and Behavior Dynamics on Public Platforms
 - Meaning and Cultural Dynamics in Long-Term Discourse
 
-The three subpages below reflect this integrated agenda. Across these streams, I combine methodological depth (NLP, survival modeling, panel methods, causal inference strategies) with applied relevance in online safety, platform governance, and public-interest computing.
+The three subpages below reflect this integrated agenda. Across these streams,
+I combine methodological depth (NLP, survival modeling, panel methods, causal
+inference strategies) with applied relevance in online safety, platform
+governance, and public-interest computing.
 
-The agenda is structured for externally funded, team-based research, with modular streams that support cumulative progress in data engineering, modeling, evaluation, and societal interpretation.
+The agenda is structured for externally funded, team-based research, with
+modular streams that support cumulative progress in data engineering, modeling,
+evaluation, and societal interpretation.
 
 <!-- pages/projects.md -->
 <div class="projects">

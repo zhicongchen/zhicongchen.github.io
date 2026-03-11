@@ -156,30 +156,30 @@ Department of Communications and New Media, National University of Singapore
 
 ## Workload
 
-| Activity | Hours/week |
-|----------|-----------|
-| Lecture | 2 hrs — core concepts, method overviews, demonstrations |
-| Tutorial | 1 hr — code-along labs, peer feedback, case discussions |
-| Group project work | 4 hrs — data collection, analysis, write-up |
-| Preparatory work | 3 hrs — readings, reflection notes, dataset familiarisation |
-| **Total** | **10 hrs** |
+| Activity           | Hours/week                                                  |
+| ------------------ | ----------------------------------------------------------- |
+| Lecture            | 2 hrs — core concepts, method overviews, demonstrations     |
+| Tutorial           | 1 hr — code-along labs, peer feedback, case discussions     |
+| Group project work | 4 hrs — data collection, analysis, write-up                 |
+| Preparatory work   | 3 hrs — readings, reflection notes, dataset familiarisation |
+| **Total**          | **10 hrs**                                                  |
 
 ## Required Textbooks
 
-- Rose, G. (2022). [*Visual Methodologies: An Introduction to Working with Visual Materials*](https://uk.sagepub.com/en-gb/eur/visual-methodologies/book282907) (5th ed.). Sage.
-- Manovich, L. (2020). [*Cultural Analytics*](https://mitpress.mit.edu/9780262544764/cultural-analytics/). MIT Press. — [free online](https://culturalanalytics.org/book/manovich-cultural-analytics.pdf)
-- Szeliski, R. (2022). [*Computer Vision: Algorithms and Applications*](https://szeliski.org/Book/) (2nd ed.). Springer. — free online
+- Rose, G. (2022). [_Visual Methodologies: An Introduction to Working with Visual Materials_](https://uk.sagepub.com/en-gb/eur/visual-methodologies/book282907) (5th ed.). Sage.
+- Manovich, L. (2020). [_Cultural Analytics_](https://mitpress.mit.edu/9780262544764/cultural-analytics/). MIT Press. — [free online](https://culturalanalytics.org/book/manovich-cultural-analytics.pdf)
+- Szeliski, R. (2022). [_Computer Vision: Algorithms and Applications_](https://szeliski.org/Book/) (2nd ed.). Springer. — free online
 
 ## Key Tools
 
-| Tool | Purpose | Link |
-|------|---------|------|
-| Python + Jupyter | Computational analysis | [jupyter.org](https://jupyter.org/) |
-| OpenCV | Image processing | [opencv.org](https://opencv.org/) |
-| scikit-learn | Classification & clustering | [scikit-learn.org](https://scikit-learn.org/stable/) |
-| ImagePlot | Visualising image collections | [lab.softwarestudies.com](http://lab.softwarestudies.com/p/imageplot.html) |
-| Google Colab | Cloud computing (no setup) | [colab.research.google.com](https://colab.research.google.com/) |
-| data.gov.sg | NLS Digitized Images dataset | [data.gov.sg](https://data.gov.sg/) |
+| Tool             | Purpose                       | Link                                                                       |
+| ---------------- | ----------------------------- | -------------------------------------------------------------------------- |
+| Python + Jupyter | Computational analysis        | [jupyter.org](https://jupyter.org/)                                        |
+| OpenCV           | Image processing              | [opencv.org](https://opencv.org/)                                          |
+| scikit-learn     | Classification & clustering   | [scikit-learn.org](https://scikit-learn.org/stable/)                       |
+| ImagePlot        | Visualising image collections | [lab.softwarestudies.com](http://lab.softwarestudies.com/p/imageplot.html) |
+| Google Colab     | Cloud computing (no setup)    | [colab.research.google.com](https://colab.research.google.com/)            |
+| data.gov.sg      | NLS Digitized Images dataset  | [data.gov.sg](https://data.gov.sg/)                                        |
 
 ## Group Project
 
@@ -192,11 +192,11 @@ The group project focuses on mapping cultural representations and diachronic cha
 
 ## Assessment
 
-| Component | Weight | Notes |
-|-----------|--------|-------|
-| Class participation | 15% | Contributions to lectures and tutorials |
-| Individual lightning presentation | 15% | 5-min critical review of one visual analysis case |
-| Reflective essay | 20% | 1,500 words, due Week 13 |
-| Group project | 40% | Midterm presentation (10%, Week 6) + Final presentation (10%, Week 13) + Written report (20%, Week 13) |
-| Peer assessment | 10% | Peer evaluation of group project contributions |
-| **Total** | **100%** | No final exam |
+| Component                         | Weight   | Notes                                                                                                  |
+| --------------------------------- | -------- | ------------------------------------------------------------------------------------------------------ |
+| Class participation               | 15%      | Contributions to lectures and tutorials                                                                |
+| Individual lightning presentation | 15%      | 5-min critical review of one visual analysis case                                                      |
+| Reflective essay                  | 20%      | 1,500 words, due Week 13                                                                               |
+| Group project                     | 40%      | Midterm presentation (10%, Week 6) + Final presentation (10%, Week 13) + Written report (20%, Week 13) |
+| Peer assessment                   | 10%      | Peer evaluation of group project contributions                                                         |
+| **Total**                         | **100%** | No final exam                                                                                          |

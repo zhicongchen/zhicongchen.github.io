@@ -22,20 +22,20 @@ _styles: |
 
 ## Research at a Glance
 
-| Topic | Data and Methods | Main Finding | Key Papers |
-| --- | --- | --- | --- |
-| Cultural association shifts in Chinese texts | Multi-decade Chinese printed corpora, semantic association analysis | Results do not support a simple "rising positive individualism" narrative for 1950 to 1999; some collectivist associations remain durable. | {% cite hamamura2021individualism hamamura2022reply %} |
-| Embedding geometry for information/cultural space | Word-embedding geometry and semantic-space modeling | Embedding-space methods provide computational tools for quantifying cocoon-like semantic structures. | {% cite xu2020geometry %} |
-| Geopolitics in language: Sino-Japanese relations | Chinese corpora, Japanese parliamentary records, literature review | Sentiment/discourse patterns co-evolve with geopolitical context, including war-memory and maritime-dispute framing. | {% cite hamamura2025geopolitics %} |
-| Historical advertising under conflict | 10,094 ads in modern Chinese newspapers, comparative modeling | Military conflict is associated with lower globalized framing in ads; market familiarity moderates the effect. | {% cite sun2024globalization %} |
+| Topic                                             | Data and Methods                                                    | Main Finding                                                                                                                               | Key Papers                                             |
+| ------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ |
+| Cultural association shifts in Chinese texts      | Multi-decade Chinese printed corpora, semantic association analysis | Results do not support a simple "rising positive individualism" narrative for 1950 to 1999; some collectivist associations remain durable. | {% cite hamamura2021individualism hamamura2022reply %} |
+| Embedding geometry for information/cultural space | Word-embedding geometry and semantic-space modeling                 | Embedding-space methods provide computational tools for quantifying cocoon-like semantic structures.                                       | {% cite xu2020geometry %}                              |
+| Geopolitics in language: Sino-Japanese relations  | Chinese corpora, Japanese parliamentary records, literature review  | Sentiment/discourse patterns co-evolve with geopolitical context, including war-memory and maritime-dispute framing.                       | {% cite hamamura2025geopolitics %}                     |
+| Historical advertising under conflict             | 10,094 ads in modern Chinese newspapers, comparative modeling       | Military conflict is associated with lower globalized framing in ads; market familiarity moderates the effect.                             | {% cite sun2024globalization %}                        |
 
 ## Methods Stack
 
-| Category | Methods |
-| --- | --- |
-| Computation | Diachronic embeddings, topic modeling, temporal semantic analysis |
-| Data Engineering | Historical corpus construction, multilingual normalization |
-| Inference | Longitudinal discourse comparison, multi-source triangulation |
+| Category         | Methods                                                           |
+| ---------------- | ----------------------------------------------------------------- |
+| Computation      | Diachronic embeddings, topic modeling, temporal semantic analysis |
+| Data Engineering | Historical corpus construction, multilingual normalization        |
+| Inference        | Longitudinal discourse comparison, multi-source triangulation     |
 
 ## Program Direction
 
