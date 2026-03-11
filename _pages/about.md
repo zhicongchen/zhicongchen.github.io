@@ -27,12 +27,12 @@ news: true
 ---
 
 **I study how digital environments (particularly with low accountability) shape
-information ecosystems, user behavior, and community dynamics**.
+community dynamics, user behavior, and information ecosystems**.
 
-My research spans contexts from the **Dark Web and the Tor ecosystem** to
+My research spans contexts from the **Dark Web and the Tor networks** to
 anonymous and pseudonymous platforms, as well as emerging media technologies
 such as generative AI. Across these contexts, I examine issues of **platform
-governance and digital privacy**, with a particular focus on the online
+governance and information dynamics**, with a particular focus on the online
 communication processes of health, political, and risk information.
 
 Methodologically, I use **computational methods** such as network analysis and
