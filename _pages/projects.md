@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /projects/
 description: Integrated research on online safety, digital resilience, and cultural analytics through information, attention, behavior, and long-term discourse dynamics.
-nav: true
+nav: false
 nav_order: 3
 horizontal: false
 ---
