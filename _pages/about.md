@@ -26,8 +26,8 @@ social: true
 news: true
 ---
 
-**I study how digital environments (particularly with low accountability) shape
-community dynamics, user behavior, and information ecosystems**.
+**I study how digital environments, particularly those with limited accountability, 
+shape user behavior, community dynamics, and information ecosystems.**.
 
 My research spans contexts from the **Dark Web and the Tor networks** to
 anonymous and pseudonymous platforms, as well as emerging media technologies
