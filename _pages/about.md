@@ -26,22 +26,23 @@ social: true
 news: true
 ---
 
-**I study how digital environments (particularly with low accountability) shape 
-user behavior, community dynamics, and information ecosystems.**.
+**I use computational methods to study how communication infrastructures shape 
+dynamics of knowledge, culture, and risk.**.
 
-My research spans contexts from the **Dark Web and the Tor networks** to
-anonymous and pseudonymous platforms, as well as emerging media technologies
-such as generative AI. Across these contexts, I examine issues of **platform
-governance and information dynamics**, with a particular focus on the online
-communication processes of health, political, and risk information.
+My research spans digital environments, from Dark Web and the Tor ecosystem 
+to anonymous and pseudonymous platforms, as well as emerging technologies 
+such as generative AI. Across these contexts, I investigate how communication 
+infrastructures shape knowledge, culture, and risk, with particular attention 
+to platform governance, digital privacy, and the implications for health and 
+political communication. 
 
-Methodologically, I use **computational methods** such as network analysis and
-natural language processing to investigate digital traces and large-scale online
-archives. Beyond studying contemporary platforms, I develop **cultural
-analytics** pipelines that apply large-scale diachronic text mining to trace
-long-term shifts in public discourses across multilingual corpora.
+Methodologically, I combine natural language processing, network analysis, and 
+data mining across diverse digital environments and historical text archives. 
+I also build large-scale cultural analytics pipelines, using diachronic text 
+mining to trace long-term shifts in meaning and discourse across multilingual 
+corpora.
 
-My recent work expands into **human-centered online safety**, examining how
+My recent work expands into human-centered online safety, examining how
 people disclose sensitive information, seek social support, and experience
 fraud and deception when engaging with emerging media platforms, particularly
 within rapidly evolving AI-driven environments. My work has appeared in _New
