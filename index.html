@@ -1,0 +1,2091 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      content="Zhicong Chen is a computational social scientist studying communication infrastructures, digital platforms, online anonymity, cultural change, and computational methods."
+      name="description"
+    />
+    <meta content="Zhicong Chen" name="author" />
+    <meta content="#f4f1ea" name="theme-color" />
+    <meta
+      content="Zhicong Chen — Computational Social Scientist"
+      property="og:title"
+    />
+    <meta
+      content="Research, teaching, and academic service at the intersection of communication, computational social science, and digital culture."
+      property="og:description"
+    />
+    <meta content="website" property="og:type" />
+    <meta content="https://zhicongchen.github.io/" property="og:url" />
+    <meta
+      content="https://avatars.githubusercontent.com/u/13479560?v=4"
+      property="og:image"
+    />
+    <title>Zhicong Chen — Computational Social Scientist</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium Plus:ital,wght@0,400;0,500;0,700;1,400&amp;family=Roboto:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --paper: #f4f1ea;
+        --paper-2: #ebe6dc;
+        --ink: #171b1c;
+        --muted: #5f6664;
+        --line: rgba(23, 27, 28, 0.16);
+        --accent: #155f61;
+        --accent-2: #934c35;
+        --accent-soft: rgba(21, 95, 97, 0.09);
+        --white: #fffef9;
+        --shadow: 0 24px 70px rgba(30, 36, 35, 0.08);
+        --serif: "Gentium Plus", Georgia, "Times New Roman", Times, serif;
+        --sans: "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+        --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        --max-width: 1180px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 82px;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background:
+          linear-gradient(rgba(23, 27, 28, 0.024) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(23, 27, 28, 0.024) 1px, transparent 1px),
+          var(--paper);
+        background-size: 32px 32px;
+        font-family: var(--sans);
+        line-height: 1.65;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      body::before {
+        position: fixed;
+        z-index: -1;
+        top: -22rem;
+        right: -18rem;
+        width: 48rem;
+        height: 48rem;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(21, 95, 97, 0.13),
+          transparent 66%
+        );
+        content: "";
+        pointer-events: none;
+      }
+
+      a {
+        color: inherit;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.22em;
+      }
+
+      a:hover {
+        color: var(--accent);
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      button,
+      a {
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      .container {
+        width: min(calc(100% - 40px), var(--max-width));
+        margin-inline: auto;
+      }
+
+      .skip-link {
+        position: fixed;
+        z-index: 1000;
+        top: 12px;
+        left: 12px;
+        padding: 10px 14px;
+        transform: translateY(-160%);
+        border-radius: 999px;
+        background: var(--ink);
+        color: white;
+      }
+
+      .skip-link:focus {
+        transform: translateY(0);
+      }
+
+      .site-header {
+        position: sticky;
+        z-index: 100;
+        top: 0;
+        border-bottom: 1px solid transparent;
+        background: rgba(244, 241, 234, 0.82);
+        backdrop-filter: blur(18px);
+        transition:
+          border-color 180ms ease,
+          box-shadow 180ms ease;
+      }
+
+      .site-header.scrolled {
+        border-color: var(--line);
+        box-shadow: 0 8px 30px rgba(30, 36, 35, 0.05);
+      }
+
+      .nav {
+        display: flex;
+        min-height: 70px;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        font-family: var(--serif);
+        font-size: 1.4rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        text-decoration: none;
+      }
+
+      .brand-mark {
+        display: grid;
+        width: 32px;
+        height: 32px;
+        place-items: center;
+        border: 1px solid var(--ink);
+        border-radius: 50%;
+        font-family: var(--mono);
+        font-size: 0.72rem;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .nav-links a {
+        color: var(--muted);
+        font-size: 1.1rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+      }
+
+      .nav-links a:hover,
+      .nav-links a.active {
+        color: var(--ink);
+      }
+
+      .menu-button {
+        display: none;
+        border: 0;
+        background: transparent;
+        color: var(--ink);
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .hero {
+        display: grid;
+        min-height: calc(100vh - 70px);
+        align-items: center;
+        padding: 92px 0 74px;
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.55fr);
+        align-items: center;
+        gap: clamp(50px, 8vw, 110px);
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 40px;
+        color: var(--accent);
+        font-family: var(--mono);
+        font-size: clamp(0.88rem, 1vw, 0.98rem);
+        font-weight: 700;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+      }
+
+      .eyebrow::before {
+        width: 30px;
+        height: 1px;
+        background: currentColor;
+        content: "";
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 890px;
+        margin-bottom: 44px;
+        font-family: var(--serif);
+        font-size: clamp(3.8rem, 8vw, 7.8rem);
+        font-weight: 500;
+        letter-spacing: -0.072em;
+        line-height: 0.91;
+      }
+
+      h1 em {
+        color: var(--accent);
+        font-weight: 400;
+      }
+
+      .hero-lede {
+        max-width: 750px;
+        margin-bottom: 32px;
+        color: #343a39;
+        font-family: var(--serif);
+        font-size: clamp(1.27rem, 2.2vw, 1.65rem);
+        line-height: 1.5;
+      }
+
+      .hero-lede strong {
+        font-weight: 700;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .button {
+        display: inline-flex;
+        min-height: 46px;
+        align-items: center;
+        justify-content: center;
+        gap: 9px;
+        padding: 10px 17px;
+        border: 1px solid var(--ink);
+        border-radius: 999px;
+        font-size: 0.88rem;
+        font-weight: 800;
+        text-decoration: none;
+        transition:
+          transform 150ms ease,
+          background 150ms ease,
+          color 150ms ease;
+      }
+
+      .button:hover {
+        transform: translateY(-2px);
+        color: inherit;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: var(--white);
+      }
+
+      .button.primary:hover {
+        background: var(--accent);
+      }
+
+      .button.secondary {
+        background: rgba(255, 254, 249, 0.42);
+      }
+
+      .portrait-wrap {
+        position: relative;
+        max-width: 380px;
+        justify-self: end;
+      }
+
+      .portrait {
+        position: relative;
+        overflow: hidden;
+        aspect-ratio: 4 / 5;
+        border: 1px solid var(--line);
+        border-radius: 48% 48% 8px 8px;
+        background: var(--paper-2);
+        box-shadow: var(--shadow);
+      }
+
+      .portrait img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: saturate(0.78) contrast(1.03);
+      }
+
+      .portrait-label {
+        position: absolute;
+        right: -22px;
+        bottom: 28px;
+        width: 190px;
+        padding: 14px 16px;
+        border: 1px solid var(--line);
+        background: rgba(255, 254, 249, 0.92);
+        box-shadow: 0 18px 50px rgba(30, 36, 35, 0.12);
+        backdrop-filter: blur(12px);
+      }
+
+      .portrait-label span {
+        display: block;
+        color: var(--muted);
+        font-family: var(--mono);
+        font-size: 0.7rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+
+      .portrait-label strong {
+        display: block;
+        margin-top: 5px;
+        font-family: var(--serif);
+        line-height: 1.3;
+      }
+
+      .section {
+        padding: 112px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .section-heading {
+        display: grid;
+        grid-template-columns: minmax(190px, 0.42fr) minmax(0, 1fr);
+        gap: clamp(30px, 7vw, 100px);
+        margin-bottom: 58px;
+      }
+
+      .section-kicker {
+        color: var(--accent);
+        font-family: var(--mono);
+        font-size: 0.76rem;
+        font-weight: 700;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        max-width: 850px;
+        margin-bottom: 18px;
+        font-family: var(--serif);
+        font-size: clamp(2.4rem, 5vw, 4.6rem);
+        font-weight: 500;
+        letter-spacing: -0.052em;
+        line-height: 1.02;
+      }
+
+      .section-intro {
+        max-width: 760px;
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+
+      .research-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .research-card,
+      .teaching-card,
+      .service-card {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        background: rgba(255, 254, 249, 0.5);
+      }
+
+      .research-card {
+        min-height: 390px;
+        padding: 28px;
+        transition:
+          transform 170ms ease,
+          box-shadow 170ms ease;
+      }
+
+      .research-card:hover {
+        transform: translateY(-6px);
+        box-shadow: var(--shadow);
+      }
+
+      .research-card::after {
+        position: absolute;
+        right: -44px;
+        bottom: -44px;
+        width: 140px;
+        height: 140px;
+        border: 1px solid rgba(21, 95, 97, 0.22);
+        border-radius: 50%;
+        content: "";
+      }
+
+      .card-index {
+        display: block;
+        margin-bottom: 75px;
+        color: var(--accent);
+        font-family: var(--mono);
+        font-size: 0.76rem;
+      }
+
+      h3 {
+        font-family: var(--serif);
+        font-size: 1.7rem;
+        letter-spacing: -0.028em;
+        line-height: 1.15;
+      }
+
+      .research-card p {
+        color: var(--muted);
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+        margin-top: 25px;
+      }
+
+      .tag {
+        padding: 5px 9px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: #444b49;
+        font-family: var(--mono);
+        font-size: 0.69rem;
+      }
+
+      .method-strip {
+        display: grid;
+        grid-template-columns: 0.9fr 2.1fr;
+        gap: 34px;
+        margin-top: 18px;
+        padding: 28px;
+        border: 1px solid var(--line);
+        background: var(--ink);
+        color: var(--white);
+      }
+
+      .method-strip h3 {
+        margin: 0;
+        color: #d7ebe7;
+      }
+
+      .method-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 9px 28px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: var(--mono);
+        font-size: 0.78rem;
+      }
+
+      .method-list li::before {
+        color: #7dc2b9;
+        content: "↳ ";
+      }
+
+      .work-list {
+        border-top: 1px solid var(--line);
+      }
+
+      .work-item {
+        display: grid;
+        grid-template-columns: 115px minmax(0, 1fr) 150px;
+        align-items: start;
+        gap: 24px;
+        padding: 28px 0;
+        border-bottom: 1px solid var(--line);
+        text-decoration: none;
+        transition:
+          padding 180ms ease,
+          background 180ms ease;
+      }
+
+      .work-item:hover {
+        padding-inline: 17px;
+        background: rgba(255, 254, 249, 0.48);
+        color: inherit;
+      }
+
+      .work-year,
+      .work-journal {
+        color: var(--muted);
+        font-family: var(--mono);
+        font-size: 0.76rem;
+      }
+
+      .work-title {
+        margin-bottom: 7px;
+        font-family: var(--serif);
+        font-size: clamp(1.18rem, 2.4vw, 1.55rem);
+        font-weight: 700;
+        line-height: 1.34;
+      }
+
+      .work-meta {
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .work-journal {
+        text-align: right;
+      }
+
+      .teaching-layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr);
+        gap: 22px;
+      }
+
+      .teaching-feature {
+        align-self: start;
+        padding: 34px;
+        background: var(--accent);
+        color: #f6f3eb;
+      }
+
+      .teaching-feature .section-kicker {
+        color: #b9dfd7;
+      }
+
+      .teaching-feature h3 {
+        max-width: 520px;
+        margin-top: 72px;
+        font-size: clamp(2.1rem, 4vw, 3.5rem);
+      }
+
+      .teaching-feature p {
+        max-width: 600px;
+        color: rgba(246, 243, 235, 0.78);
+        font-size: 1.02rem;
+      }
+
+      .teaching-stack {
+        display: grid;
+        gap: 15px;
+      }
+
+      .teaching-card {
+        padding: 24px;
+      }
+
+      .course-topline {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        margin-bottom: 21px;
+        color: var(--muted);
+        font-family: var(--mono);
+        font-size: 0.72rem;
+      }
+
+      .teaching-card h3 {
+        margin-bottom: 10px;
+        font-size: 1.34rem;
+      }
+
+      .teaching-card h3 a {
+        text-decoration: none;
+      }
+
+      .teaching-card h3 a:hover {
+        color: var(--accent);
+      }
+
+      .teaching-card p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .teaching-footer {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+        margin-top: 22px;
+      }
+
+      .teaching-stat {
+        padding-top: 13px;
+        border-top: 1px solid rgba(246, 243, 235, 0.26);
+      }
+
+      .teaching-stat strong {
+        display: block;
+        font-family: var(--serif);
+        font-size: 1.7rem;
+        line-height: 1.2;
+      }
+
+      .teaching-stat span {
+        color: rgba(246, 243, 235, 0.7);
+        font-size: 0.72rem;
+      }
+
+      .service-grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 18px;
+      }
+
+      .service-card {
+        padding: 27px;
+      }
+
+      .service-card:nth-child(1) {
+        grid-column: span 7;
+      }
+
+      .service-card:nth-child(2) {
+        grid-column: span 5;
+      }
+
+      .service-card:nth-child(3),
+      .service-card:nth-child(4) {
+        grid-column: span 6;
+      }
+
+      .service-card h3 {
+        margin-bottom: 18px;
+      }
+
+      .service-card p {
+        margin-bottom: 0;
+        color: var(--muted);
+      }
+
+      .clean-list {
+        display: grid;
+        gap: 11px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .clean-list li {
+        padding-bottom: 11px;
+        border-bottom: 1px solid var(--line);
+        color: #414745;
+      }
+
+      .clean-list li:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+      }
+
+      .number {
+        display: block;
+        margin-bottom: 18px;
+        color: var(--accent-2);
+        font-family: var(--serif);
+        font-size: 3.1rem;
+        line-height: 1;
+      }
+
+      .about-grid {
+        display: grid;
+        grid-template-columns: 0.8fr 1.2fr;
+        gap: clamp(40px, 8vw, 110px);
+      }
+
+      .about-copy {
+        font-family: var(--serif);
+        font-size: clamp(1.35rem, 2.8vw, 2rem);
+        line-height: 1.48;
+      }
+
+      .timeline {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .timeline li {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        gap: 18px;
+        padding: 19px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .timeline time {
+        color: var(--accent);
+        font-family: var(--mono);
+        font-size: 0.73rem;
+      }
+
+      .timeline strong {
+        display: block;
+      }
+
+      .timeline span {
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .contact-panel {
+        padding: clamp(42px, 8vw, 88px);
+        background: var(--ink);
+        color: var(--white);
+      }
+
+      .contact-panel h2 {
+        max-width: 800px;
+        color: var(--white);
+      }
+
+      .contact-panel p {
+        max-width: 670px;
+        color: rgba(255, 254, 249, 0.67);
+      }
+
+      .contact-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 30px;
+      }
+
+      .contact-links .button {
+        border-color: rgba(255, 255, 255, 0.35);
+        color: var(--white);
+      }
+
+      .contact-links .button:hover {
+        border-color: #9bcfc8;
+        background: #9bcfc8;
+        color: var(--ink);
+      }
+
+      footer {
+        padding: 28px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        background: var(--ink);
+        color: rgba(255, 254, 249, 0.55);
+        font-family: var(--mono);
+        font-size: 0.7rem;
+      }
+
+      .footer-inner {
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+      }
+
+      .reveal {
+        opacity: 0;
+        transform: translateY(18px);
+        transition:
+          opacity 600ms ease,
+          transform 600ms ease;
+      }
+
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+
+        *,
+        *::before,
+        *::after {
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+        }
+
+        .reveal {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      @media (max-width: 900px) {
+        .menu-button {
+          display: block;
+        }
+
+        .nav-links {
+          position: absolute;
+          top: 70px;
+          right: 20px;
+          left: 20px;
+          display: none;
+          padding: 18px;
+          border: 1px solid var(--line);
+          background: var(--white);
+          box-shadow: var(--shadow);
+        }
+
+        .nav-links.open {
+          display: grid;
+        }
+
+        .hero {
+          min-height: auto;
+        }
+
+        .hero-grid,
+        .section-heading,
+        .teaching-layout,
+        .about-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .portrait-wrap {
+          width: min(78%, 390px);
+          justify-self: start;
+        }
+
+        .research-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .research-card {
+          min-height: auto;
+        }
+
+        .card-index {
+          margin-bottom: 40px;
+        }
+
+        .service-card:nth-child(n) {
+          grid-column: span 12;
+        }
+      }
+
+      @media (max-width: 650px) {
+        .container {
+          width: min(calc(100% - 28px), var(--max-width));
+        }
+
+        .hero {
+          padding-top: 60px;
+        }
+
+        h1 {
+          font-size: clamp(3.2rem, 17vw, 5.2rem);
+        }
+
+        .portrait-label {
+          right: -8px;
+        }
+
+        .section {
+          padding: 78px 0;
+        }
+
+        .method-strip {
+          grid-template-columns: 1fr;
+        }
+
+        .method-list {
+          grid-template-columns: 1fr;
+        }
+
+        .work-item {
+          grid-template-columns: 62px 1fr;
+        }
+
+        .work-journal {
+          grid-column: 2;
+          text-align: left;
+        }
+
+        .teaching-feature {
+          min-height: auto;
+        }
+
+        .teaching-feature h3 {
+          margin-top: 56px;
+        }
+
+        .teaching-footer {
+          grid-template-columns: 1fr;
+        }
+
+        .timeline li {
+          grid-template-columns: 78px 1fr;
+        }
+
+        .footer-inner {
+          display: grid;
+        }
+      }
+
+      /* Revision: keep the current-position card aligned with the portrait. */
+      .portrait-wrap {
+        display: grid;
+        gap: 14px;
+      }
+
+      .portrait-label {
+        position: static;
+        width: 100%;
+        padding: 16px 18px;
+        border-radius: 0 0 8px 8px;
+        text-align: left;
+        box-shadow: 0 14px 38px rgba(30, 36, 35, 0.08);
+      }
+
+      .portrait-label strong {
+        font-size: 0.98rem;
+      }
+
+      /* Revision: research cards no longer reserve space for numeric labels. */
+      .research-card h3 {
+        margin-top: 28px;
+      }
+
+      /* Revision: expanded course list remains compact and readable. */
+      .teaching-stack {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-content: start;
+      }
+
+      .teaching-card {
+        min-height: 205px;
+      }
+
+      @media (min-width: 1081px) {
+        .teaching-feature {
+          display: flex;
+          align-self: stretch;
+          flex-direction: column;
+        }
+
+        .teaching-feature h3,
+        .teaching-footer {
+          margin-top: auto;
+        }
+      }
+
+      .hero-actions {
+        max-width: 850px;
+      }
+
+      @media (max-width: 1080px) {
+        .teaching-stack {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 650px) {
+        .portrait-label {
+          right: auto;
+        }
+
+        .teaching-card {
+          min-height: auto;
+        }
+      }
+
+      /* Final revisions */
+      h1 {
+        white-space: nowrap;
+        font-size: clamp(3.5rem, 7vw, 7rem);
+        line-height: 0.98;
+      }
+
+      .portrait-wrap {
+        display: grid;
+        max-width: 360px;
+        justify-items: center;
+        gap: 18px;
+      }
+
+      .portrait {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+      }
+
+      .portrait img {
+        border-radius: 50%;
+      }
+
+      .portrait-identity {
+        text-align: center;
+      }
+
+      .portrait-name {
+        margin: 0;
+        font-family: var(--serif);
+        font-size: clamp(1.55rem, 2.2vw, 1.9rem);
+        font-weight: 700;
+        letter-spacing: -0.025em;
+        line-height: 1.2;
+      }
+
+      .portrait-role {
+        margin-top: 8px;
+        color: var(--accent);
+        font-family: var(--mono);
+        font-size: clamp(0.76rem, 0.9vw, 0.86rem);
+        font-weight: 700;
+        letter-spacing: 0.07em;
+        line-height: 1.55;
+        text-transform: uppercase;
+      }
+
+      @media (min-width: 901px) {
+        .timeline {
+          align-self: center;
+        }
+      }
+
+      .footer-inner {
+        justify-content: flex-start;
+      }
+
+      @media (max-width: 780px) {
+        h1 {
+          white-space: normal;
+          font-size: clamp(3.1rem, 16vw, 5rem);
+        }
+
+        .portrait-wrap {
+          width: min(72%, 320px);
+        }
+      }
+
+      /* Final service-grid adjustment: four equal cards */
+      .service-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .service-card:nth-child(n) {
+        grid-column: auto;
+        min-height: 320px;
+      }
+
+      @media (max-width: 760px) {
+        .service-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .service-card:nth-child(n) {
+          min-height: auto;
+        }
+      }
+
+      /* Navy Faculty visual system */
+      :root {
+        --paper: #f5f4ef;
+        --paper-2: #e9e8e1;
+        --ink: #14213d;
+        --muted: #5e6778;
+        --line: rgba(20, 33, 61, 0.16);
+        --accent: #315c7c;
+        --accent-2: #c47a4a;
+        --accent-soft: rgba(49, 92, 124, 0.09);
+        --white: #fcfbf7;
+        --shadow: 0 24px 70px rgba(20, 33, 61, 0.09);
+        --serif: "Gentium Plus", Georgia, "Times New Roman", Times, serif;
+        --sans: "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+        --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      }
+
+      body {
+        background:
+          linear-gradient(rgba(20, 33, 61, 0.022) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(20, 33, 61, 0.022) 1px, transparent 1px),
+          var(--paper);
+        background-size: 32px 32px;
+      }
+
+      body::before {
+        background: radial-gradient(
+          circle,
+          rgba(49, 92, 124, 0.12),
+          transparent 66%
+        );
+      }
+
+      .site-header {
+        background: rgba(245, 244, 239, 0.88);
+      }
+
+      .brand,
+      h1,
+      h2,
+      h3,
+      .hero-lede,
+      .about-copy,
+      .work-title,
+      .teaching-stat strong,
+      .number {
+        font-family: var(--serif);
+      }
+
+      .brand-mark,
+      .eyebrow,
+      .section-kicker,
+      .tag,
+      .work-year,
+      .work-journal,
+      .course-topline,
+      .timeline time,
+      footer {
+        font-family: var(--mono);
+      }
+
+      h1 {
+        letter-spacing: -0.055em;
+        font-weight: 400;
+      }
+
+      h1 em {
+        color: var(--accent);
+      }
+
+      h2 {
+        letter-spacing: -0.035em;
+        font-weight: 400;
+      }
+
+      h3 {
+        font-weight: 500;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: var(--white);
+      }
+
+      .button.primary:hover {
+        background: var(--accent);
+      }
+
+      .research-card,
+      .teaching-card,
+      .service-card {
+        background: rgba(252, 251, 247, 0.72);
+      }
+
+      .research-card {
+        border-top: 3px solid var(--accent);
+      }
+
+      .method-strip,
+      .contact-panel,
+      footer {
+        background: var(--ink);
+      }
+
+      .teaching-feature {
+        background: var(--accent);
+      }
+
+      .teaching-feature .section-kicker,
+      .contact-panel .section-kicker {
+        color: #c9dce9;
+      }
+
+      .service-card {
+        border-top: 3px solid rgba(49, 92, 124, 0.75);
+      }
+
+      .number {
+        color: var(--accent-2);
+      }
+
+      .timeline time {
+        color: var(--accent);
+      }
+
+      .portrait {
+        border: 3px solid rgba(49, 92, 124, 0.22);
+        box-shadow: 0 26px 70px rgba(20, 33, 61, 0.12);
+      }
+
+      .work-item:hover {
+        background: rgba(252, 251, 247, 0.7);
+      }
+
+      .contact-links .button:hover {
+        border-color: #b9d1df;
+        background: #b9d1df;
+        color: var(--ink);
+      }
+
+      /* Mixed typography: preserve Gentium Plus headings, use the Navy Faculty
+       humanist sans treatment for navigation and descriptive copy. */
+      .nav-links a,
+      .research-card p {
+        font-family: var(--sans);
+      }
+
+      .hero-lede {
+        font-family: var(--sans);
+      }
+
+      .nav-links a {
+        letter-spacing: 0.015em;
+      }
+
+      .hero-lede {
+        font-size: clamp(1.2rem, 2vw, 1.55rem);
+        line-height: 1.56;
+      }
+
+      .research-card p {
+        line-height: 1.68;
+      }
+
+      /* Institutional links and featured-author treatment */
+      .about-copy a,
+      .timeline a {
+        color: var(--accent);
+        font-weight: 600;
+        text-decoration-color: rgba(49, 92, 124, 0.45);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.2em;
+      }
+
+      .about-copy a:hover,
+      .timeline a:hover {
+        color: var(--accent-2);
+        text-decoration-color: currentColor;
+      }
+
+      .author-self {
+        color: var(--accent);
+        font-weight: 800;
+      }
+
+      /* Featured publications: title and author list on separate lines */
+      .work-title,
+      .work-meta {
+        display: block;
+      }
+
+      .work-meta {
+        margin-top: 9px;
+        line-height: 1.55;
+      }
+
+      .work-journal {
+        line-height: 1.45;
+      }
+
+      .degree-suffix {
+        color: var(--ink);
+        font-size: 0.34em;
+        letter-spacing: -0.015em;
+        vertical-align: 0.22em;
+        white-space: nowrap;
+      }
+
+      @media (max-width: 780px) {
+        .degree-suffix {
+          font-size: 0.3em;
+        }
+      }
+
+      /* Final name and descriptor refinements */
+      .degree-suffix {
+        font-size: inherit;
+        vertical-align: baseline;
+        letter-spacing: inherit;
+      }
+
+      .eyebrow {
+        flex-wrap: wrap;
+        max-width: 900px;
+        line-height: 1.55;
+      }
+
+      @media (max-width: 650px) {
+        .eyebrow {
+          align-items: flex-start;
+        }
+      }
+
+      /* Refined hero scale and terminology */
+      h1 {
+        font-size: clamp(3.15rem, 6.1vw, 6.25rem);
+      }
+
+      @media (max-width: 780px) {
+        h1 {
+          font-size: clamp(2.85rem, 14vw, 4.5rem);
+        }
+      }
+
+      @media (max-width: 900px) {
+        .eyebrow {
+          margin-bottom: 30px;
+        }
+
+        h1 {
+          margin-bottom: 34px;
+        }
+      }
+
+      .course-topline {
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+
+      .course-topline span:last-child {
+        text-align: right;
+      }
+
+      @media (max-width: 520px) {
+        .course-topline {
+          display: grid;
+          gap: 4px;
+        }
+
+        .course-topline span:last-child {
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="site-header">
+      <nav aria-label="Main navigation" class="nav container">
+        <a aria-label="Zhicong Chen, home" class="brand" href="#top">
+          <span class="brand-mark">ZC</span>
+          <span>Zhicong Chen, Ph.D.</span>
+        </a>
+        <button
+          aria-controls="nav-links"
+          aria-expanded="false"
+          class="menu-button"
+          id="menu-button"
+        >
+          Menu
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#work">Featured Publications</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#service">Services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div class="reveal">
+            <!-- <h1>Zhicong <em>Chen</em></h1> -->
+            <h1>Welcome!</h1>
+            <p class="hero-lede">
+              I study how
+              <strong>communication infrastructures</strong> (re)shape
+              knowledge, culture, and risk across digital platforms, anonymous
+              communities, and large-scale historical corpora.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#research"
+                >Explore my research <span aria-hidden="true">↓</span></a
+              >
+              <a
+                class="button secondary"
+                href="https://www.dropbox.com/scl/fi/s63mrcumgu68ra76elx9n/CV.pdf?rlkey=6z9ww24xerh9b7n9nski4uumb&st=krshp72y&e=3&dl=0"
+                rel="noreferrer"
+                target="_blank"
+                >View CV ↗</a
+              >
+              <a
+                class="button secondary"
+                href="https://scholar.google.com/citations?user=mt_TyjoAAAAJ&amp;hl=en"
+                rel="noreferrer"
+                target="_blank"
+                >Google Scholar ↗</a
+              >
+            </div>
+          </div>
+          <div class="portrait-wrap reveal">
+            <div class="portrait">
+              <img
+                alt="Portrait of Zhicong Chen"
+                height="575"
+                src="https://avatars.githubusercontent.com/u/13479560?v=4"
+                width="460"
+              />
+            </div>
+            <div class="portrait-identity">
+              <p class="portrait-name">Zhicong Chen</p>
+              <div class="portrait-role">
+                Computational social scientist<br>
+                digital media scholar
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div class="section-kicker">01 / About</div>
+            <div>
+              <h2>
+                Communication scientist with a computational foundation.
+              </h2>
+            </div>
+          </div>
+          <div class="about-grid">
+            <div class="about-copy reveal">
+              I am a Postdoctoral Research and Teaching Fellow in the
+              <a
+                href="https://fass.nus.edu.sg/cnm/"
+                rel="noreferrer"
+                target="_blank"
+                >Department of Communications and New Media</a
+              >
+              at the
+              <a href="https://www.nus.edu.sg/" rel="noreferrer" target="_blank"
+                >National University of Singapore</a
+              >. Before joining NUS, I was an Assistant Professor at Nanjing
+              University. I received my Ph.D. in Media and Communication from
+              City University of Hong Kong, where I was affiliated with the
+              <a
+                href="https://weblab.com.cityu.edu.hk/"
+                rel="noreferrer"
+                target="_blank"
+                >Web Mining Lab</a
+              >.
+            </div>
+            <ol class="timeline reveal">
+              <li>
+                <time>2025—now</time>
+                <div>
+                  <strong>Postdoctoral Research and Teaching Fellow</strong
+                  ><span
+                    ><a
+                      href="https://www.nus.edu.sg/"
+                      rel="noreferrer"
+                      target="_blank"
+                      >National University of Singapore</a
+                    ></span
+                  >
+                </div>
+              </li>
+              <li>
+                <time>2022—25</time>
+                <div>
+                  <strong>Assistant Professor</strong
+                  ><span>Nanjing University</span>
+                </div>
+              </li>
+              <li>
+                <time>2018—22</time>
+                <div>
+                  <strong>Ph.D., Media and Communication</strong
+                  ><span
+                    ><a
+                      href="https://www.cityu.edu.hk/"
+                      rel="noreferrer"
+                      target="_blank"
+                      >City University of Hong Kong</a
+                    >
+                    ·
+                    <a
+                      href="https://weblab.com.cityu.edu.hk/"
+                      rel="noreferrer"
+                      target="_blank"
+                      >Web Mining Lab</a
+                    >
+                    · Hong Kong PhD Fellowship</span
+                  >
+                </div>
+              </li>
+              <li>
+                <time>2016—18</time>
+                <div>
+                  <strong>M.A., Journalism and Communication</strong
+                  ><span>Nanjing University · Outstanding Graduate</span>
+                </div>
+              </li>
+              <li>
+                <time>2012—16</time>
+                <div>
+                  <strong>B.Eng., Software Engineering</strong
+                  ><span
+                    >Nanjing University of Posts and Telecommunications ·
+                    Outstanding Graduate</span
+                  >
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="research">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div class="section-kicker">02 / Research interests</div>
+            <div>
+              <h2>
+                Research interests shaped by a common concern with communication
+                infrastructure.
+              </h2>
+              <p class="section-intro">
+                My work connects communication theory with computational methods
+                to investigate how infrastructures enable participation,
+                constrain visibility, reorganize social relationships, and shape
+                collective understandings over time.
+              </p>
+            </div>
+          </div>
+          <div class="research-grid">
+            <article class="research-card reveal">
+              <h3>Anonymity, privacy, and online risk/safety</h3>
+              <p>
+                How do anonymous and pseudonymous infrastructures change
+                disclosure, trust, misinformation, social support, and user
+                sustainability across dark-web and surface-web communities?
+              </p>
+              <div aria-label="Associated topics" class="tags">
+                <span class="tag">Tor</span>
+                <span class="tag">Dark web</span>
+                <span class="tag">Online communities</span>
+                <span class="tag">Cybersecurity</span>
+              </div>
+            </article>
+            <article class="research-card reveal">
+              <h3>Platforms, behavior, and digital risk and resilience</h3>
+              <p>
+                How do platform architectures and communication environments
+                influence behavior, emotion, exposure, deception, and public
+                sense-making in political and health contexts?
+              </p>
+              <div aria-label="Associated topics" class="tags">
+                <span class="tag">Social media</span>
+                <span class="tag">Misinformation</span>
+                <span class="tag">Health communication</span>
+                <span class="tag">Political communication</span>
+              </div>
+            </article>
+            <article class="research-card reveal">
+              <h3>Cultural change through text as data</h3>
+              <p>
+                How can multilingual and diachronic corpora reveal long-term
+                shifts in cultural values, geopolitical narratives, ideology,
+                and the meanings attached to social categories?
+              </p>
+              <div aria-label="Associated topics" class="tags">
+                <span class="tag">Cultural analytics</span>
+                <span class="tag">Semantic change</span>
+                <span class="tag">Multilingual NLP</span>
+                <span class="tag">Digital humanities</span>
+              </div>
+            </article>
+          </div>
+          <div class="method-strip reveal">
+            <h3>Methods &amp; infrastructure</h3>
+            <ul class="method-list">
+              <li>Natural language processing</li>
+              <li>Network and cascade analysis</li>
+              <li>Diachronic word embeddings</li>
+              <li>Survival and panel models</li>
+              <li>Cross-platform data pipelines</li>
+              <li>Large-scale web scraping</li>
+              <li>Multilingual corpus analysis</li>
+              <li>Reproducible Python and R workflows</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="work">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div class="section-kicker">03 / Featured publications</div>
+            <div>
+              <h2>Research across platforms, histories, and cultures.</h2>
+              <p class="section-intro">
+                A selection of publications that represents the central
+                empirical and methodological threads of my research programme.
+              </p>
+            </div>
+          </div>
+          <div class="work-list">
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1371/journal.pone.0351772"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year">2026</span>
+              <span>
+                <span class="work-title"
+                  >Framing the world: Strategic narratives of foreign states in
+                  China’s mainstream media (1950–2019)</span
+                >
+                <span class="work-meta"
+                  ><strong class="author-self">Chen Z.</strong>, Liang Z., Wang
+                  Z., Jiang X., and Wang C.-J.</span
+                >
+              </span>
+              <span class="work-journal">PLOS ONE ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1140/epjds/s13688-025-00614-1"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year">2025</span>
+              <span>
+                <span class="work-title"
+                  >Tales of Twin Forums on the Dark and Surface Web: Social
+                  Interactions and User Sustainability in Anonymous Online
+                  Communities</span
+                >
+                <span class="work-meta"
+                  ><strong class="author-self">Chen Z.</strong> and Liu X.
+                  F.</span
+                >
+              </span>
+              <span class="work-journal">EPJ Data Science ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1177/14614448211072201"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year">2024</span>
+              <span>
+                <span class="work-title"
+                  >Seeking anonymity on the Internet: The knowledge accumulation
+                  process and global usage of the Tor network</span
+                >
+                <span class="work-meta"
+                  ><strong class="author-self">Chen Z.</strong>, Jardine E., Liu
+                  X. F., and Zhu J. J. H.</span
+                >
+              </span>
+              <span class="work-journal">New Media &amp; Society ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1057/s41599-023-02424-0"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year">2023</span>
+              <span>
+                <span class="work-title"
+                  >The Dark Web Privacy Dilemma: Linguistic Diversity,
+                  Talkativeness, and User Engagement on the Cryptomarket
+                  Forums</span
+                >
+                <span class="work-meta"
+                  ><strong class="author-self">Chen Z.</strong>, Meng X., and
+                  Wang C. J.</span
+                >
+              </span>
+              <span class="work-journal"
+                >Humanities and Social Sciences Communications ↗</span
+              >
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1037/amp0000840"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year">2021</span>
+              <span>
+                <span class="work-title"
+                  >Individualism with Chinese characteristics? Discerning
+                  cultural shifts in China using 50 years of printed texts</span
+                >
+                <span class="work-meta"
+                  >Hamamura T., <strong class="author-self">Chen Z.</strong>,
+                  Chan C. S., Chen S. X., and Kobayashi T.</span
+                >
+              </span>
+              <span class="work-journal">American Psychologist ↗</span>
+            </a>
+          </div>
+          <div style="margin-top: 30px">
+            <a
+              class="button secondary"
+              href="https://scholar.google.com/citations?user=mt_TyjoAAAAJ&amp;hl=en"
+              rel="noreferrer"
+              target="_blank"
+              >View all publications on Google Scholar ↗</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="section" id="teaching">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div class="section-kicker">04 / Teaching</div>
+            <div>
+              <h2>
+                Teaching people to reason with data, not merely operate tools.
+              </h2>
+              <p class="section-intro">
+                My courses combine computational practice, substantive
+                communication questions, critical interpretation, research
+                ethics, and reproducible workflows.
+              </p>
+            </div>
+          </div>
+          <div class="teaching-layout">
+            <article class="teaching-feature reveal">
+              <div class="section-kicker">Teaching philosophy</div>
+              <h3>
+                Computation becomes meaningful when students can question its
+                assumptions.
+              </h3>
+              <p>
+                I design courses that move from code comprehension to analytical
+                judgment: students learn how data are produced, how models
+                encode choices, how evidence should be communicated, and where
+                computational conclusions can fail.
+              </p>
+              <div class="teaching-footer">
+                <div class="teaching-stat">
+                  <strong>3</strong>
+                  <span>universities across Asia</span>
+                </div>
+                <div class="teaching-stat">
+                  <strong>4 years</strong>
+                  <span>independent instructor</span>
+                </div>
+                <div class="teaching-stat">
+                  <strong>Undergraduate + Graduate</strong>
+                  <span>course levels</span>
+                </div>
+                <div class="teaching-stat">
+                  <strong>R + Python</strong>
+                  <span>programming ecosystems</span>
+                </div>
+              </div>
+            </article>
+            <div class="teaching-stack">
+              <article class="teaching-card reveal">
+                <div class="course-topline">
+                  <span>2027</span
+                  ><span>NUS · Undergraduate · Co-instructor</span>
+                </div>
+                <h3>Introduction to Visual Cultural Analytics</h3>
+                <p>
+                  Mixed-method visual research with content analysis, machine
+                  learning, image features, clustering, and AI-assisted
+                  annotation.
+                </p>
+              </article>
+              <article class="teaching-card reveal">
+                <div class="course-topline">
+                  <span>2026</span><span>NUS · Graduate · Instructor</span>
+                </div>
+                <h3>Coding for Communicators</h3>
+                <p>
+                  R programming, data wrangling, visualization, modeling, web
+                  data, reproducible reporting, and responsible interpretation.
+                </p>
+              </article>
+              <article class="teaching-card reveal">
+                <div class="course-topline">
+                  <span>2025</span><span>NUS · Graduate · Instructor</span>
+                </div>
+                <h3>Social Media Analytics</h3>
+                <p>
+                  Social media data collection, text and network analysis,
+                  visualization, and ethical analytics with Python.
+                </p>
+              </article>
+              <article class="teaching-card reveal">
+                <div class="course-topline">
+                  <span>2025</span><span>NJU · Undergraduate · Instructor</span>
+                </div>
+                <h3>Data Visualization</h3>
+                <p>
+                  Principles and practice of visual analysis, statistical
+                  graphics, interactive communication, and the critical
+                  evaluation of data-driven claims.
+                </p>
+              </article>
+              <article class="teaching-card reveal">
+                <div class="course-topline">
+                  <span>2024–2025</span><span>NJU · Graduate · Instructor</span>
+                </div>
+                <h3>Text as Data</h3>
+                <p>
+                  Computational text analysis covering corpus construction,
+                  preprocessing, representation, supervised and unsupervised
+                  methods, and substantive interpretation.
+                </p>
+              </article>              
+              <article class="teaching-card reveal">
+                <div class="course-topline">
+                  <span>2023–2024</span
+                  ><span>NJU · Undergraduate · Instructor</span>
+                </div>
+                <h3>Data Journalism</h3>
+                <p>
+                  Data acquisition, cleaning, analysis, visualization, and
+                  narrative design for evidence-based journalism and public
+                  communication.
+                </p>
+              </article>
+              <article class="teaching-card reveal">
+                <div class="course-topline">
+                  <span>2023</span><span>NJU · Undergraduate · Instructor</span>
+                </div>
+                <h3>Introduction to Python</h3>
+                <p>
+                  Programming fundamentals, structured data, web data
+                  collection, text processing, automation, and reproducible
+                  research workflows.
+                </p>
+              </article>
+              <article class="teaching-card reveal">
+                <div class="course-topline">
+                  <span>2019</span
+                  ><span>CityU · Graduate · Teaching Assistant</span>
+                </div>
+                <h3>
+                  <a href="/teachings/com5508-media-data-analytics/">
+                    Media Data Analytics
+                  </a>
+                </h3>
+                <p>
+                  Media data analysis and visualization across numeric,
+                  text, and visual data, with computational methods and
+                  predictive modeling. 
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="service">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div class="section-kicker">05 / Academic service</div>
+            <div>
+              <h2>
+                Contributing to the communities that make scholarship possible.
+              </h2>
+              <p class="section-intro">
+                My service spans peer review, conference evaluation, student
+                supervision, research mentoring, thesis assessment, and
+                scholarly knowledge exchange.
+              </p>
+            </div>
+          </div>
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <span class="number">12+</span>
+              <h3>Journal reviewing</h3>
+              <p>
+                Reviewer for journals including
+                <em>New Media &amp; Society</em>,
+                <em>Humanities and Social Sciences Communications</em>,
+                <em
+                  >Advances in Methods and Practices in Psychological
+                  Science</em
+                >, <em>International Journal of Information Security</em>,
+                <em>Journal of Computational Social Science</em>, and
+                <em>Journal of Cross-Cultural Psychology</em>.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="number">4</span>
+              <h3>Conference communities</h3>
+              <ul class="clean-list">
+                <li>
+                  International Conference on Computational Social Science (IC2S2)
+                </li>
+                <li>International Communication Association</li>
+                <li>
+                  International Association for Media and Communication Research
+                </li>
+                <li>
+                  Association for Education in Journalism and Mass Communication
+                </li>
+              </ul>
+            </article>
+            <article class="service-card reveal">
+              <h3>Supervision and mentorship</h3>
+              <p>
+                Undergraduate thesis supervision and research mentoring across
+                degree levels, including students who progressed to postgraduate
+                study at <b>Shanghai Jiao Tong University</b>, <b>UC Davis</b>, <b>UT Austin</b>, and
+                <b>Michigan State University</b>.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <h3>Assessment and scholarly exchange</h3>
+              <p>
+                Participation in master’s and doctoral thesis committees,
+                invited talks and guest lectures, computational workshops, and
+                interdisciplinary research communities in communication and
+                computational social science.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="contact-panel" id="contact">
+        <div class="container reveal">
+          <div class="section-kicker">Contact</div>
+          <h2>
+            Research conversations, collaborations, and teaching exchanges are
+            welcome.
+          </h2>
+          <div class="contact-links">
+            <a class="button" href="mailto:zcchen@nus.edu.sg"
+              >zcchen@nus.edu.sg</a
+            >
+            <a
+              class="button"
+              href="https://github.com/zhicongchen"
+              rel="noreferrer"
+              target="_blank"
+              >GitHub ↗</a
+            >
+            <a
+              class="button"
+              href="https://scholar.google.com/citations?user=mt_TyjoAAAAJ&amp;hl=en"
+              rel="noreferrer"
+              target="_blank"
+              >Google Scholar ↗</a
+            >
+            <a
+              class="button"
+              href="https://orcid.org/0000-0003-0334-9454"
+              rel="noreferrer"
+              target="_blank"
+              >ORCID ↗</a
+            ><a
+              class="button"
+              href="https://www.researchgate.net/profile/Zhicong-Chen-2"
+              rel="noreferrer"
+              target="_blank"
+              >ResearchGate ↗</a
+            ><a
+              class="button"
+              href="https://www.linkedin.com/in/jssyczc"
+              rel="noreferrer"
+              target="_blank"
+              >LinkedIn ↗</a
+            ><a
+              class="button"
+              href="https://x.com/jssyczc"
+              rel="noreferrer"
+              target="_blank"
+              >X ↗</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Zhicong Chen</span>
+      </div>
+    </footer>
+    <script>
+      const header = document.getElementById("site-header");
+      const menuButton = document.getElementById("menu-button");
+      const navLinks = document.getElementById("nav-links");
+      const navAnchors = [...document.querySelectorAll(".nav-links a")];
+      const sections = [...document.querySelectorAll("main section[id]")];
+
+      window.addEventListener(
+        "scroll",
+        () => {
+          header.classList.toggle("scrolled", window.scrollY > 12);
+        },
+        { passive: true },
+      );
+
+      menuButton.addEventListener("click", () => {
+        const open = navLinks.classList.toggle("open");
+        menuButton.setAttribute("aria-expanded", String(open));
+      });
+
+      navAnchors.forEach((anchor) => {
+        anchor.addEventListener("click", () => {
+          navLinks.classList.remove("open");
+          menuButton.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      const revealObserver = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12 },
+      );
+
+      document
+        .querySelectorAll(".reveal")
+        .forEach((element) => revealObserver.observe(element));
+
+      const sectionObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              navAnchors.forEach((anchor) => {
+                anchor.classList.toggle(
+                  "active",
+                  anchor.getAttribute("href") === `#${entry.target.id}`,
+                );
+              });
+            }
+          });
+        },
+        { rootMargin: "-35% 0px -58% 0px", threshold: 0 },
+      );
+
+      sections.forEach((section) => sectionObserver.observe(section));
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
