@@ -218,9 +218,10 @@
 
       .hero-grid {
         display: grid;
-        grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.55fr);
+        width: min(calc(100% - 40px), 1080px);
+        grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
         align-items: center;
-        gap: clamp(50px, 8vw, 110px);
+        gap: clamp(42px, 6vw, 72px);
       }
 
       .eyebrow {
@@ -252,7 +253,7 @@
 
       h1 {
         max-width: 890px;
-        margin-bottom: 44px;
+        margin-bottom: 34px;
         font-family: var(--serif);
         font-size: clamp(3.8rem, 8vw, 7.8rem);
         font-weight: 500;
@@ -266,7 +267,7 @@
       }
 
       .hero-lede {
-        max-width: 750px;
+        max-width: 640px;
         margin-bottom: 32px;
         color: #343a39;
         font-family: var(--serif);
@@ -715,13 +716,13 @@
 
       .about-grid {
         display: grid;
-        grid-template-columns: 0.8fr 1.2fr;
-        gap: clamp(40px, 8vw, 110px);
+        grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+        gap: clamp(48px, 8.5vw, 120px);
       }
 
       .about-copy {
         font-family: var(--serif);
-        font-size: clamp(1.35rem, 2.8vw, 2rem);
+        font-size: clamp(1.2rem, 2.2vw, 1.65rem);
         line-height: 1.48;
       }
 
@@ -742,16 +743,20 @@
       .timeline time {
         color: var(--accent);
         font-family: var(--mono);
-        font-size: 0.73rem;
+        font-size: 0.75rem;
+        line-height: 1.45;
       }
 
       .timeline strong {
         display: block;
+        font-size: 0.98rem;
+        line-height: 1.45;
       }
 
       .timeline span {
         color: var(--muted);
         font-size: 0.9rem;
+        line-height: 1.45;
       }
 
       .contact-panel {
@@ -1412,10 +1417,9 @@
             <!-- <h1>Zhicong <em>Chen</em></h1> -->
             <h1>Welcome!</h1>
             <p class="hero-lede">
-              I study how
-              <strong>communication infrastructures</strong> (re)shape
+              I study how <strong>communication infrastructures</strong> (re)shape
               knowledge, culture, and risk across digital platforms, anonymous
-              communities, and large-scale historical corpora.
+              communities, and large-scale historical corpora using computational methods.
             </p>
             <div class="hero-actions">
               <a class="button primary" href="#research"
@@ -1473,19 +1477,35 @@
                 href="https://fass.nus.edu.sg/cnm/"
                 rel="noreferrer"
                 target="_blank"
-                >Department of Communications and New Media</a
+                >Department of Communications and New Media (CNM)</a
               >
               at the
               <a href="https://www.nus.edu.sg/" rel="noreferrer" target="_blank"
-                >National University of Singapore</a
-              >. Before joining NUS, I was an Assistant Professor at Nanjing
-              University. I received my Ph.D. in Media and Communication from
-              City University of Hong Kong, where I was affiliated with the
+                >National University of Singapore (NUS)</a
+              >. <br><br>
+              Before joining NUS, I worked as an Assistant Professor at School of Journalism and Communication, Nanjing
+              University. <br><br>
+              I received my Ph.D. in Media and Communication from
+              City University of Hong Kong (2022), where I was affiliated with the
               <a
                 href="https://weblab.com.cityu.edu.hk/"
                 rel="noreferrer"
                 target="_blank"
                 >Web Mining Lab</a
+              >
+              , under the supervision of
+              <a
+                href="https://scholar.google.com/citations?user=q41vFFQAAAAJ&amp;hl=en"
+                rel="noreferrer"
+                target="_blank"
+                >Prof. Jonathan J. H. Zhu</a
+              >
+              and
+              <a
+                href="https://scholar.google.com/citations?user=77urMs4AAAAJ&amp;hl=en"
+                rel="noreferrer"
+                target="_blank"
+                >Prof. Xiaofan Liu</a
               >.
             </div>
             <ol class="timeline reveal">
@@ -1494,12 +1514,9 @@
                 <div>
                   <strong>Postdoctoral Research and Teaching Fellow</strong
                   ><span
-                    ><a
-                      href="https://www.nus.edu.sg/"
-                      rel="noreferrer"
-                      target="_blank"
-                      >National University of Singapore</a
-                    ></span
+                    >
+                    Department of Communications and New Media<br>
+                    National University of Singapore</span
                   >
                 </div>
               </li>
@@ -1507,7 +1524,10 @@
                 <time>2022—25</time>
                 <div>
                   <strong>Assistant Professor</strong
-                  ><span>Nanjing University</span>
+                  ><span>
+                    School of Journalism and Communication<br>
+                    Nanjing University</span
+                  >
                 </div>
               </li>
               <li>
@@ -1515,20 +1535,10 @@
                 <div>
                   <strong>Ph.D., Media and Communication</strong
                   ><span
-                    ><a
-                      href="https://www.cityu.edu.hk/"
-                      rel="noreferrer"
-                      target="_blank"
-                      >City University of Hong Kong</a
                     >
-                    ·
-                    <a
-                      href="https://weblab.com.cityu.edu.hk/"
-                      rel="noreferrer"
-                      target="_blank"
-                      >Web Mining Lab</a
-                    >
-                    · Hong Kong PhD Fellowship</span
+                    Department of Media and Communication<br>
+                    City University of Hong Kong
+                    <br> Hong Kong PhD Fellowship</span
                   >
                 </div>
               </li>
@@ -1536,7 +1546,10 @@
                 <time>2016—18</time>
                 <div>
                   <strong>M.A., Journalism and Communication</strong
-                  ><span>Nanjing University · Outstanding Graduate</span>
+                  ><span>
+                    School of Journalism and Communication<br>
+                    Nanjing University<br>
+                    Outstanding Graduate</span>
                 </div>
               </li>
               <li>
@@ -1544,7 +1557,9 @@
                 <div>
                   <strong>B.Eng., Software Engineering</strong
                   ><span
-                    >Nanjing University of Posts and Telecommunications ·
+                    >
+                    School of Computer Science<br>
+                    Nanjing University of Posts and Telecommunications<br>
                     Outstanding Graduate</span
                   >
                 </div>
@@ -1683,6 +1698,131 @@
             </a>
             <a
               class="work-item reveal"
+              href="https://doi.org/10.1111/josi.70025"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year">2025</span>
+              <span>
+                <span class="work-title"
+                  >Geopolitics in Language: A Psychological View of Sino‐Japanese
+                  Relations Over Time</span
+                >
+                <span class="work-meta"
+                  >Hamamura T., Kobayashi T.,
+                  <strong class="author-self">Chen Z.</strong>, Chen S. X., and
+                  Chan C. S.</span
+                >
+              </span>
+              <span class="work-journal">Journal of Social Issues ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1515/commun-2024-0160"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year">2025</span>
+              <span>
+                <span class="work-title"
+                  >Who weaved my behavior cocoon? The impact of digital media use
+                  on daily behaviors in an accelerated society</span
+                >
+                <span class="work-meta"
+                  >Yan X. F., <strong class="author-self">Chen Z.</strong>, Lu
+                  L., and Wang C. J.</span
+                >
+              </span>
+              <span class="work-journal">Communications ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1080/19331681.2025.2541275"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year">2025</span>
+              <span>
+                <span class="work-title"
+                  >Exploring the mediating role of exposure to partisan media
+                  between the authoritarian personality and gun control
+                  attitudes</span
+                >
+                <span class="work-meta"
+                  >Jiang X., Miao H., and
+                  <strong class="author-self">Chen Z.</strong></span
+                >
+              </span>
+              <span class="work-journal"
+                >Journal of Information Technology &amp; Politics ↗</span
+              >
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1177/23294884251333665"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year">2025</span>
+              <span>
+                <span class="work-title"
+                  >Let Us Not Wallow in the Valley of Despair: The Role of
+                  Emotion, Panic, and Sympathy Discourses in Promoting
+                  Productive Actions</span
+                >
+                <span class="work-meta"
+                  >Zhang Y., Sun Y., Lu G.,
+                  <strong class="author-self">Chen Z.</strong>, and Wang C.
+                  J.</span
+                >
+              </span>
+              <span class="work-journal"
+                >International Journal of Business Communication ↗</span
+              >
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1177/20570473251323752"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year">2025</span>
+              <span>
+                <span class="work-title"
+                  >The dark side of the Internet: Fueling misinformation in the
+                  COVID-19 pandemic and the 2020 US Presidential Election</span
+                >
+                <span class="work-meta"
+                  ><strong class="author-self">Chen Z.</strong>, Yu W., Sun Y.,
+                  Wang C. J., and Liu X. F.</span
+                >
+              </span>
+              <span class="work-journal">Communication and the Public ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1080/17544750.2024.2354698"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year">2024</span>
+              <span>
+                <span class="work-title"
+                  >Globalization in international tensions: The impact of
+                  military conflicts on the cultural orientations of
+                  multinational corporations’ advertising in modern China
+                  (1932–1937)</span
+                >
+                <span class="work-meta"
+                  >Sun Y., Yan X. F., Zhang Y., Chen J.,
+                  <strong class="author-self">Chen Z.</strong>, and Wang C.
+                  J.</span
+                >
+              </span>
+              <span class="work-journal">Chinese Journal of Communication ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
               href="https://doi.org/10.1177/14614448211072201"
               rel="noreferrer"
               target="_blank"
@@ -1748,7 +1888,7 @@
               href="https://scholar.google.com/citations?user=mt_TyjoAAAAJ&amp;hl=en"
               rel="noreferrer"
               target="_blank"
-              >View all publications on Google Scholar ↗</a
+              >View full publication list on Google Scholar ↗</a
             >
           </div>
         </div>
@@ -1970,8 +2110,7 @@
         <div class="container reveal">
           <div class="section-kicker">Contact</div>
           <h2>
-            Research conversations, collaborations, and teaching exchanges are
-            welcome.
+            Research conversations, collaborations, and teaching exchanges are welcome.
           </h2>
           <div class="contact-links">
             <a class="button" href="mailto:zcchen@nus.edu.sg"
