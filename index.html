@@ -28,7 +28,7 @@
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400&amp;family=Roboto:wght@400;500;600;700&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,700&amp;display=swap"
       rel="stylesheet"
     />
     <style>
@@ -37,31 +37,29 @@
          Swap the five values under "Palette" to re-theme the whole page.
          --------------------------------------------------------------- */
       :root {
-        /* Palette */
+        /* Palette — monochrome */
         --paper: #ffffff;
         --surface: #ffffff;
-        --ink: #16191d;
-        --accent: #ef7c00; /* NUS Orange */
-        --on-dark: #f6f5f3;
+        --ink: #111111;
+        --accent: #111111;
+        --on-dark: #ffffff;
 
         /* Derived from the palette.
-           NUS Orange is only 2.6:1 on paper, so it is used for graphics
-           (rules, borders, fills) and on dark panels, where it passes AA.
-           Small text on light ground uses the darkened --accent-text. */
-        --ink-soft: #33383e;
-        --muted: #62686f;
-        --line: rgba(22, 25, 29, 0.13);
-        --sunken: #f4f4f2;
-        --accent-text: #a85600;
-        --accent-dark: #7f4200;
-        --accent-tint: rgba(239, 124, 0, 0.28);
+           With no hue, links are told apart by weight and underline;
+           hover fades them to grey. */
+        --ink-soft: #333333;
+        --muted: #666666;
+        --line: rgba(0, 0, 0, 0.13);
+        --sunken: #f5f5f5;
+        --accent-text: #111111;
+        --accent-dark: #555555;
+        --accent-tint: rgba(0, 0, 0, 0.3);
         --accent-wash: transparent;
-        --accent-on-dark: #ef7c00;
-        --shadow: 0 24px 70px rgba(22, 25, 29, 0.07);
+        --accent-on-dark: #ffffff;
+        --shadow: 0 24px 70px rgba(0, 0, 0, 0.07);
 
         /* Type */
-        --serif: "Gentium Plus", Georgia, "Times New Roman", Times, serif;
-        --sans: "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+        --sans: "Ubuntu", "Segoe UI", Helvetica, Arial, sans-serif;
         --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 
         --max-width: 1180px;
@@ -119,10 +117,10 @@
       h1 {
         max-width: 890px;
         margin-bottom: 34px;
-        font-family: var(--serif);
+        font-family: var(--sans);
         font-size: clamp(3.15rem, 6.1vw, 6.25rem);
         font-weight: 400;
-        letter-spacing: -0.055em;
+        letter-spacing: -0.035em;
         line-height: 0.98;
       }
 
@@ -134,18 +132,18 @@
       h2 {
         max-width: 850px;
         margin-bottom: 18px;
-        font-family: var(--serif);
+        font-family: var(--sans);
         font-size: clamp(2.4rem, 5vw, 4.6rem);
         font-weight: 400;
-        letter-spacing: -0.035em;
+        letter-spacing: -0.025em;
         line-height: 1.02;
       }
 
       h3 {
-        font-family: var(--serif);
+        font-family: var(--sans);
         font-size: 1.7rem;
         font-weight: 400;
-        letter-spacing: -0.028em;
+        letter-spacing: -0.015em;
         line-height: 1.15;
       }
 
@@ -187,7 +185,7 @@
 
       .site-header.scrolled {
         border-color: var(--line);
-        box-shadow: 0 8px 30px rgba(22, 25, 29, 0.05);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
       }
 
       .nav {
@@ -202,7 +200,7 @@
         display: inline-flex;
         align-items: center;
         gap: 12px;
-        font-family: var(--serif);
+        font-family: var(--sans);
         font-size: 1.4rem;
         font-weight: 700;
         letter-spacing: -0.02em;
@@ -267,17 +265,17 @@
         display: grid;
         width: min(calc(100% - 40px), 1080px);
         grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
-        align-items: center;
-        gap: clamp(42px, 6vw, 72px);
+        align-items: start;
+        gap: clamp(32px, 3vw, 40px);
       }
 
       .hero-lede {
-        max-width: 640px;
-        margin-bottom: 32px;
+        max-width: 700px;
+        margin-bottom: 1.2em;
         color: var(--ink-soft);
         font-family: var(--sans);
-        font-size: clamp(1.2rem, 2vw, 1.55rem);
-        line-height: 1.56;
+        font-size: clamp(1.05rem, 1.4vw, 1.18rem);
+        line-height: 1.6;
       }
 
       .hero-lede strong {
@@ -345,7 +343,7 @@
         border: 3px solid var(--accent-tint);
         border-radius: 50%;
         background: var(--sunken);
-        box-shadow: 0 26px 70px rgba(22, 25, 29, 0.11);
+        box-shadow: 0 26px 70px rgba(0, 0, 0, 0.11);
       }
 
       .portrait img {
@@ -362,7 +360,7 @@
 
       .portrait-name {
         margin: 0;
-        font-family: var(--serif);
+        font-family: var(--sans);
         font-size: clamp(1.55rem, 2.2vw, 1.9rem);
         font-weight: 700;
         letter-spacing: -0.025em;
@@ -378,6 +376,114 @@
         letter-spacing: 0.07em;
         line-height: 1.55;
         text-transform: uppercase;
+      }
+
+      .hero-main {
+        align-self: center;
+      }
+
+      @media (min-width: 1200px) {
+        .hero-main {
+          position: relative;
+          left: -20px;
+          margin-right: -40px;
+        }
+      }
+
+      .about-copy.hero-about {
+        max-width: 700px;
+        margin-bottom: 32px;
+        color: var(--ink-soft);
+        font-size: clamp(1.05rem, 1.4vw, 1.18rem);
+        line-height: 1.6;
+      }
+
+      .hero-aside {
+        display: grid;
+        gap: 40px;
+      }
+
+
+      /* 3-4. Compact experience list, headline centred under the portrait */
+      .hero-profile {
+        width: 100%;
+      }
+
+      .hero-profile h3 {
+        max-width: 360px;
+        margin-left: auto;
+        margin-bottom: 14px;
+        font-size: 1.3rem;
+        line-height: 1.3;
+        text-align: center;
+      }
+
+      .hero-profile .timeline li {
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding: 10px 0;
+      }
+
+      .hero-profile .timeline time {
+        color: var(--ink);
+        font-size: 0.74rem;
+        font-weight: 700;
+        line-height: 1.6;
+        white-space: nowrap;
+      }
+
+      .hero-profile .timeline strong {
+        font-size: clamp(1.05rem, 1.4vw, 1.18rem);
+        line-height: 1.35;
+      }
+
+      .hero-profile .timeline .tl-org {
+        display: block;
+        color: var(--ink-soft);
+        font-size: clamp(1.05rem, 1.4vw, 1.18rem);
+        line-height: 1.4;
+      }
+
+      @media (min-width: 1100px) {
+        /* Fixed role size so its wrapping (and so the 41px inset) is
+           the same at every width from here up. */
+        .portrait-role {
+          font-size: 0.86rem;
+        }
+
+        /* Line the list up under the first line of the role text,
+           which is centred under the 360px portrait. */
+        .hero-profile {
+          max-width: 360px;
+          justify-self: end;
+          padding-left: 41px;
+        }
+      }
+
+      /* Wide screens: keep every experience line unwrapped. The list keeps
+         its left edge under the role text and may run past the portrait's
+         right edge (longest line is ~450px). */
+      @media (min-width: 1500px) {
+        .hero-profile {
+          width: max-content;
+          max-width: none;
+          justify-self: start;
+          margin-left: calc(100% - 360px);
+        }
+
+        .hero-profile .timeline strong,
+        .hero-profile .timeline .tl-org,
+        .hero-profile .timeline .tl-note {
+          white-space: nowrap;
+        }
+      }
+
+      .hero-profile .timeline .tl-note {
+        display: block;
+        margin-top: 2px;
+        color: var(--muted);
+        font-size: clamp(1.05rem, 1.4vw, 1.18rem);
+        line-height: 1.4;
       }
 
       /* ---------------------------------------------------------------
@@ -421,7 +527,7 @@
       }
 
       .about-copy {
-        font-family: var(--serif);
+        font-family: var(--sans);
         font-size: clamp(1.2rem, 2.2vw, 1.65rem);
         line-height: 1.48;
       }
@@ -573,7 +679,7 @@
 
       .work-item {
         display: grid;
-        grid-template-columns: 115px minmax(0, 1fr) 150px;
+        grid-template-columns: 115px minmax(0, 1fr) 210px;
         align-items: start;
         gap: 24px;
         padding: 28px 0;
@@ -599,8 +705,9 @@
 
       .work-title {
         display: block;
+        max-width: 85%;
         margin-bottom: 7px;
-        font-family: var(--serif);
+        font-family: var(--sans);
         font-size: clamp(1.18rem, 2.4vw, 1.55rem);
         font-weight: 700;
         line-height: 1.34;
@@ -624,6 +731,24 @@
         font-weight: 700;
       }
 
+      .work-num {
+        display: block;
+        margin-bottom: 4px;
+        color: var(--accent-text);
+        font-size: 1.05rem;
+        font-weight: 700;
+      }
+
+      .work-group {
+        padding: 34px 0 12px;
+        border-bottom: 1px solid var(--line);
+        color: var(--accent-text);
+        font-family: var(--mono);
+        font-size: 0.76rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
       /* ---------------------------------------------------------------
          Teaching
          --------------------------------------------------------------- */
@@ -634,7 +759,7 @@
       }
 
       .teaching-feature {
-        align-self: start;
+        align-self: stretch;
         padding: 34px;
         border: 1px solid var(--line);
         border-top: 3px solid var(--accent);
@@ -666,9 +791,41 @@
         border-top: 1px solid var(--line);
       }
 
+      .teaching-stat-wide {
+        grid-column: 1 / -1;
+      }
+
+      .teaching-block {
+        margin-top: 34px;
+      }
+
+      .teaching-principles {
+        display: grid;
+        gap: 18px;
+        margin: 16px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .teaching-principles li {
+        padding-left: 16px;
+        border-left: 2px solid var(--accent);
+        color: var(--muted);
+        font-size: 0.92rem;
+        line-height: 1.55;
+      }
+
+      .teaching-principles strong {
+        display: block;
+        margin-bottom: 2px;
+        color: var(--ink);
+        font-family: var(--sans);
+        font-size: 1.05rem;
+      }
+
       .teaching-stat strong {
         display: block;
-        font-family: var(--serif);
+        font-family: var(--sans);
         font-size: 1.7rem;
         line-height: 1.2;
       }
@@ -681,7 +838,7 @@
       .teaching-stack {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        align-content: start;
+        align-content: stretch;
         gap: 15px;
       }
 
@@ -772,7 +929,7 @@
         display: block;
         margin-bottom: 18px;
         color: var(--accent-text);
-        font-family: var(--serif);
+        font-family: var(--sans);
         font-size: 3.1rem;
         line-height: 1;
       }
@@ -925,6 +1082,10 @@
           justify-self: start;
         }
 
+        .hero-actions {
+          margin-bottom: 8px;
+        }
+
         .research-grid {
           grid-template-columns: 1fr;
         }
@@ -1043,9 +1204,8 @@
           Menu
         </button>
         <ul class="nav-links" id="nav-links">
-          <li><a href="#about">About</a></li>
           <li><a href="#research">Research</a></li>
-          <li><a href="#work">Featured Publications</a></li>
+          <li><a href="#work">Publications</a></li>
           <li><a href="#teaching">Teaching</a></li>
           <li><a href="#service">Services</a></li>
         </ul>
@@ -1054,66 +1214,16 @@
     <main id="main">
       <section class="hero" id="top">
         <div class="container hero-grid">
-          <div class="reveal">
-            <!-- <h1>Zhicong <em>Chen</em></h1> -->
-            <h1>Welcome!</h1>
+          <div class="hero-main reveal">
+            <h2>Zhicong <b>CHEN</b></h2>
+            <!-- <h1>Welcome!</h1> -->
             <p class="hero-lede">
-              I study how <strong>communication infrastructures</strong> (re)shape
-              knowledge, culture, and risk across digital platforms, anonymous
-              communities, and large-scale historical corpora using computational methods.
+              I employ computational social science approaches to examine how and why communication infrastructures (re)shape
+              knowledge, culture, and risks <br>
+              across digital platforms and emerging technologies, through a longitudinal and historical perspective.
             </p>
-            <div class="hero-actions">
-              <a class="button primary" href="#research"
-                >Explore my research <span aria-hidden="true">↓</span></a
-              >
-              <a
-                class="button secondary"
-                href="https://www.dropbox.com/scl/fi/s63mrcumgu68ra76elx9n/CV.pdf?rlkey=6z9ww24xerh9b7n9nski4uumb&st=krshp72y&e=3&dl=0"
-                rel="noreferrer"
-                target="_blank"
-                >View CV ↗</a
-              >
-              <a
-                class="button secondary"
-                href="https://scholar.google.com/citations?user=mt_TyjoAAAAJ&amp;hl=en"
-                rel="noreferrer"
-                target="_blank"
-                >Google Scholar ↗</a
-              >
-            </div>
-          </div>
-          <div class="portrait-wrap reveal">
-            <div class="portrait">
-              <img
-                alt="Portrait of Zhicong Chen"
-                height="575"
-                src="https://avatars.githubusercontent.com/u/13479560?v=4"
-                width="460"
-              />
-            </div>
-            <div class="portrait-identity">
-              <p class="portrait-name">Zhicong Chen</p>
-              <div class="portrait-role">
-                Computational social scientist<br>
-                digital media scholar
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section" id="about">
-        <div class="container">
-          <div class="section-heading reveal">
-            <div class="section-kicker">01 / About</div>
-            <div>
-              <h2>
-                Communication scientist with a computational foundation.
-              </h2>
-            </div>
-          </div>
-          <div class="about-grid">
-            <div class="about-copy reveal">
-              I am a Postdoctoral Research and Teaching Fellow in the
+            <div class="about-copy hero-about">
+              I currently work as a Postdoctoral Teaching Fellow in the
               <a
                 href="https://fass.nus.edu.sg/cnm/"
                 rel="noreferrer"
@@ -1123,96 +1233,171 @@
               at the
               <a href="https://www.nus.edu.sg/" rel="noreferrer" target="_blank"
                 >National University of Singapore (NUS)</a
-              >. <br><br>
-              Before joining NUS, I worked as an Assistant Professor at School of Journalism and Communication, Nanjing
-              University. <br><br>
-              I received my Ph.D. in Media and Communication from
-              City University of Hong Kong (2022), where I was affiliated with the
+              >. 
+              Before joining NUS, I served as an Assistant Professor at School of Journalism and Communication, Nanjing
+              University (2022-2025).
+            </div>
+            <div class="about-copy hero-about">
+              I earned my Ph.D. in Communication from
+              <a
+                href="https://www.cityu.edu.hk/com/"
+                rel="noreferrer"
+                target="_blank"
+                >Department of Media and Communication (COM)</a
+              >,
+              <a href="https://www.cityu.edu.hk/" rel="noreferrer" target="_blank"
+                >City University of Hong Kong (CityUHK)</a
+              >
+              in 2022, where I received rigorous and interdisplinary training at the
               <a
                 href="https://weblab.com.cityu.edu.hk/"
                 rel="noreferrer"
                 target="_blank"
                 >Web Mining Lab</a
               >
-              , under the supervision of
+              , a pioneering research hub founded and led by
               <a
                 href="https://scholar.google.com/citations?user=q41vFFQAAAAJ&amp;hl=en"
                 rel="noreferrer"
                 target="_blank"
-                >Prof. Jonathan J. H. Zhu</a
+                >Prof. Jonathan J. H. Zhu <br>(ICA Fellow, 2018)</a
               >
-              and
+              <!-- and
               <a
                 href="https://scholar.google.com/citations?user=77urMs4AAAAJ&amp;hl=en"
                 rel="noreferrer"
                 target="_blank"
                 >Prof. Xiaofan Liu</a
-              >.
+              > -->
+              , and a key role in establishing the field of computational communication research across the region.
             </div>
-            <ol class="timeline reveal">
-              <li>
-                <time>2025—now</time>
-                <div>
-                  <strong>Postdoctoral Research and Teaching Fellow</strong
-                  ><span
-                    >
-                    Department of Communications and New Media<br>
-                    National University of Singapore</span
-                  >
+            <div class="hero-actions">
+              <!-- <a class="button primary" href="#research"
+                >Explore More<span aria-hidden="true">↓</span></a
+              > -->
+              <a
+                class="button secondary"
+                href="https://www.dropbox.com/scl/fi/s63mrcumgu68ra76elx9n/CV.pdf?rlkey=6z9ww24xerh9b7n9nski4uumb&st=krshp72y&e=3&dl=0"
+                rel="noreferrer"
+                target="_blank"
+                >CV ↗</a
+              >
+              <a
+                class="button secondary"
+                href="https://scholar.google.com/citations?user=mt_TyjoAAAAJ&amp;hl=en"
+                rel="noreferrer"
+                target="_blank"
+                >Google Scholar ↗</a
+              >
+              <a
+                class="button secondary"
+                href="https://www.researchgate.net/profile/Zhicong-Chen-2"
+                rel="noreferrer"
+                target="_blank"
+                >ResearchGate ↗</a
+              >
+              <a
+                class="button secondary"
+                href="https://orcid.org/0000-0003-0334-9454"
+                rel="noreferrer"
+                target="_blank"
+                >ORCID ↗</a
+              >
+              <a
+                class="button secondary"
+                href="https://www.linkedin.com/in/jssyczc"
+                rel="noreferrer"
+                target="_blank"
+                >LinkedIn ↗</a
+              >
+              <a
+                class="button secondary"
+                href="https://github.com/zhicongchen"
+                rel="noreferrer"
+                target="_blank"
+                >GitHub ↗</a
+              >
+              <a
+                class="button secondary"
+                href="https://x.com/jssyczc"
+                rel="noreferrer"
+                target="_blank"
+                >X ↗</a
+              >
+            </div>
+          </div>
+          <div class="hero-aside reveal">
+            <div class="portrait-wrap">
+              <div class="portrait">
+                <img
+                  alt="Portrait of Zhicong Chen"
+                  height="575"
+                  src="https://avatars.githubusercontent.com/u/13479560?v=4"
+                  width="460"
+                />
+              </div>
+              <div class="portrait-identity">
+                <!-- <p class="portrait-name">Zhicong Chen</p> -->
+                <div class="portrait-role">
+                  Communication scientist with a computational foundation
+                  <!-- Computational Social Scientist -->
+                  <!-- Digital Media Scholar -->
                 </div>
-              </li>
-              <li>
-                <time>2022—25</time>
-                <div>
-                  <strong>Assistant Professor</strong
-                  ><span>
-                    School of Journalism and Communication<br>
-                    Nanjing University</span
-                  >
-                </div>
-              </li>
-              <li>
-                <time>2018—22</time>
-                <div>
-                  <strong>Ph.D., Media and Communication</strong
-                  ><span
-                    >
-                    Department of Media and Communication<br>
-                    City University of Hong Kong
-                    <br> Hong Kong PhD Fellowship</span
-                  >
-                </div>
-              </li>
-              <li>
-                <time>2016—18</time>
-                <div>
-                  <strong>M.A., Journalism and Communication</strong
-                  ><span>
-                    School of Journalism and Communication<br>
-                    Nanjing University<br>
-                    Outstanding Graduate</span>
-                </div>
-              </li>
-              <li>
-                <time>2012—16</time>
-                <div>
-                  <strong>B.Eng., Software Engineering</strong
-                  ><span
-                    >
-                    School of Computer Science<br>
-                    Nanjing University of Posts and Telecommunications<br>
-                    Outstanding Graduate</span
-                  >
-                </div>
-              </li>
-            </ol>
+              </div>
+            </div>
+            <div class="hero-profile">
+              <!-- <h3>Communication scientist with a computational foundation.</h3> -->
+              <ol class="timeline">
+                <!-- <li>
+                  <time>2025—now</time>
+                  <div>
+                    <strong>Postdoctoral Teaching Fellow</strong>
+                    <span class="tl-org">National University of Singapore</span>
+                    <span class="tl-note">Department of Communications and New Media</span>
+                  </div>
+                </li>
+                <li>
+                  <time>2022—25</time>
+                  <div>
+                    <strong>Assistant Professor</strong>
+                    <span class="tl-org">Nanjing University</span>
+                    <span class="tl-note">School of Journalism and Communication</span>
+                  </div>
+                </li> -->
+                <li>
+                  <!-- <time>2018—2022</time> -->
+                  <div>
+                    <strong>Ph.D., Communication, 2022</strong>
+                    <span class="tl-org">City University of Hong Kong</span>
+                    <span class="tl-note">RGC Hong Kong PhD Fellowship (2018/19)</span>
+                    <!-- <span class="tl-note">Department of Media and Communication · Hong Kong PhD Fellowship</span> -->
+                  </div>
+                </li>
+                <li>
+                  <!-- <time>2016—2018</time> -->
+                  <div>
+                    <strong>M.A., Communication, 2018</strong>
+                    <span class="tl-org">Nanjing University</span>
+                    <!-- <span class="tl-note">School of Journalism and Communication · Outstanding Graduate</span> -->
+                  </div>
+                </li>
+                <li>
+                  <!-- <time>2012—2016</time> -->
+                  <div>
+                    <strong>B.Eng., Software Engineering, 2016</strong>
+                    <span class="tl-org">Nanjing University of Posts and Telecommunications</span>
+                    <!-- <span class="tl-note">School of Computer Science · Outstanding Graduate</span> -->
+                  </div>
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </section>
       <section class="section" id="research">
         <div class="container">
           <div class="section-heading reveal">
-            <div class="section-kicker">02 / Research interests</div>
+            <div class="section-kicker">01 / Research interests</div>
             <div>
               <h2>
                 Research interests shaped by a common concern with communication
@@ -1271,16 +1456,14 @@
             </article>
           </div>
           <div class="method-strip reveal">
-            <h3>Methods &amp; infrastructure</h3>
+            <h3>Computational Methods</h3>
             <ul class="method-list">
               <li>Natural language processing</li>
               <li>Network and cascade analysis</li>
-              <li>Diachronic word embeddings</li>
+              <li>Machine learning</li>
               <li>Survival and panel models</li>
-              <li>Cross-platform data pipelines</li>
-              <li>Large-scale web scraping</li>
-              <li>Multilingual corpus analysis</li>
-              <li>Reproducible Python and R workflows</li>
+              <li>Big data analytics</li>
+              <li>Multilevel analysis</li>
             </ul>
           </div>
         </div>
@@ -1288,32 +1471,28 @@
       <section class="section" id="work">
         <div class="container">
           <div class="section-heading reveal">
-            <div class="section-kicker">03 / Featured publications</div>
+            <div class="section-kicker">02 / publications</div>
             <div>
               <h2>Research across platforms, histories, and cultures.</h2>
               <p class="section-intro">
                 A selection of publications that represents the central
                 empirical and methodological threads of my research programme.
+                (* corresponding author; <sup>†</sup> equal contribution)
               </p>
             </div>
           </div>
           <div class="work-list">
+            <div class="work-group reveal">First-authored</div>
             <a
               class="work-item reveal"
               href="https://doi.org/10.1371/journal.pone.0351772"
               rel="noreferrer"
               target="_blank"
             >
-              <span class="work-year">2026</span>
+              <span class="work-year"><span class="work-num">01</span>2026</span>
               <span>
-                <span class="work-title"
-                  >Framing the world: Strategic narratives of foreign states in
-                  China’s mainstream media (1950–2019)</span
-                >
-                <span class="work-meta"
-                  ><strong class="author-self">Chen Z.</strong>, Liang Z., Wang
-                  Z., Jiang X., and Wang C.-J.</span
-                >
+                <span class="work-title">Framing the world: Strategic narratives of foreign states in China’s mainstream media (1950–2019)</span>
+                <span class="work-meta"><strong class="author-self">Chen Z.</strong>, Liang Z.*, Wang Z., Jiang X., and Wang C. J.*</span>
               </span>
               <span class="work-journal">PLOS ONE ↗</span>
             </a>
@@ -1323,103 +1502,12 @@
               rel="noreferrer"
               target="_blank"
             >
-              <span class="work-year">2025</span>
+              <span class="work-year"><span class="work-num">02</span>2026</span>
               <span>
-                <span class="work-title"
-                  >Tales of Twin Forums on the Dark and Surface Web: Social
-                  Interactions and User Sustainability in Anonymous Online
-                  Communities</span
-                >
-                <span class="work-meta"
-                  ><strong class="author-self">Chen Z.</strong> and Liu X.
-                  F.</span
-                >
+                <span class="work-title">Tales of twin forums on the dark and surface web: Social interactions and user sustainability in anonymous online communities</span>
+                <span class="work-meta"><strong class="author-self">Chen Z.</strong> and Liu X. F.*</span>
               </span>
               <span class="work-journal">EPJ Data Science ↗</span>
-            </a>
-            <a
-              class="work-item reveal"
-              href="https://doi.org/10.1111/josi.70025"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <span class="work-year">2025</span>
-              <span>
-                <span class="work-title"
-                  >Geopolitics in Language: A Psychological View of Sino‐Japanese
-                  Relations Over Time</span
-                >
-                <span class="work-meta"
-                  >Hamamura T., Kobayashi T.,
-                  <strong class="author-self">Chen Z.</strong>, Chen S. X., and
-                  Chan C. S.</span
-                >
-              </span>
-              <span class="work-journal">Journal of Social Issues ↗</span>
-            </a>
-            <a
-              class="work-item reveal"
-              href="https://doi.org/10.1515/commun-2024-0160"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <span class="work-year">2025</span>
-              <span>
-                <span class="work-title"
-                  >Who weaved my behavior cocoon? The impact of digital media use
-                  on daily behaviors in an accelerated society</span
-                >
-                <span class="work-meta"
-                  >Yan X. F., <strong class="author-self">Chen Z.</strong>, Lu
-                  L., and Wang C. J.</span
-                >
-              </span>
-              <span class="work-journal">Communications ↗</span>
-            </a>
-            <a
-              class="work-item reveal"
-              href="https://doi.org/10.1080/19331681.2025.2541275"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <span class="work-year">2025</span>
-              <span>
-                <span class="work-title"
-                  >Exploring the mediating role of exposure to partisan media
-                  between the authoritarian personality and gun control
-                  attitudes</span
-                >
-                <span class="work-meta"
-                  >Jiang X., Miao H., and
-                  <strong class="author-self">Chen Z.</strong></span
-                >
-              </span>
-              <span class="work-journal"
-                >Journal of Information Technology &amp; Politics ↗</span
-              >
-            </a>
-            <a
-              class="work-item reveal"
-              href="https://doi.org/10.1177/23294884251333665"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <span class="work-year">2025</span>
-              <span>
-                <span class="work-title"
-                  >Let Us Not Wallow in the Valley of Despair: The Role of
-                  Emotion, Panic, and Sympathy Discourses in Promoting
-                  Productive Actions</span
-                >
-                <span class="work-meta"
-                  >Zhang Y., Sun Y., Lu G.,
-                  <strong class="author-self">Chen Z.</strong>, and Wang C.
-                  J.</span
-                >
-              </span>
-              <span class="work-journal"
-                >International Journal of Business Communication ↗</span
-              >
             </a>
             <a
               class="work-item reveal"
@@ -1427,40 +1515,25 @@
               rel="noreferrer"
               target="_blank"
             >
-              <span class="work-year">2025</span>
+              <span class="work-year"><span class="work-num">03</span>2026</span>
               <span>
-                <span class="work-title"
-                  >The dark side of the Internet: Fueling misinformation in the
-                  COVID-19 pandemic and the 2020 US Presidential Election</span
-                >
-                <span class="work-meta"
-                  ><strong class="author-self">Chen Z.</strong>, Yu W., Sun Y.,
-                  Wang C. J., and Liu X. F.</span
-                >
+                <span class="work-title">The dark side of the Internet: Fueling misinformation in the COVID-19 pandemic and the 2020 US Presidential Election</span>
+                <span class="work-meta"><strong class="author-self">Chen Z.</strong>, Yu W., Sun Y., Wang C. J.*, and Liu X. F.*</span>
               </span>
               <span class="work-journal">Communication and the Public ↗</span>
             </a>
             <a
               class="work-item reveal"
-              href="https://doi.org/10.1080/17544750.2024.2354698"
+              href="https://doi.org/10.1515/commun-2024-0160"
               rel="noreferrer"
               target="_blank"
             >
-              <span class="work-year">2024</span>
+              <span class="work-year"><span class="work-num">04</span>2025</span>
               <span>
-                <span class="work-title"
-                  >Globalization in international tensions: The impact of
-                  military conflicts on the cultural orientations of
-                  multinational corporations’ advertising in modern China
-                  (1932–1937)</span
-                >
-                <span class="work-meta"
-                  >Sun Y., Yan X. F., Zhang Y., Chen J.,
-                  <strong class="author-self">Chen Z.</strong>, and Wang C.
-                  J.</span
-                >
+                <span class="work-title">Who weaved my behavior cocoon? The impact of ICT use on daily behaviors in an accelerated society</span>
+                <span class="work-meta">Yan X. F.<sup>†</sup>, <strong class="author-self">Chen Z.<sup>†</sup></strong>, Lu L., and Wang C. J.*</span>
               </span>
-              <span class="work-journal">Chinese Journal of Communication ↗</span>
+              <span class="work-journal">Communications: The European Journal of Communication Research ↗</span>
             </a>
             <a
               class="work-item reveal"
@@ -1468,16 +1541,10 @@
               rel="noreferrer"
               target="_blank"
             >
-              <span class="work-year">2024</span>
+              <span class="work-year"><span class="work-num">05</span>2024</span>
               <span>
-                <span class="work-title"
-                  >Seeking anonymity on the Internet: The knowledge accumulation
-                  process and global usage of the Tor network</span
-                >
-                <span class="work-meta"
-                  ><strong class="author-self">Chen Z.</strong>, Jardine E., Liu
-                  X. F., and Zhu J. J. H.</span
-                >
+                <span class="work-title">Seeking anonymity on the Internet: The knowledge accumulation process and global usage of the Tor network</span>
+                <span class="work-meta"><strong class="author-self">Chen Z.</strong>, Jardine E., Liu X. F.*, and Zhu J. J. H.</span>
               </span>
               <span class="work-journal">New Media &amp; Society ↗</span>
             </a>
@@ -1487,21 +1554,118 @@
               rel="noreferrer"
               target="_blank"
             >
-              <span class="work-year">2023</span>
+              <span class="work-year"><span class="work-num">06</span>2023</span>
               <span>
-                <span class="work-title"
-                  >The Dark Web Privacy Dilemma: Linguistic Diversity,
-                  Talkativeness, and User Engagement on the Cryptomarket
-                  Forums</span
-                >
-                <span class="work-meta"
-                  ><strong class="author-self">Chen Z.</strong>, Meng X., and
-                  Wang C. J.</span
-                >
+                <span class="work-title">The dark web privacy dilemma: Linguistic diversity, talkativeness, and user engagement on the cryptomarket forums</span>
+                <span class="work-meta"><strong class="author-self">Chen Z.</strong>, Meng X., and Wang C. J.*</span>
               </span>
-              <span class="work-journal"
-                >Humanities and Social Sciences Communications ↗</span
-              >
+              <span class="work-journal">Humanities and Social Sciences Communications ↗</span>
+            </a>
+            <div class="work-group reveal">Corresponding-authored</div>
+            <a
+              class="work-item reveal"
+              href="https://ijoc.org/index.php/ijoc/article/view/27533"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year"><span class="work-num">07</span>2026</span>
+              <span>
+                <span class="work-title">From words to harm: Hate speech and societal violence in US presidential campaigns</span>
+                <span class="work-meta">Liang Z., Sandoval-Valdez J., Cho J.*, Jiang X., and <strong class="author-self">Chen Z.*</strong></span>
+              </span>
+              <span class="work-journal">International Journal of Communication ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1080/19331681.2025.2541275"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year"><span class="work-num">08</span>2025</span>
+              <span>
+                <span class="work-title">Exploring the mediating role of selective exposure to partisan media between the authoritarian personality and gun control attitudes</span>
+                <span class="work-meta">Jiang X., Miao H., and <strong class="author-self">Chen Z.*</strong></span>
+              </span>
+              <span class="work-journal">Journal of Information Technology &amp; Politics ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1177/23294884251333665"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year"><span class="work-num">09</span>2025</span>
+              <span>
+                <span class="work-title">Let us not wallow in the valley of despair: The role of emotion, panic, and sympathy discourses in promoting productive actions</span>
+                <span class="work-meta">Zhang Y., Lu G., Sun Y., <strong class="author-self">Chen Z.*</strong>, and Wang C. J.*</span>
+              </span>
+              <span class="work-journal">International Journal of Business Communication ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1177/21582440241258026"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year"><span class="work-num">10</span>2024</span>
+              <span>
+                <span class="work-title">Propagating COVID-19 conspiracy theories: The influence of right-wing sources</span>
+                <span class="work-meta">Yu W., <strong class="author-self">Chen Z.*</strong>, Meng X.*, and Yan Q.</span>
+              </span>
+              <span class="work-journal">Sage Open ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1080/17544750.2024.2354698"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year"><span class="work-num">11</span>2024</span>
+              <span>
+                <span class="work-title">Globalization in international tensions: The impact of military conflicts on cultural orientations of multinational corporations’ advertising in modern China (1932–1937)</span>
+                <span class="work-meta">Sun Y., Yan X. F., Zhang Y., <strong class="author-self">Chen Z.*</strong>, and Wang C. J.*</span>
+              </span>
+              <span class="work-journal">Chinese Journal of Communication ↗</span>
+            </a>
+            <div class="work-group reveal">Co-authored</div>
+            <a
+              class="work-item reveal"
+              href="https://arxiv.org/abs/2610.37418"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year"><span class="work-num">12</span>2026</span>
+              <span>
+                <span class="work-title">Beyond socioeconomic status: Divergent post-flood mobility patterns in South and Southeast Asian cities using mobile phone data</span>
+                <span class="work-meta">Yang S. X., Weng G., Cui S., <strong class="author-self">Chen Z.</strong>, and Chen C.*</span>
+              </span>
+              <span class="work-journal">Communications Earth &amp; Environment ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1111/josi.70025"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year"><span class="work-num">13</span>2025</span>
+              <span>
+                <span class="work-title">Geopolitics in language: A psychological view of Sino-Japanese relations over time</span>
+                <span class="work-meta">Hamamura T.*, Kobayashi T., <strong class="author-self">Chen Z.</strong>, Chen S. X., and Chan C. S.</span>
+              </span>
+              <span class="work-journal">Journal of Social Issues ↗</span>
+            </a>
+            <a
+              class="work-item reveal"
+              href="https://doi.org/10.1037/amp0001032"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span class="work-year"><span class="work-num">14</span>2022</span>
+              <span>
+                <span class="work-title">Toward a better understanding of cultural change: Reply to Bao et al. (2022)</span>
+                <span class="work-meta">Hamamura T.*, Chan C. S., Chen S. X., <strong class="author-self">Chen Z.</strong>, Kobayashi T., and Ng J. C. K.</span>
+              </span>
+              <span class="work-journal">American Psychologist ↗</span>
             </a>
             <a
               class="work-item reveal"
@@ -1509,16 +1673,10 @@
               rel="noreferrer"
               target="_blank"
             >
-              <span class="work-year">2021</span>
+              <span class="work-year"><span class="work-num">15</span>2021</span>
               <span>
-                <span class="work-title"
-                  >Individualism with Chinese characteristics? Discerning
-                  cultural shifts in China using 50 years of printed texts</span
-                >
-                <span class="work-meta"
-                  >Hamamura T., <strong class="author-self">Chen Z.</strong>,
-                  Chan C. S., Chen S. X., and Kobayashi T.</span
-                >
+                <span class="work-title">Individualism with Chinese characteristics? Discerning cultural shifts in China using 50 years of printed texts</span>
+                <span class="work-meta">Hamamura T.*, <strong class="author-self">Chen Z.</strong>, Chan C. S., Chen S. X., and Kobayashi T.</span>
               </span>
               <span class="work-journal">American Psychologist ↗</span>
             </a>
@@ -1537,10 +1695,10 @@
       <section class="section" id="teaching">
         <div class="container">
           <div class="section-heading reveal">
-            <div class="section-kicker">04 / Teaching</div>
+            <div class="section-kicker">03 / Teaching</div>
             <div>
               <h2>
-                Teaching people to reason with data, not merely operate tools.
+                Teaching people to reason with data and work with AI.
               </h2>
               <p class="section-intro">
                 My courses combine computational practice, substantive
@@ -1551,9 +1709,9 @@
           </div>
           <div class="teaching-layout">
             <article class="teaching-feature reveal">
-              <div class="section-kicker">Teaching philosophy</div>
+              <div class="section-kicker"></div>
               <h3>
-                Computation becomes meaningful when students can question its
+                Computation becomes meaningful when students question its
                 assumptions.
               </h3>
               <p>
@@ -1563,22 +1721,47 @@
                 computational conclusions can fail.
               </p>
               <div class="teaching-footer">
+                <div class="teaching-stat teaching-stat-wide">
+                  <strong>Undergraduate + Graduate</strong>
+                  <span>course levels</span>
+                </div>
+                <div class="teaching-stat">
+                  <strong>300+</strong>
+                  <span>students taught across undergraduate and graduate courses</span>
+                </div>
                 <div class="teaching-stat">
                   <strong>3</strong>
-                  <span>universities across Asia</span>
+                  <span>top universities across Asia</span>
                 </div>
                 <div class="teaching-stat">
                   <strong>4 years</strong>
                   <span>independent instructor</span>
                 </div>
                 <div class="teaching-stat">
-                  <strong>Undergraduate + Graduate</strong>
-                  <span>course levels</span>
-                </div>
-                <div class="teaching-stat">
                   <strong>R + Python</strong>
                   <span>programming ecosystems</span>
                 </div>
+              </div>
+              <div class="teaching-block">
+                <div class="section-kicker">Teaching philosophy</div>
+                <ul class="teaching-principles">
+                  <li>
+                    <strong>Lowering barriers without lowering standards.</strong>
+                    Many students write their first line of code in my class. Live coding, annotated notebooks, templates, and small-group troubleshooting build confidence, while optional extensions stretch advanced learners.
+                  </li>
+                  <li>
+                    <strong>Every measurement is an argument.</strong>
+                    Each metric must be tied to a human validation process and defended against alternative explanations. An engagement count may signal attention, endorsement, or outrage; a network tie may signal agreement, opposition, or surveillance.
+                  </li>
+                  <li>
+                    <strong>Context shapes the interpretations of data.</strong>
+                    Platform, language, population, and period shape what a finding means and where it travels. Students ask who is missing from their data and whether a conclusion would hold elsewhere, especially when tools built on English-language data meet other languages.
+                  </li>
+                  <li>
+                    <strong>Knowing, learning from AI, and going beyond it.</strong>
+                    Students first sketch an analysis on their own, then ask an AI assistant to attempt the same task, and compare the two: what the AI did better, what it missed, and what only they can judge.
+                  </li>
+                </ul>
               </div>
             </article>
             <div class="teaching-stack">
@@ -1608,7 +1791,7 @@
                 <div class="course-topline">
                   <span>2025</span><span>NUS · Graduate · Instructor</span>
                 </div>
-                <h3>Social Media Analytics</h3>
+                <h3>Introduction to Applied Social Media Analytics</h3>
                 <p>
                   Social media data collection, text and network analysis,
                   visualization, and ethical analytics with Python.
@@ -1682,7 +1865,7 @@
       <section class="section" id="service">
         <div class="container">
           <div class="section-heading reveal">
-            <div class="section-kicker">05 / Academic service</div>
+            <div class="section-kicker">04 / Academic service</div>
             <div>
               <h2>
                 Contributing to the communities that make scholarship possible.
@@ -1701,6 +1884,8 @@
               <p>
                 Reviewer for journals including
                 <em>New Media &amp; Society</em>,
+                <em>Asian Journal of Communication</em>,
+                <em>Chinese Journal of Communication</em>,
                 <em>Humanities and Social Sciences Communications</em>,
                 <em
                   >Advances in Methods and Practices in Psychological
@@ -1738,8 +1923,8 @@
             <article class="service-card reveal">
               <h3>Assessment and scholarly exchange</h3>
               <p>
-                Participation in master’s and doctoral thesis committees,
-                invited talks and guest lectures, computational workshops, and
+                Participation in <b>master’s and doctoral thesis committees</b>,
+                <b>invited talks and guest lectures</b>, computational workshops, and
                 interdisciplinary research communities in communication and
                 computational social science.
               </p>
