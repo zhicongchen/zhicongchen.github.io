@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta
-      content="Zhicong Chen is a computational social scientist studying communication infrastructures, digital platforms, online anonymity, cultural change, and computational methods."
+      content="Zhicong Chen is a computational social scientist studying how emerging technologies, from anonymity networks to AI systems, reshape knowledge, culture, and risk, and what it takes to govern them."
       name="description"
     />
     <meta content="Zhicong Chen" name="author" />
@@ -116,12 +116,12 @@
 
       h1 {
         max-width: 890px;
-        margin-bottom: 34px;
+        margin-bottom: 20px;
         font-family: var(--sans);
-        font-size: clamp(3.15rem, 6.1vw, 6.25rem);
+        font-size: clamp(2.8rem, 5.4vw, 4.8rem);
         font-weight: 400;
         letter-spacing: -0.035em;
-        line-height: 0.98;
+        line-height: 1.02;
       }
 
       h1 em {
@@ -269,17 +269,54 @@
         gap: clamp(32px, 3vw, 40px);
       }
 
-      .hero-lede {
-        max-width: 700px;
-        margin-bottom: 1.2em;
-        color: var(--ink-soft);
-        font-family: var(--sans);
-        font-size: clamp(1.05rem, 1.4vw, 1.18rem);
-        line-height: 1.6;
+      .hero-kicker {
+        margin-bottom: 12px;
+        color: var(--muted);
+        font-family: var(--mono);
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
       }
 
-      .hero-lede strong {
-        font-weight: 700;
+      .hero-lede {
+        max-width: 700px;
+        margin-bottom: 22px;
+        color: var(--ink);
+        font-family: var(--sans);
+        font-size: clamp(1.18rem, 1.55vw, 1.35rem);
+        font-weight: 400;
+        line-height: 1.48;
+        letter-spacing: -0.012em;
+      }
+
+      .hero-bio {
+        display: grid;
+        gap: 14px;
+        max-width: 700px;
+        margin-bottom: 32px;
+        color: var(--ink-soft);
+        font-family: var(--sans);
+        font-size: clamp(0.96rem, 1.1vw, 1.05rem);
+        line-height: 1.68;
+      }
+
+      .hero-bio p {
+        margin: 0;
+      }
+
+      .hero-bio a {
+        color: var(--accent-text);
+        font-weight: 600;
+        text-decoration: underline;
+        text-decoration-color: var(--line);
+        text-underline-offset: 0.22em;
+        transition: color 150ms ease, text-decoration-color 150ms ease;
+      }
+
+      .hero-bio a:hover {
+        color: var(--ink);
+        text-decoration-color: var(--ink);
       }
 
       .hero-actions {
@@ -396,13 +433,6 @@
         }
       }
 
-      .about-copy.hero-about {
-        max-width: 700px;
-        margin-bottom: 32px;
-        color: var(--ink-soft);
-        font-size: clamp(1.05rem, 1.4vw, 1.18rem);
-        line-height: 1.6;
-      }
 
       .hero-aside {
         display: grid;
@@ -1213,7 +1243,7 @@
           <li><a href="#research">Research</a></li>
           <li><a href="#work">Publications</a></li>
           <li><a href="#teaching">Teaching</a></li>
-          <li><a href="#service">Services</a></li>
+          <li><a href="#service">Service</a></li>
         </ul>
       </nav>
     </header>
@@ -1221,61 +1251,54 @@
       <section class="hero" id="top">
         <div class="container hero-grid">
           <div class="hero-main reveal">
-            <h2>Zhicong <b>CHEN</b></h2>
-            <!-- <h1>Welcome!</h1> -->
+            <!-- <div class="hero-kicker">Computational Social Scientist</div> -->
+            <h1>Zhicong <b>CHEN</b></h1>
             <p class="hero-lede">
-              I employ computational social science approaches to examine how and why communication infrastructures (re)shape
-              knowledge, culture, and risks <br>
-              across digital platforms and emerging technologies, through a longitudinal and historical perspective.
+              I use computational methods to study the adoption, use, and social impacts of emerging technologies, from anonymity networks to AI systems, to inform how they are governed.
             </p>
-            <div class="about-copy hero-about">
-              I currently work as a Postdoctoral Teaching Fellow in the
-              <a
-                href="https://fass.nus.edu.sg/cnm/"
-                rel="noreferrer"
-                target="_blank"
-                >Department of Communications and New Media (CNM)</a
-              >
-              at the
-              <a href="https://www.nus.edu.sg/" rel="noreferrer" target="_blank"
-                >National University of Singapore (NUS)</a
-              >. 
-              Before joining NUS, I served as an Assistant Professor at School of Journalism and Communication, Nanjing
-              University (2022-2025).
-            </div>
-            <div class="about-copy hero-about">
-              I earned my Ph.D. in Communication from
-              <a
-                href="https://www.cityu.edu.hk/com/"
-                rel="noreferrer"
-                target="_blank"
-                >Department of Media and Communication (COM)</a
-              >,
-              <a href="https://www.cityu.edu.hk/" rel="noreferrer" target="_blank"
-                >City University of Hong Kong (CityUHK)</a
-              >
-              in 2022, where I received rigorous and interdisplinary training at the
-              <a
-                href="https://weblab.com.cityu.edu.hk/"
-                rel="noreferrer"
-                target="_blank"
-                >Web Mining Lab</a
-              >
-              , a pioneering research hub founded and led by
-              <a
-                href="https://scholar.google.com/citations?user=q41vFFQAAAAJ&amp;hl=en"
-                rel="noreferrer"
-                target="_blank"
-                >Prof. Jonathan J. H. Zhu <br>(ICA Fellow, 2018)</a
-              >
-              <!-- and
-              <a
-                href="https://scholar.google.com/citations?user=77urMs4AAAAJ&amp;hl=en"
-                rel="noreferrer"
-                target="_blank"
-                >Prof. Xiaofan Liu</a
-              > -->
-              , and a key role in establishing the field of computational communication research across the region since 2016.
+            <div class="hero-bio">
+              <p>
+                I currently work as a Postdoctoral Fellow in the
+                <a
+                  href="https://fass.nus.edu.sg/cnm/"
+                  rel="noreferrer"
+                  target="_blank"
+                  >Department of Communications and New Media (CNM)</a
+                >
+                at the
+                <a
+                  href="https://www.nus.edu.sg/"
+                  rel="noreferrer"
+                  target="_blank"
+                  >National University of Singapore (NUS)</a
+                >. Before joining NUS, I served as an Assistant Professor at the School of Journalism and Communication, Nanjing University (2022–2025).
+              </p>
+              <p>
+                I earned my Ph.D. in Communication from the
+                <a
+                  href="https://www.cityu.edu.hk/com/"
+                  rel="noreferrer"
+                  target="_blank"
+                  >Department of Media and Communication (COM)</a
+                >,
+                <a
+                  href="https://www.cityu.edu.hk/"
+                  rel="noreferrer"
+                  target="_blank"
+                  >City University of Hong Kong (CityUHK)</a
+                >
+                in 2022. There, I received rigorous and interdisciplinary training at the
+                <a
+                  href="https://weblab.com.cityu.edu.hk/"
+                  rel="noreferrer"
+                  target="_blank"
+                  >Web Mining Lab</a>—a pioneering research hub founded and led by
+                <a
+                  href="https://scholar.google.com/citations?user=q41vFFQAAAAJ&amp;hl=en"
+                  rel="noreferrer"
+                  target="_blank"
+                  >Prof. Jonathan J. H. Zhu</a> (ICA Fellow, 2018) that has played a key role in establishing the field of computational communication research across the region since 2016.
+              </p>
             </div>
             <div class="hero-actions">
               <!-- <a class="button primary" href="#research"
@@ -1407,8 +1430,7 @@
             <div class="section-kicker">01 / Research interests</div>
             <div>
               <h2>
-                Research interests shaped by a common concern with communication
-                infrastructure.
+                Research interests united by a focus on emerging technologies and their governance.
               </h2>
               <p class="section-intro">
                 My work connects communication theory with computational methods
@@ -1420,7 +1442,7 @@
           </div>
           <div class="research-grid">
             <article class="research-card reveal">
-              <h3>Anonymity, privacy, and online risk/safety</h3>
+              <h3>Anonymity, privacy, and online safety</h3>
               <p>
                 How do anonymous and pseudonymous infrastructures change
                 disclosure, trust, misinformation, social support, and user
@@ -1434,7 +1456,7 @@
               </div>
             </article>
             <article class="research-card reveal">
-              <h3>Platforms, behavior, and digital risk and resilience</h3>
+              <h3>Platforms, behavior, and digital resilience</h3>
               <p>
                 How do platform architectures and communication environments
                 influence behavior, emotion, exposure, deception, and public
@@ -1448,7 +1470,7 @@
               </div>
             </article>
             <article class="research-card reveal">
-              <h3>Cultural change through text as data</h3>
+              <h3>Cultural shifts through text as data</h3>
               <p>
                 How can multilingual and diachronic corpora reveal long-term
                 shifts in cultural values, geopolitical narratives, ideology,
@@ -1469,7 +1491,7 @@
               <li>Network and cascade analysis</li>
               <li>Machine learning</li>
               <li>Survival and panel models</li>
-              <li>Big data analytics</li>
+              <li>Digital traces and big data analytics</li>
               <li>Multilevel analysis</li>
             </ul>
           </div>
@@ -1478,12 +1500,11 @@
       <section class="section" id="work">
         <div class="container">
           <div class="section-heading reveal">
-            <div class="section-kicker">02 / publications</div>
+            <div class="section-kicker">02 / Publications</div>
             <div>
               <h2>Research across platforms, histories, and cultures.</h2>
               <p class="section-intro">
-                A selection of publications that represents the central
-                empirical and methodological threads of my research programme.
+                A selection of publications representing the empirical and methodological foundations of my research programme, including work on privacy technologies, online harms, and state media narratives with direct implications for technology governance.<br>
                 (* corresponding author; <sup>†</sup> equal contribution)
               </p>
             </div>
@@ -1646,7 +1667,7 @@
                 <span class="work-title">Beyond socioeconomic status: Divergent post-flood mobility patterns in South and Southeast Asian cities using mobile phone data</span>
                 <span class="work-meta">Yang S. X., Weng G., Cui S., <strong class="author-self">Chen Z.</strong>, and Chen C.*</span>
               </span>
-              <span class="work-journal">Communications Earth &amp; Environment ↗</span>
+              <span class="work-journal">Communications Earth &amp; Environment (In press) ↗</span>
             </a>
             <a
               class="work-item reveal"
@@ -1716,7 +1737,6 @@
           </div>
           <div class="teaching-layout">
             <article class="teaching-feature reveal">
-              <div class="section-kicker"></div>
               <h3>
                 Computation becomes meaningful when students question its
                 assumptions.
@@ -1774,7 +1794,7 @@
             <div class="teaching-stack">
               <article class="teaching-card reveal">
                 <div class="course-topline">
-                  <span>2027</span
+                  <span>2027 (Scheduled)</span
                   ><span>NUS · Undergraduate · Co-instructor</span>
                 </div>
                 <h3>Introduction to Visual Cultural Analytics</h3>
@@ -1854,11 +1874,7 @@
                   <span>2019</span
                   ><span>CityU · Graduate · Teaching Assistant</span>
                 </div>
-                <h3>
-                  <a href="/teachings/com5508-media-data-analytics/">
-                    Media Data Analytics
-                  </a>
-                </h3>
+                <h3>Media Data Analytics</h3>
                 <p>
                   Media data analysis and visualization across numeric,
                   text, and visual data, with computational methods and
