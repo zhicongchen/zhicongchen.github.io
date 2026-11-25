@@ -432,6 +432,11 @@
         content: "·";
       }
 
+      /* Line break used only on narrow screens (see the 900px rule). */
+      .hero-keywords .kw-break {
+        display: none;
+      }
+
 
       .hero-lede {
         max-width: 700px;
@@ -1487,19 +1492,42 @@
           order: -1;
           width: auto;
           max-width: none;
-          justify-self: start;
-          justify-items: start;
+          justify-self: center;
+          justify-items: center;
           gap: 12px;
         }
 
         .portrait {
-          width: 132px;
+          width: clamp(170px, 50vw, 220px);
           border-width: 2px;
           box-shadow: 0 14px 36px rgba(0, 0, 0, 0.1);
         }
 
         .portrait-identity {
-          text-align: left;
+          text-align: center;
+        }
+
+        /* Centered header on narrow screens: photo, name, keywords. */
+        .hero-main h1 {
+          text-align: center;
+        }
+
+        .hero-keywords {
+          justify-content: center;
+          text-align: center;
+        }
+
+        /* Two fixed lines: "Emerging technologies · AI" /
+           "Platform governance · Political communication". */
+        .hero-keywords .kw-break {
+          display: block;
+          flex-basis: 100%;
+          height: 0;
+        }
+
+        .hero-keywords .kw-break::after,
+        .hero-keywords li:has(+ .kw-break)::after {
+          content: none;
         }
 
         .hero-profile {
@@ -1645,6 +1673,7 @@
             <ul class="hero-keywords" aria-label="Research keywords">
               <li>Emerging technologies</li>
               <li>AI</li>
+              <li aria-hidden="true" class="kw-break" role="presentation"></li>
               <li>Platform governance</li>
               <li>Political communication</li>
             </ul>
